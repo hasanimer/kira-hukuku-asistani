@@ -1,0 +1,2 @@
+# Preserve source snapshot bytes and intentional TSV empty fields.
+data/** -text -whitespace
