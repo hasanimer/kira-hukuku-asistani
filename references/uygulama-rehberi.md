@@ -1,0 +1,58 @@
+# Kira tespiti uygulama rehberi
+
+Kontrol tarihi: 20.09.2026. Bu metin araştırma yönlendirmesidir; somut sözleşme, dönem ve güncel kaynak kontrolünün yerine geçmez. İade talebi varsa [ispat ve iade rehberini](iade-ispat.md) de oku.
+
+## Hak ve nesafet: dönem hesabı
+
+TBK 344/1–2 kapsamında yenileme bedelini incelerken güncel ölçüt TÜFE'nin on iki aylık ortalamalara göre değişimidir; ÜFE ile eş anlamlı değildir. Tavanı otomatik artış oranı sayma; sözleşmedeki daha düşük artış şartını ayrıca değerlendir. Yabancı para ve uyarlama meselelerini TBK 344/4 ve 138 kapsamında ayrı incele.
+
+TBK 344/3, beş yıldan uzun süreli veya beş yıldan sonra yenilenen sözleşmelerde rayiç ve hakkaniyet değerlendirmesini düzenler. Başlangıçtan beş yılın dolmasıyla altıncı kira yılı için uygulanabilir; baştan on yıllık sözleşme kurulması tek başına bunu onuncu yıla ertelemez. “4+1” kısaltması yerine başlangıç ve hedef dönem tarihlerini yaz. Sonraki beş yıllık aralıkları önceki tespitler ve sözleşmelerle birlikte hesapla; ara yılları her yıl serbest rayiç belirleme hakkı gibi sunma. [Dayanak: TBK 344](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5).
+
+Örnek: 01.09.2020 başlangıcında ilk beş yıl 31.08.2025 sonunda tamamlanır; altıncı kira yılı 01.09.2025'te başlar. Bu hesap tek başına hükmün o tarihten etkili olacağını göstermez; TBK 345 ayrıca uygulanır.
+
+Yeni sözleşme, ek protokol veya malik değişikliği görünce süreyi otomatik sıfırlama. Belgenin niteliğini, devam eden ilişkiyi ve o tarihte belirlenen bedelin emsalleri yansıtıp yansıtmadığını incele. İstanbul BAM 55. HD, E. 2024/3413, K. 2026/257, 26.01.2026 bu araştırmanın yapılmasını isteyen bir kaldırma kararıdır; her protokolün süreyi sıfırladığına dair genel kural değildir. [Seçki ve tam metne erişim](bam-kararlari.md).
+
+## Hedef döneme etki: TBK 345
+
+Kira tespiti davasının her zaman açılabilmesi ile belirlenecek bedelin hangi dönemden geçerli olacağı farklı meselelerdir.
+
+| Sözleşme ve bildirim durumu | İncelenecek koşul |
+| --- | --- |
+| Yeni dönemde artış yapılacağına ilişkin hüküm var | Hükmün birebir metnini değerlendir; hedef yeni kira döneminin sonuna kadar açılan dava bakımından 345/3'ü uygula. |
+| Böyle bir hüküm yok | Yeni dönemden en geç otuz gün önce dava açılması veya bu süre içinde yazılı artış bildiriminin kiracıya ulaşması; bildirim yolunda izleyen yeni dönem sonuna kadar dava açılması koşullarını kontrol et. |
+
+Buradaki “dönem sonu” beş yıllık bir pencere değildir. Belirsiz her cümleyi yeterli artış hükmü sayma. İhtarın düzenlenme ve ulaşma tarihlerini ayır. Koşullar sağlanmıyorsa talep edilen dönemi ve talep sonucunu incelemeden otomatik ret veya otomatik sonraki yıl kararı önerme. Arabuluculuk tarihlerini ayrı göster; başvurunun ihtarın yerine geçtiğini veya TBK 345 hesabını kendiliğinden değiştirdiğini varsayma. [Dayanak: TBK 345](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5).
+
+## Emsal, boş rayiç ve eski kiracı
+
+- Hedef dönem başındaki boş olarak kiraya verilme değerini araştır. Gerçekleşmiş sözleşmelerin tarih, alan, konum, kullanım ve net/brüt bedellerini karşılaştır. İlanı gerçekleşmiş kira gibi kullanma; emsal sözleşmeler için genel bir “tescil zorunluluğu” üretme.
+- Bilirkişinin teknik rayiç hesabı ile mahkemenin talep sonucu sınırını ayır. Bilirkişinin daha yüksek rayiç bulması, talebi aşan hükmü kendiliğinden haklı kılmaz.
+- Eski kiracılık nedeniyle hakkaniyet değerlendirmesini boş rayiç üzerinden araştır; doğrudan davacının talep ettiği tutardan indirim yapma. Kanunda sabit bir yüzde yoktur. Kararlardaki %5–20 aralıklarını veya örnek %10 uygulamasını her dosyada zorunlu tarife sayma; “çoğunlukla %10–15” için veri olmadan sıklık iddiası kurma.
+- Kiracının yaptığı iyileştirmelerin kim tarafından, ne zaman ve hangi izinle yapıldığını, mevcut değere etkisini belirle. Otomatik ikinci indirim uygulama; aynı unsuru rayiç hesabında ve indirimde iki kez değerlendirme. Masraf iadesi ayrı hukuki talep olabilir.
+
+Adana BAM 5. HD, E. 2024/1566, K. 2026/82 somut emsal incelemesi eksikliğini; İstanbul BAM 36. HD, E. 2024/2242, K. 2026/1952 eski kiracı indirimi eksikliğini ele alır. Kararlardaki olgu ve sonuç sınırları için [BAM rehberini](bam-kararlari.md) oku. 18.11.1964 tarihli 2/4 sayılı İBK'yı aktaran kararla İBK'nın doğrudan incelenmesini ayır; sabit bir oranı doğrudan İBK'ya atfetme.
+
+## Geçici %25 düzenlemesi
+
+Konutlarda yenileme dönemi tarihine göre geçici 1. madde 11.06.2022–01.07.2023, geçici 2. madde 02.07.2023–01.07.2024 aralığını kapsar; son günler dahildir. TÜFE ölçütünün daha düşük olması ihtimalini ve geçici hükümlerin 344/2 atfını oku. Bunları işyerine veya 344/3 rayiç tespitine otomatik uygulama. 08.06.2022 kabul tarihiyle yürürlük tarihini karıştırma. [7409 sayılı Kanun kayıt bilgisi](https://www.tbmm.gov.tr/Yasama/Kanun/F72877C1-FA64-037B-E050-007F01005610), [TBK geçici maddeler](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5).
+
+## Usul ve bağlantılı talepler
+
+Kira ilişkisinden doğan davalarda HMK 4'ü, istisnayı ve talebin gerçek niteliğini incele. Yetki sözleşmesini her kiracı için geçerli sayma; HMK 17'deki taraf koşullarını kontrol et. 01.09.2023'ten itibaren kira uyuşmazlıklarında dava şartı arabuluculuğu değerlendir; istisna bütün icra uyuşmazlıkları değil, kanunda belirtilen ilamsız icra yoluyla tahliyedir. [HMK 4 ve 17](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5), [HUAK 18/B](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6325&MevzuatTur=1&MevzuatTertip=5), [Adalet Bakanlığı açıklaması](https://www.adalet.gov.tr/bakan-tunc-kira-uyusmazliklarinda-dava-sarti-arabuluculuk-uygulamasi-1-eylulde-baslayacak).
+
+HUAK 18/B kapsamındaki anlaşmalarda icra edilebilirlik şerhi zorunluluğunu kontrol et. Her imzalı tutanağı otomatik ilam sayma; genel ibra metni ekleme. Anlaşılan dönem, tutar ve talepleri açıkça yaz; tarafların anlaşmasını vergi idaresini bağlayan sonuç gibi gösterme. [HUAK 18 ve 18/B](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6325&MevzuatTur=1&MevzuatTertip=5).
+
+Aşağıdaki konular ayrıca güncel kaynak doğrulaması gerektirir; bu rehber tek başına kesin çözüm oluşturmaz:
+
+- Islah, belirsiz alacak/kısmi dava, talep değişikliği: tespit ile alacak talebini ayır; somut usul aşamasını araştır. Sırf riski önlemek için yüksek bedel talebini tavsiye etme.
+- Harç, vekâlet ücreti ve kanun yolu sınırı: her birinin tarihini, matrahını ve tarifesini ayrı doğrula; aylık/yıllık farkı birbirinin yerine kullanma.
+- İcra ve faiz: tespit hükmü, kira farkı alacağı ve yargılama giderlerini ayrı incele. Kesinleşme, muacceliyet, temerrüt ve takip yolunu tek bir otomatik kurala bağlama.
+- Net/brüt: sözleşme, mükellefiyet, stopaj ve KDV'yi incele. Stopaj oranı doğrulanmışsa ve net bedel yalnız stopaj sonrası tutarsa brüt = net / (1 − oran); her işyeri için otomatik 1,25 çarpanı kullanma.
+
+## Karma dosyalarda yanlış genellemeler
+
+TBK 306'daki ayıp giderimi ve kira bedelinden indirme olanağını görmeden “yazılı izin olmadan hiçbir masraf mahsup edilemez” deme. TBK 315'in yazılı bildirim ve süre koşullarını incelemeden hemen tahliye sonucu üretme. TBK 346 kapsamındaki kiralarda ceza koşulu veya sonraki kiraları muaccel kılan kayıt önerme. [TBK 306, 315 ve 346](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5).
+
+Arsa, yapı ve karma kullanımda sözleşme amacı ile baskın niteliği araştır. Taşınır kirasına ilişkin TBK 330'daki üç günlük süreyi üzerinde taşınabilir yapı bulunan her arsaya uygulama. Yargıtay 6. HD, E. 2012/3307, K. 2012/7044, 10.05.2012 baskın nitelik araştırması eksikliğine ilişkindir ve eski 6570 sayılı Kanun dönemindedir; bugünkü süreler için doğrudan dayanak değildir. [Karar](https://app.dejure.ai/dokuman/202209-1108-5607-20123307-20127044-9f934f96-1529-4ffe-9b1d-2a7e4b76779c).
+
+Malik/kiraya veren sıfatı, hayvan bulundurma, demirbaş ve operatörlü ekipman gibi yan meseleleri kendi belgeleri ve hukuk rejimiyle araştır; bunlardan otomatik tahliye veya ispat yükü sonucu çıkarma.

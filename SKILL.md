@@ -21,6 +21,8 @@ Mevcut belgelerden çıkar, tekrar sorma: konut/çatılı işyeri/diğer nitelik
 
 Kira tespiti, uyarlama, tahliye ve alacak taleplerini ayrıştır. Karma dosyada talep bazında incele; ayrı dava türünün kurallarını tespit davasına aktarma.
 
+Hak ve nesafet, beş yıllık dönem, TBK 345, eski kiracı indirimi veya geçici artış sınırı tartışılıyorsa [uygulama rehberini](references/uygulama-rehberi.md) oku. Fazla ödeme iadesi gündeme gelirse [iade ve ispat rehberini](references/iade-ispat.md) kullan; İİK istirdadı ile genel iade talebini ayır. Paylaşılan rehberlerdeki eksik atıfların durumu [kaynak kontrolündedir](references/rehber-dogrulama.md). Bu rehberleri kesin sonuç tablosu gibi uygulama.
+
 BAM kararlarını kullanırken [seçki ve kullanım sınırlarını](references/bam-kararlari.md) oku. `research_notes` uyarılarını sonuç ve dilekçeye kaynak seçerken dikkate al. Arama sonuçları hem ana havuzu hem BAM ekini kapsar.
 
 ## Dayanak araştır
