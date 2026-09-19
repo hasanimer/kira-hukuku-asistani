@@ -83,7 +83,17 @@ eksik belgeleri ve lehe/aleyhe emsalleri göster.
 
 ## Kullanım örnekleri
 
-[Kiracı sorunları: dört kurgu senaryo ve gerçek emsaller →](references/kiraci-senaryolari.md)
+[Kiracı sorunları: 10 kurgu senaryo, belge listeleri ve gerçek emsaller →](references/kiraci-senaryolari.md)
+
+Kiracının sorunundan ilgili karara ulaşmak için API anahtarı gerektirmeyen senaryo aracı:
+
+```sh
+python scripts/scenarios.py list
+python scripts/scenarios.py search "rutubet depozito"
+python scripts/scenarios.py show K6
+```
+
+Her senaryo gerekli belgeleri, sonucu değiştiren soruları ve emsalin sınırlarını gösterir. Kurgu olaylar gerçek karar metinlerinden ayrıdır; sıralama kazanma ihtimali değildir.
 
 **Dosyanın güçlü ve zayıf yönlerini görmek için**
 

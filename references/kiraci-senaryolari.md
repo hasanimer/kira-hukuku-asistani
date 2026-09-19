@@ -2,6 +2,28 @@
 
 20.09.2026. Aşağıdaki olaylar araştırma ve skill denemesi için **üretilmiş kurgulardır**; kararların olay özeti veya gerçek müvekkil dosyası değildir. Her örnekte gerçek emsalin olguları ve sonucu ayrıca gösterilir. Güncel mevzuat ve karşı içtihat somut dosyada yeniden araştırılır.
 
+## Sorundan belge ve emsale erişim
+
+[On senaryoluk katalog](kiraci-senaryolari.json) her sorun için gerekli belgeleri, belirleyici soruları, dış araştırma sorgularını, gerçek karar kimliklerini ve karşı olguları içerir. Aşağıdaki dört ayrıntılı örneğe ek olarak K5 taahhüt, K6 depozito/tadilat, K7 emsal raporu, K8 yeni malik/yeni sözleşme, K9 ödeme hesabı ve K10 ihtiyaç nedeniyle tahliyeyi kapsar. Yeni altı senaryo mevcut havuzdaki kararları kullanır; yeni karar eklendiği anlamına gelmez.
+
+```sh
+python scripts/scenarios.py list
+python scripts/scenarios.py search "rutubet depozito"
+python scripts/scenarios.py show K6
+```
+
+Komut başka çalışma dizininden de betiğin mutlak yolu ile kullanılabilir; API anahtarı gerekmez. `search` sözcük eşleştirmesidir: ayrı sorunları kaybetmemek için sözcüklerden herhangi birini içeren senaryoları döndürür. Sıralama hukuki önem veya başarı ihtimali değildir. Boş sonuç, hukuki çözüm veya emsal bulunmadığı anlamına gelmez; ek sorguları bağlı kaynaklarda araştır.
+
+`show` çıktısındaki `decisions` gerçek havuz kayıtlarından çözülür; metin hash'leri kontrol edilir. Kaynak kaydı eksik veya bozuksa komut hata verir. `coverage` emsalin hangi meseleyi çözdüğünü ve nerede ek araştırma gerektiğini gösterir. Kaynakların `research_notes` sınırlarını oku; tam metin için `pool.py get`, alıntı için `pool.py quote` kullan.
+
+## Somut dosyaya uygulama
+
+1. Uyan senaryoları seç; karma uyuşmazlıkta birden çok senaryoyu koru. Kurgudaki tarihleri, ödemeleri ve iddiaları kullanıcının dosyasına taşıma.
+2. `documents` listesini dosyayla karşılaştır. Yalnız sonucu etkileyen eksikleri sor; eldeki belgeleri yeniden isteme. `decisive_questions` sonuç üzerinde etkili ayrımları gösterir.
+3. Gerekirse `olay | tarih/saat | belge/sayfa | kimin iddiası | belirsizlik` çizelgesi kur. İhtarda düzenleme, tebliğ ve öğrenme tarihlerini; ödemede işlem ve hesaba geçme kayıtlarını karıştırma. Kaynak ve uygulanacak kural doğrulanmadan otomatik son gün hesaplama.
+4. Emsalin gerekçesi ve hükmünü dosyayla karşılaştır; `counterfacts` farklı sonucu araştırma başlangıcıdır, kesin ispat veya kabul değildir. Katalogdaki karar tek yönlüyse karşı yöndeki içtihadı dış araştırmada ara. Yalnız usulü çözen kararla alacağın esasını kabul etme.
+5. Yanıtı ihtiyaca göre `sorun → belgedeki olgu → uygun emsal ve farkı → eksik delil → sonraki somut adım` bağlantısıyla yaz. Kısa soru için tüm katalog veya belge listesini dökme. İcra/tebliğ gibi devam eden süreç varsa ilgili tarih ve evrakın kontrolünü önceliklendir; doğrulanmamış süreyi kesin tarih olarak bildirme.
+
 ## K1 — İşyerinden çıkınca kalan bütün kiralar istendi
 
 **Kurgu:** Beş yıllık işyeri sözleşmesinin üçüncü yılından sonra başka şehre taşınacak kiracı, sözleşmedeki altı ay önceden bildirim hakkını kullanıyor. Bildirim süresi kiralarını ödüyor ve imzalı anahtar teslim tutanağı alıyor. Kiraya veren yine de yıllık kiranın tamamını takibe koyuyor.

@@ -62,6 +62,9 @@ def main():
         require(filtered['total_matches'] == manifest['collections']['bam-selected.jsonl'],
                 'BAM filter missed records')
         require(all(r['court_type'] == 'bam' for r in filtered['results']), 'BAM filter leaked')
+    scenarios = run('scenarios.py', 'list')
+    require(scenarios['fictional'] and scenarios['total'] > 0,
+            'Scenario catalog unavailable or fiction label lost')
     search = run('pool.py', 'search', 'eski kiracı', '--kind', 'esas_gerekcesi', '--limit', '1')
     require(search['total_matches'] > 0, 'Known search returned no matches')
     row = run('pool.py', 'get', search['results'][0]['document_id'])

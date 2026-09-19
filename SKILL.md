@@ -17,7 +17,7 @@ Bu skill, kararları her yanıtta baştan okuyan veya bunlarla yeniden eğitilmi
 
 ## Dosyayı kur
 
-Kiracı sorunu üzerinden araştırma veya örnek çalışma istenirse [kurgu senaryolar ve gerçek emsaller](references/kiraci-senaryolari.md) eşleştirmesini kullan. Kurgudaki olguları kullanıcı dosyasına ya da gerçek kararın olayına aktarma.
+Kiracı sorunu üzerinden araştırma veya örnek çalışma istenirse [senaryo, belge ve emsal akışını](references/kiraci-senaryolari.md) kullan. `python scripts/scenarios.py search "sorun sözcükleri"` ile adayları, `show K6` gibi bir çağrıyla gerekli belgeleri, belirleyici soruları ve kaynak sınırlarını getir. Karma sorunları ayrı tut; sözcük sıralamasını hukuki önem sayma. Kurgudaki olguları kullanıcı dosyasına ya da gerçek kararın olayına aktarma.
 
 Kullanıcının istediği ürüne odaklan: kısa soruya kısa cevap; dosya analizine gerekçeli değerlendirme; dilekçe isteğine düzenlenebilir taslak. Davacı kiraya veren veya davalı kiracı perspektifini belirle; karşı tarafın en güçlü itirazlarını da araştır.
 
