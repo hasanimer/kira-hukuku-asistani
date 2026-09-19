@@ -18,6 +18,8 @@ Komut başka çalışma dizininden de betiğin mutlak yolu ile kullanılabilir; 
 
 ## Somut dosyaya uygulama
 
+Tarih veya süre hesabı gereken senaryolarda [süre formüllerini](sure-hesaplama.md) kullan; araç bir takvim adayı üretir, eksik hukuki koşulları tamamlamaz.
+
 1. Uyan senaryoları seç; karma uyuşmazlıkta birden çok senaryoyu koru. Kurgudaki tarihleri, ödemeleri ve iddiaları kullanıcının dosyasına taşıma.
 2. `documents` listesini dosyayla karşılaştır. Yalnız sonucu etkileyen eksikleri sor; eldeki belgeleri yeniden isteme. `decisive_questions` sonuç üzerinde etkili ayrımları gösterir.
 3. Gerekirse `olay | tarih/saat | belge/sayfa | kimin iddiası | belirsizlik` çizelgesi kur. İhtarda düzenleme, tebliğ ve öğrenme tarihlerini; ödemede işlem ve hesaba geçme kayıtlarını karıştırma. Kaynak ve uygulanacak kural doğrulanmadan otomatik son gün hesaplama.

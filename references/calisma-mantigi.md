@@ -21,6 +21,8 @@ Her belirleyici bilgiyi şu ayrımla ele al: **belgede görülen**, **kullanıc�
 
 Sonucu etkileyen bilgi yoksa onu sor; yanıt gelene kadar bağımsız kaynak araştırmasını sürdürebilirsin. Varsayımsal hesapta varsayımı açıkça yaz ve gerçek dosya olgusu gibi taslağa aktarma.
 
+Süre hesabında [formül rehberini](sure-hesaplama.md) kullan. Başlangıç olayı ile belge tarihini, ham takvim sonucu ile hukuken uygulanacak son günü ayrı kaydet; hesap aracının yapmadığı tatil ve arabuluculuk düzeltmelerini uygulanmış gibi gösterme.
+
 ## 3. Dosyayı araştırılabilir meselelere ayır
 
 Somut ihtiyaca göre aşağıdaki araştırma alanlarından ilgili olanları seç; bu liste hukuki sonuç veya otomatik uygulanacak kural değildir:

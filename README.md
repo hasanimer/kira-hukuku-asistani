@@ -95,6 +95,15 @@ python scripts/scenarios.py show K6
 
 Her senaryo gerekli belgeleri, sonucu değiştiren soruları ve emsalin sınırlarını gösterir. Kurgu olaylar gerçek karar metinlerinden ayrıdır; sıralama kazanma ihtimali değildir.
 
+[Süre formülleri ve hesap rehberi →](references/sure-hesaplama.md)
+
+```sh
+python scripts/deadlines.py tbk345 2026-09-01
+python scripts/deadlines.py takvim 2026-01-31 --count 1 --unit ay
+```
+
+Araç gün/ay/yıl ayrımını, ilgili kira sürelerini ve UETS hesabını gösterir. Sonuçlar takvim adayıdır; tatil, arabuluculuk ve somut dosyanın hukuki koşulları ayrıca kontrol edilir.
+
 **Dosyanın güçlü ve zayıf yönlerini görmek için**
 
 > $kira-tespit-asistani sözleşmeyi ve olayları incele. Talep edilen dönem bakımından belirleyici konuları, eksik belgeleri ve karşı tarafın ileri sürebileceği itirazları göster.

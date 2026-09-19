@@ -25,6 +25,8 @@ Mevcut belgelerden çıkar, tekrar sorma: konut/çatılı işyeri/diğer nitelik
 
 Kira tespiti, uyarlama, tahliye ve alacak taleplerini ayrıştır. Karma dosyada talep bazında incele; ayrı dava türünün kurallarını tespit davasına aktarma.
 
+Süre veya son gün sorulursa [süre hesabı ve formüllerini](references/sure-hesaplama.md) oku. `scripts/deadlines.py` ile takvim adayını hesapla; başlangıç olayını, normu ve tatil/arabuluculuk gibi uygulanmamış etkileri göster. TBK 345 etki eşiğini dava açma son günü, TBK 351 altı aylık beklemeyi başvuru son günü sayma. Ayı 30 güne çevirme; belgeden ve uygulanacak rejimden doğrulanmamış tarihi kesin son gün diye sunma.
+
 Hak ve nesafet, beş yıllık dönem, TBK 345, eski kiracı indirimi veya geçici artış sınırı tartışılıyorsa [uygulama rehberini](references/uygulama-rehberi.md) oku. Fazla ödeme iadesi gündeme gelirse [iade ve ispat rehberini](references/iade-ispat.md) kullan; İİK istirdadı ile genel iade talebini ayır. Paylaşılan rehberlerdeki eksik atıfların durumu [kaynak kontrolündedir](references/rehber-dogrulama.md). Bu rehberleri kesin sonuç tablosu gibi uygulama.
 
 BAM kararlarını kullanırken [seçki ve kullanım sınırlarını](references/bam-kararlari.md) oku. `research_notes` uyarılarını sonuç ve dilekçeye kaynak seçerken dikkate al. Arama sonuçları hem ana havuzu hem BAM ekini kapsar.

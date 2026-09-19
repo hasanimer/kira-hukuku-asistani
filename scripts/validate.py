@@ -65,6 +65,10 @@ def main():
     scenarios = run('scenarios.py', 'list')
     require(scenarios['fictional'] and scenarios['total'] > 0,
             'Scenario catalog unavailable or fiction label lost')
+    deadline = run('deadlines.py', 'tbk345', '2026-09-01')
+    require(deadline['raw_dates']['otuz_gun_once_esigi'] == '2026-08-02' and
+            deadline['status'] == 'takvim_adayi_hukuki_kontrol_gerekli',
+            'Deadline calendar or qualification lost')
     search = run('pool.py', 'search', 'eski kiracı', '--kind', 'esas_gerekcesi', '--limit', '1')
     require(search['total_matches'] > 0, 'Known search returned no matches')
     row = run('pool.py', 'get', search['results'][0]['document_id'])
