@@ -1,6 +1,6 @@
 # BAM seçkisi
 
-Dokuz kararın tam metni `data/bam-selected.jsonl` içindedir. Ana havuzla birlikte aranır; bağımsız hukukçu doğrulaması yapılmamıştır. Kaynakta görülen metin hataları düzeltilmeden korunmuş, kullanım sınırları ayrı notlanmıştır. Bu kayıtların etiketleri JEV çıktısı değil, asistanın tam metin incelemesidir.
+On üç kararın tam metni `data/bam-selected.jsonl` içindedir. Ana havuzla birlikte aranır; bağımsız hukukçu doğrulaması yapılmamıştır. Kaynakta görülen metin hataları düzeltilmeden korunmuş, kullanım sınırları ayrı notlanmıştır. Bu kayıtların etiketleri JEV çıktısı değil, asistanın tam metin incelemesidir.
 
 ## Adana BAM 5. Hukuk Dairesi
 
@@ -97,3 +97,7 @@ Boş imza, aile konutu bildirimi ve ispat değerlendirmesi somut olayla sınırl
 Ödemeler ve bakiye alacak araştırılmadığından kabul ve tahliye kararı kaldırılarak dosya geri gönderildi.
 
 BAM doğrudan borcun tamamen sona erdiğine veya tahliye talebinin reddine hükmetmemiştir; bilirkişi hesabı ve yeniden değerlendirme istemiştir. Takipten sonra fakat davadan önce ödeme ile dava sırasında ödeme aynı sonuçta değerlendirilmez. Aktarılan HGK kararları bağımsız olarak okunmuş kaynak değildir; ihtirazi kayıtsız ödeme değerlendirmesini bütün kira iade davalarına taşıma.
+
+## Kiracı sorunlarından seçilen dört yeni karar
+
+[Sözleşmesel çıkış, rutubet, iki haklı ihtar ve çıkış hasarı senaryoları](kiraci-senaryolari.md) her kararın künyesini, kaynak bağlantısını, sonucunu ve kullanım sınırlarını birlikte gösterir. Kurgular kararların gerçek olaylarından ayrıdır. İki yeni kayıttaki açık kişi adları anonimleştirilmiştir; kaynak ve dağıtılan metin hash değerleri ile `redactions` alanı bu farkı gösterir.

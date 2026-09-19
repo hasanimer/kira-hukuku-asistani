@@ -47,6 +47,15 @@ def main():
             fetched = run('pool.py', 'get', bam['document_id'])
             require(fetched['text'] == bam['text'] and fetched['source_url'] == bam['source_url'],
                     'BAM text or provenance lost')
+            if bam.get('redactions'):
+                require(fetched['redactions'] == bam['redactions'] and
+                        fetched['source_text_sha256'] == bam['source_text_sha256'],
+                        'Anonymization provenance lost')
+                require(bam['source_text_sha256'] != bam['text_sha256'],
+                        'Redacted text must have a distinct source hash')
+                require(bam['text'].count('[KİŞİ ADI ANONİMLEŞTİRİLDİ]') ==
+                        bam['redactions']['replacement_count'],
+                        'Anonymization count mismatch')
             quoted = run('pool.py', 'quote', bam['document_id'], bam['text'][-100:])
             require(quoted['exact_match'], 'BAM final text quote failed')
         filtered = run('pool.py', 'search', 'kira', '--court-type', 'bam')

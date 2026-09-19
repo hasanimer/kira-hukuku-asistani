@@ -34,7 +34,8 @@ def read_rows(path):
 def metadata(row):
     keys = ('document_id', 'court', 'esas_no', 'karar_no', 'karar_tarihi',
             'text_sha256', 'human_validated', 'review_level', 'value_assessment',
-            'court_type', 'source_url', 'source_provider', 'research_notes')
+            'court_type', 'source_url', 'source_provider', 'research_notes',
+            'source_text_sha256', 'redactions')
     return {key: row.get(key) for key in keys}
 
 
