@@ -6,131 +6,380 @@
       "id": "K1",
       "title": "Sözleşmedeki çıkış hakkına rağmen kalan kiralar isteniyor",
       "story": "İşyeri kiracısı sözleşmedeki bildirimli çıkış hakkını kullanıp anahtarı teslim ediyor; kiraya veren kalan kiraları istiyor.",
-      "keywords": ["erken çıkış", "erken tahliye", "anahtar", "fesih", "kalan kira"],
-      "modules": ["alacak", "sozlesme"],
-      "documents": ["Çıkış hükmü dahil sözleşme", "Bildirimin ulaşma belgesi", "Ödeme ve varsa tevdi belgeleri", "Anahtar teslim tutanağı"],
-      "decisive_questions": ["Çıkış hakkının koşulları yerine getirildi mi?", "Kiralananın geri verildiği tarih hangi belgeyle sabit?"],
-      "search_queries": ["sözleşmesel fesih hakkı anahtar teslimi kira alacağı", "erken tahliye makul süre yeniden kiraya verme"],
-      "decision_ids": ["7ad0f708-0612-47c9-956d-f722f4fe55fe"],
+      "keywords": [
+        "erken çıkış",
+        "erken tahliye",
+        "anahtar",
+        "fesih",
+        "kalan kira"
+      ],
+      "modules": [
+        "alacak",
+        "sozlesme"
+      ],
+      "documents": [
+        "Çıkış hükmü dahil sözleşme",
+        "Bildirimin ulaşma belgesi",
+        "Ödeme ve varsa tevdi belgeleri",
+        "Anahtar teslim tutanağı"
+      ],
+      "decisive_questions": [
+        "Çıkış hakkının koşulları yerine getirildi mi?",
+        "Kiralananın geri verildiği tarih hangi belgeyle sabit?"
+      ],
+      "search_queries": [
+        "sözleşmesel fesih hakkı anahtar teslimi kira alacağı",
+        "erken tahliye makul süre yeniden kiraya verme"
+      ],
+      "decision_ids": [
+        "7ad0f708-0612-47c9-956d-f722f4fe55fe"
+      ],
       "coverage": "Sözleşmesel çıkış hakkına ilişkin emsal; gerçek erken tahliyedeki sorumluluk süresini tek başına çözmez.",
-      "counterfacts": ["Bildirim koşuluna uyulmaması", "Teslim tarihinin ispatlanamaması"]
+      "counterfacts": [
+        "Bildirim koşuluna uyulmaması",
+        "Teslim tarihinin ispatlanamaması"
+      ]
     },
     {
       "id": "K2",
       "title": "Rutubet nedeniyle kirayı azaltma talebi",
       "story": "Depodaki su sızıntısı sürüyor. Kiracı geçmiş aylar dahil kira indirimi istiyor; teknik raporlar çelişiyor.",
-      "keywords": ["rutubet", "küf", "sızıntı", "ayıp", "kira indirimi"],
-      "modules": ["guvence"],
-      "documents": ["Kullanım amacını gösteren sözleşme", "Ayıp bildirimi ve ulaşma belgesi", "Fotoğraf ve teknik raporlar", "Onarım ve giderilme tarihleri"],
-      "decisive_questions": ["Kiraya veren ayıbı ne zaman öğrendi?", "Ayıp hangi kullanım ve dönem üzerinde etkili?"],
-      "search_queries": ["kiralanan ayıp kira indirimi öğrenme tarihi", "rutubet bilirkişi çelişkili rapor kiracı kusuru"],
-      "decision_ids": ["eb8af224-a46c-4101-867f-2d58b76a0aef"],
+      "keywords": [
+        "rutubet",
+        "küf",
+        "sızıntı",
+        "ayıp",
+        "kira indirimi"
+      ],
+      "modules": [
+        "guvence"
+      ],
+      "documents": [
+        "Kullanım amacını gösteren sözleşme",
+        "Ayıp bildirimi ve ulaşma belgesi",
+        "Fotoğraf ve teknik raporlar",
+        "Onarım ve giderilme tarihleri"
+      ],
+      "decisive_questions": [
+        "Kiraya veren ayıbı ne zaman öğrendi?",
+        "Ayıp hangi kullanım ve dönem üzerinde etkili?"
+      ],
+      "search_queries": [
+        "kiralanan ayıp kira indirimi öğrenme tarihi",
+        "rutubet bilirkişi çelişkili rapor kiracı kusuru"
+      ],
+      "decision_ids": [
+        "eb8af224-a46c-4101-867f-2d58b76a0aef"
+      ],
       "coverage": "Eksik inceleme nedeniyle kaldırma; kesin indirim oranı veya tek taraflı eksik ödeme izni değildir.",
-      "counterfacts": ["Ayıbın kiracının kullanımından doğması", "Ayıbın giderildiği dönemin talebe dahil edilmesi"]
+      "counterfacts": [
+        "Ayıbın kiracının kullanımından doğması",
+        "Ayıbın giderildiği dönemin talebe dahil edilmesi"
+      ]
     },
     {
       "id": "K3",
       "title": "İhtar günü ödeme ve iki haklı ihtar",
       "story": "Kiracı iki ödeme emrine itiraz ettikten sonra aynı gün ödeme yapıyor; dava sırasında taşınınca giderlerin de kalkacağını düşünüyor.",
-      "keywords": ["iki haklı ihtar", "aynı gün", "tebliğ", "ödeme emri", "yargılama gideri"],
-      "modules": ["tahliye", "alacak"],
-      "documents": ["İhtar ve ödeme emirleri", "Tebliğ ve öğrenme belgeleri", "Saat bilgili itiraz ve dekontlar", "Dava ve tahliye tarihleri"],
-      "decisive_questions": ["Her ödeme öğrenme veya tebliğden önce mi sonra mı?", "İhtarlar hangi kira dönemlerine ait?"],
-      "search_queries": ["iki haklı ihtar aynı gün ödeme itiraz saati", "tahliye konusuz dava yargılama giderleri"],
-      "decision_ids": ["fa461f44-de8b-43e1-aaa4-60c85a683530"],
+      "keywords": [
+        "iki haklı ihtar",
+        "aynı gün",
+        "tebliğ",
+        "ödeme emri",
+        "yargılama gideri"
+      ],
+      "modules": [
+        "tahliye",
+        "alacak"
+      ],
+      "documents": [
+        "İhtar ve ödeme emirleri",
+        "Tebliğ ve öğrenme belgeleri",
+        "Saat bilgili itiraz ve dekontlar",
+        "Dava ve tahliye tarihleri"
+      ],
+      "decisive_questions": [
+        "Her ödeme öğrenme veya tebliğden önce mi sonra mı?",
+        "İhtarlar hangi kira dönemlerine ait?"
+      ],
+      "search_queries": [
+        "iki haklı ihtar aynı gün ödeme itiraz saati",
+        "tahliye konusuz dava yargılama giderleri"
+      ],
+      "decision_ids": [
+        "fa461f44-de8b-43e1-aaa4-60c85a683530"
+      ],
       "coverage": "Kiracı aleyhine gider sonucu; dava konusuz kaldığından yeni tahliye hükmü değildir.",
-      "counterfacts": ["Ödemenin tebliğ veya öğrenmeden önce olması", "İhtar konusu borcun muaccel olmaması"]
+      "counterfacts": [
+        "Ödemenin tebliğ veya öğrenmeden önce olması",
+        "İhtar konusu borcun muaccel olmaması"
+      ]
     },
     {
       "id": "K4",
       "title": "Çıkışta bütün yenileme masraflarının istenmesi",
       "story": "Kiraya veren boya ve tesisatın yeni bedellerini istiyor. Kiracı normal yıpranma ve kendisinin taktığı malzemeler olduğunu söylüyor.",
-      "keywords": ["hasar", "boya", "demirbaş", "yıpranma", "amortisman", "yenileme masrafı"],
-      "modules": ["guvence"],
-      "documents": ["İlk ve son teslim tutanakları", "Tarihli fotoğraflar", "Demirbaş listesi ve faturalar", "Tadilat izinleri", "Hasar bildirimi ve tespit raporu"],
-      "decisive_questions": ["Her kalem ilk teslimde hangi durumdaydı?", "Talep normal kullanım izini mi somut hasarı mı karşılıyor?"],
-      "search_queries": ["kiralanan hor kullanım olağan yıpranma amortisman", "kiracı sökülen demirbaş hasar bilirkişi"],
-      "decision_ids": ["880b0d47-5ca8-4e1a-9fab-41b5da8f1992"],
+      "keywords": [
+        "hasar",
+        "boya",
+        "demirbaş",
+        "yıpranma",
+        "amortisman",
+        "yenileme masrafı"
+      ],
+      "modules": [
+        "guvence"
+      ],
+      "documents": [
+        "İlk ve son teslim tutanakları",
+        "Tarihli fotoğraflar",
+        "Demirbaş listesi ve faturalar",
+        "Tadilat izinleri",
+        "Hasar bildirimi ve tespit raporu"
+      ],
+      "decisive_questions": [
+        "Her kalem ilk teslimde hangi durumdaydı?",
+        "Talep normal kullanım izini mi somut hasarı mı karşılıyor?"
+      ],
+      "search_queries": [
+        "kiralanan hor kullanım olağan yıpranma amortisman",
+        "kiracı sökülen demirbaş hasar bilirkişi"
+      ],
+      "decision_ids": [
+        "880b0d47-5ca8-4e1a-9fab-41b5da8f1992"
+      ],
       "coverage": "Hasar hesabının yeniden incelenmesine ilişkin karar; borçsuzluk veya depozito iadesi hükmü değildir.",
-      "counterfacts": ["Olağan kullanımı aşan hasarın belgelenmesi", "Sökülen malzemenin kiraya verene ait olması"]
+      "counterfacts": [
+        "Olağan kullanımı aşan hasarın belgelenmesi",
+        "Sökülen malzemenin kiraya verene ait olması"
+      ]
     },
     {
       "id": "K5",
       "title": "Boş imzalandığı söylenen tahliye taahhüdü",
       "story": "Kiracı sonradan doldurulduğunu söylediği taahhütle takip yapıldığını, taşınmazın aile konutu olduğunu bildiriyor.",
-      "keywords": ["taahhüt", "boş imza", "aile konutu", "sonradan doldurma"],
-      "modules": ["tahliye"],
-      "documents": ["Taahhüdün aslı", "Sözleşme ve fiili teslim belgesi", "Takip, itiraz ve tebliğ evrakı", "Aile konutu bildirimi ve ulaşma belgesi"],
-      "decisive_questions": ["İmza mı tarih mi yoksa doldurma anlaşması mı çekişmeli?", "Teslim, taahhüt ve takip tarihleri hangi belgelerde yer alıyor?"],
-      "search_queries": ["tahliye taahhüdü boş imza anlaşmaya aykırı doldurma ispat", "aile konutu tahliye taahhüdü bildirim"],
-      "decision_ids": ["191fe3e9-f690-420c-ad33-23cfeb89e8ad"],
+      "keywords": [
+        "taahhüt",
+        "boş imza",
+        "aile konutu",
+        "sonradan doldurma"
+      ],
+      "modules": [
+        "tahliye"
+      ],
+      "documents": [
+        "Taahhüdün aslı",
+        "Sözleşme ve fiili teslim belgesi",
+        "Takip, itiraz ve tebliğ evrakı",
+        "Aile konutu bildirimi ve ulaşma belgesi"
+      ],
+      "decisive_questions": [
+        "İmza mı tarih mi yoksa doldurma anlaşması mı çekişmeli?",
+        "Teslim, taahhüt ve takip tarihleri hangi belgelerde yer alıyor?"
+      ],
+      "search_queries": [
+        "tahliye taahhüdü boş imza anlaşmaya aykırı doldurma ispat",
+        "aile konutu tahliye taahhüdü bildirim"
+      ],
+      "decision_ids": [
+        "191fe3e9-f690-420c-ad33-23cfeb89e8ad"
+      ],
       "coverage": "Kiracının istinafının reddedildiği somut olay; boş imza ve aile konutu savunmalarını her dosyada sonuçsuz saydırmaz.",
-      "counterfacts": ["İmzanın ayrıca inkâr edilmesi", "Farklı teslim veya bildirim kronolojisi"]
+      "counterfacts": [
+        "İmzanın ayrıca inkâr edilmesi",
+        "Farklı teslim veya bildirim kronolojisi"
+      ]
     },
     {
       "id": "K6",
       "title": "Depozito ve tadilat ödemeleri geri verilmiyor",
       "story": "Kiracı ödediği depozito ve tadilat giderini geri istiyor; taraflar kira ilişkisinin kurulup kurulmadığında da anlaşamıyor.",
-      "keywords": ["depozito", "güvence", "tadilat", "görev", "masraf iadesi"],
-      "modules": ["guvence", "sozlesme"],
-      "documents": ["Sözleşme veya görüşme belgeleri", "Depozito dekontu", "Teslim belgeleri", "Tadilat onayı ve faturalar", "Mahsup iddiası ve hesabı"],
-      "decisive_questions": ["İade istenen her ödeme hangi amaçla yapıldı?", "Karşı taraf hangi borç veya hasarı mahsup ediyor?"],
-      "search_queries": ["kira depozito iadesi mahsup ispat", "kiracı tadilat gideri sözleşme kurulması görev"],
-      "decision_ids": ["afcfb4b8-3380-4758-94b2-e45d32c6d5e5"],
-      "coverage": "Yalnız görev yönünden seçilmiş emsal var. İade hakkının esası ve tutarı için ek karar araştırması gerekli.",
-      "counterfacts": ["Belgeli kira borcu veya hasar mahsubu", "Masrafın onaysız veya farklı sözleşmeye bağlı olması"]
+      "keywords": [
+        "depozito",
+        "güvence",
+        "tadilat",
+        "görev",
+        "masraf iadesi"
+      ],
+      "modules": [
+        "guvence",
+        "sozlesme"
+      ],
+      "documents": [
+        "Sözleşme veya görüşme belgeleri",
+        "Depozito dekontu",
+        "Teslim belgeleri",
+        "Tadilat onayı ve faturalar",
+        "Mahsup iddiası ve hesabı"
+      ],
+      "decisive_questions": [
+        "İade istenen her ödeme hangi amaçla yapıldı?",
+        "Karşı taraf hangi borç veya hasarı mahsup ediyor?"
+      ],
+      "search_queries": [
+        "kira depozito iadesi mahsup ispat",
+        "kiracı tadilat gideri sözleşme kurulması görev"
+      ],
+      "decision_ids": [
+        "afcfb4b8-3380-4758-94b2-e45d32c6d5e5",
+        "8e67cad0-eca1-4c28-b96c-a608b1c762a3"
+      ],
+      "coverage": "Görev ve ödeme emrinden önce itirazın usul etkisine ilişkin emsaller var. İade hakkının esası ve tutarı için ek araştırma gerekli.",
+      "counterfacts": [
+        "Belgeli kira borcu veya hasar mahsubu",
+        "Masrafın onaysız veya farklı sözleşmeye bağlı olması"
+      ]
     },
     {
       "id": "K7",
       "title": "Kira tespit raporu yalnız internet ilanlarına dayanıyor",
       "story": "Kiracının dosyasındaki rapor yüksek ilan bedellerini aktarıyor; emsallerin alan ve fiziksel farkları açıklanmıyor.",
-      "keywords": ["ilan", "emsal", "bilirkişi", "kira tespit", "rapor itirazı"],
-      "modules": ["tespit"],
-      "documents": ["Rapor ve ekleri", "Gerçekleşmiş emsal sözleşmeler", "Keşif tutanağı", "Alan, konum ve fiziki özellik belgeleri"],
-      "decisive_questions": ["Bedeller ilan mı gerçekleşmiş sözleşme mi?", "Her emsal için somut karşılaştırma ve düzeltme açıklanmış mı?"],
-      "search_queries": ["kira tespit internet ilanı emsal sözleşme bilirkişi", "kira bilirkişi raporu somut karşılaştırma"],
-      "decision_ids": ["34ffba87-e4ff-4051-9441-4a72fe6564bd"],
+      "keywords": [
+        "ilan",
+        "emsal",
+        "bilirkişi",
+        "kira tespit",
+        "rapor itirazı"
+      ],
+      "modules": [
+        "tespit"
+      ],
+      "documents": [
+        "Rapor ve ekleri",
+        "Gerçekleşmiş emsal sözleşmeler",
+        "Keşif tutanağı",
+        "Alan, konum ve fiziki özellik belgeleri"
+      ],
+      "decisive_questions": [
+        "Bedeller ilan mı gerçekleşmiş sözleşme mi?",
+        "Her emsal için somut karşılaştırma ve düzeltme açıklanmış mı?"
+      ],
+      "search_queries": [
+        "kira tespit internet ilanı emsal sözleşme bilirkişi",
+        "kira bilirkişi raporu somut karşılaştırma"
+      ],
+      "decision_ids": [
+        "34ffba87-e4ff-4051-9441-4a72fe6564bd"
+      ],
       "coverage": "Yetersiz bilirkişi incelemesi nedeniyle kaldırma; her ilanın değersiz olduğu veya belirli indirim oranı gerektiği sonucu çıkarılmaz.",
-      "counterfacts": ["Raporun gerçekleşmiş sözleşmeleri ayrıca incelemesi", "Farkların gerekçeli şekilde hesaba katılması"]
+      "counterfacts": [
+        "Raporun gerçekleşmiş sözleşmeleri ayrıca incelemesi",
+        "Farkların gerekçeli şekilde hesaba katılması"
+      ]
     },
     {
       "id": "K8",
       "title": "Yeni malik ile sözleşme ve beş yıllık dönem tartışması",
       "story": "Kiracı yeni malik ile yeni bedel içeren sözleşme imzalıyor; kısa süre sonra rayice göre tespit talebi geliyor.",
-      "keywords": ["yeni malik", "yenileme", "beş yıl", "yeni sözleşme", "rayiç"],
-      "modules": ["tespit", "sozlesme"],
-      "documents": ["İlk sözleşme ve bütün protokoller", "Mülkiyet değişim tarihi", "Yeni bedelin kararlaştırıldığı tarihli emsaller", "Ödeme çizelgesi"],
-      "decisive_questions": ["Yeni belgenin işlevi ve bedelin o tarihteki rayiçle ilişkisi ne?", "Hangi sözleşme ve döneme dayanılarak tespit isteniyor?"],
-      "search_queries": ["yeni malik yenileme sözleşmesi rayiç beş yıl kira tespit", "yeni sözleşme kira bedeli emsale uygunluk"],
-      "decision_ids": ["99f85bab-7bb3-4f9e-9d5b-5126a2cdce7e"],
+      "keywords": [
+        "yeni malik",
+        "yenileme",
+        "beş yıl",
+        "yeni sözleşme",
+        "rayiç"
+      ],
+      "modules": [
+        "tespit",
+        "sozlesme"
+      ],
+      "documents": [
+        "İlk sözleşme ve bütün protokoller",
+        "Mülkiyet değişim tarihi",
+        "Yeni bedelin kararlaştırıldığı tarihli emsaller",
+        "Ödeme çizelgesi"
+      ],
+      "decisive_questions": [
+        "Yeni belgenin işlevi ve bedelin o tarihteki rayiçle ilişkisi ne?",
+        "Hangi sözleşme ve döneme dayanılarak tespit isteniyor?"
+      ],
+      "search_queries": [
+        "yeni malik yenileme sözleşmesi rayiç beş yıl kira tespit",
+        "yeni sözleşme kira bedeli emsale uygunluk"
+      ],
+      "decision_ids": [
+        "99f85bab-7bb3-4f9e-9d5b-5126a2cdce7e"
+      ],
       "coverage": "Rayice uygunluk araştırılmadan verilen kararın kaldırılması; her yeni sözleşmenin süreyi sıfırladığı kabulü değildir.",
-      "counterfacts": ["Belgenin sadece ödeme veya kimlik güncellemesi olması", "Yeni bedelin rayici yansıttığının ispatı"]
+      "counterfacts": [
+        "Belgenin sadece ödeme veya kimlik güncellemesi olması",
+        "Yeni bedelin rayici yansıttığının ispatı"
+      ]
     },
     {
       "id": "K9",
       "title": "Ödenen kiralar takip hesabında görünmüyor",
       "story": "Kiracı bazı dekontların hesaba katılmadığını söylüyor; takip sonrası ödemeler de varken alacak ve tahliye isteniyor.",
-      "keywords": ["dekont", "ödeme", "bakiye", "icra", "temerrüt", "mahsup"],
-      "modules": ["alacak", "tahliye"],
-      "documents": ["Ay bazında kira ve ödeme çizelgesi", "Açıklamalı dekontlar", "Takip talebi ve ödeme emri", "Tebliğ, itiraz ve dava tarihleri"],
-      "decisive_questions": ["Her ödeme hangi borç dönemine ait?", "Ödeme takipten veya davadan önce mi sonra mı?"],
-      "search_queries": ["kira alacağı ödemelerin mahsubu bilirkişi tahliye", "takipten sonra davadan önce ödeme kira alacağı"],
-      "decision_ids": ["f0243bee-330d-4bfa-80b3-903d875ac3b7"],
+      "keywords": [
+        "dekont",
+        "ödeme",
+        "bakiye",
+        "icra",
+        "temerrüt",
+        "mahsup"
+      ],
+      "modules": [
+        "alacak",
+        "tahliye"
+      ],
+      "documents": [
+        "Ay bazında kira ve ödeme çizelgesi",
+        "Açıklamalı dekontlar",
+        "Takip talebi ve ödeme emri",
+        "Tebliğ, itiraz ve dava tarihleri"
+      ],
+      "decisive_questions": [
+        "Her ödeme hangi borç dönemine ait?",
+        "Ödeme takipten veya davadan önce mi sonra mı?"
+      ],
+      "search_queries": [
+        "kira alacağı ödemelerin mahsubu bilirkişi tahliye",
+        "takipten sonra davadan önce ödeme kira alacağı"
+      ],
+      "decision_ids": [
+        "f0243bee-330d-4bfa-80b3-903d875ac3b7"
+      ],
       "coverage": "Ödeme ve bakiye incelemesi için kaldırma/iade; borcun tamamen bittiğini veya tahliye talebinin reddini kesinleştirmez.",
-      "counterfacts": ["Dekontun farklı borca ilişkin olması", "Ödeme tarihinin ilgili hukuki süreyi karşılamaması"]
+      "counterfacts": [
+        "Dekontun farklı borca ilişkin olması",
+        "Ödeme tarihinin ilgili hukuki süreyi karşılamaması"
+      ]
     },
     {
       "id": "K10",
       "title": "Kiraya veren kendisinin oturacağını söylüyor",
       "story": "Kiracı ihtiyaç nedeniyle tahliye talebiyle karşılaşıyor; ihtiyacın gerçekliğine ve arabuluculuk zamanlamasına itiraz etmek istiyor.",
-      "keywords": ["ihtiyaç", "kendim oturacağım", "arabuluculuk", "tanık"],
-      "modules": ["tahliye"],
-      "documents": ["İhtiyaç iddiasını açıklayan dilekçe", "Tarafların konut ve kira belgeleri", "Tanık anlatımları", "Arabuluculuk ve dava tarihleri"],
-      "decisive_questions": ["İhtiyacı destekleyen ve zayıflatan somut olgular neler?", "Usul tartışmasındaki kararın tarihsel koşulları dosyayla aynı mı?"],
-      "search_queries": ["ihtiyaç nedeniyle tahliye gerçek samimi zorunlu ihtiyaç", "ihtiyaç tahliye arabuluculuk zamanlaması güncel içtihat"],
-      "decision_ids": ["aa156eaa-5348-4eef-963a-75a3f84b14a7"],
+      "keywords": [
+        "ihtiyaç",
+        "kendim oturacağım",
+        "arabuluculuk",
+        "tanık"
+      ],
+      "modules": [
+        "tahliye"
+      ],
+      "documents": [
+        "İhtiyaç iddiasını açıklayan dilekçe",
+        "Tarafların konut ve kira belgeleri",
+        "Tanık anlatımları",
+        "Arabuluculuk ve dava tarihleri"
+      ],
+      "decisive_questions": [
+        "İhtiyacı destekleyen ve zayıflatan somut olgular neler?",
+        "Usul tartışmasındaki kararın tarihsel koşulları dosyayla aynı mı?"
+      ],
+      "search_queries": [
+        "ihtiyaç nedeniyle tahliye gerçek samimi zorunlu ihtiyaç",
+        "ihtiyaç tahliye arabuluculuk zamanlaması güncel içtihat"
+      ],
+      "decision_ids": [
+        "aa156eaa-5348-4eef-963a-75a3f84b14a7",
+        "9ca8de68-9bcb-444d-9c07-3257427162e2"
+      ],
       "coverage": "İhtiyaç nedeniyle tahliye sonucu kiracı aleyhinedir. Erken arabuluculuk değerlendirmesi geçmişte açılmış davaya özgü; güncel usul için ayrıca araştırma gerekir.",
-      "counterfacts": ["İhtiyaç anlatımıyla çelişen somut belgeler", "Farklı dava tarihi ve arabuluculuk kronolojisi"]
+      "counterfacts": [
+        "İhtiyaç anlatımıyla çelişen somut belgeler",
+        "Farklı dava tarihi ve arabuluculuk kronolojisi"
+      ]
     }
   ]
 }

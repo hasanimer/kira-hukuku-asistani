@@ -1,6 +1,6 @@
 # BAM seçkisi
 
-On üç kararın tam metni `data/bam-selected.jsonl` içindedir. Ana havuzla birlikte aranır; bağımsız hukukçu doğrulaması yapılmamıştır. Kaynakta görülen metin hataları düzeltilmeden korunmuş, kullanım sınırları ayrı notlanmıştır. Bu kayıtların etiketleri JEV çıktısı değil, asistanın tam metin incelemesidir.
+On yedi kararın tam metni `data/bam-selected.jsonl` içindedir. Ana havuzla birlikte aranır; bağımsız hukukçu doğrulaması yapılmamıştır. Kaynakta görülen metin hataları düzeltilmeden korunmuş, kullanım sınırları ayrı notlanmıştır. Bu kayıtların etiketleri JEV çıktısı değil, asistanın tam metin incelemesidir.
 
 ## Adana BAM 5. Hukuk Dairesi
 
@@ -101,3 +101,69 @@ BAM doğrudan borcun tamamen sona erdiğine veya tahliye talebinin reddine hükm
 ## Kiracı sorunlarından seçilen dört yeni karar
 
 [Sözleşmesel çıkış, rutubet, iki haklı ihtar ve çıkış hasarı senaryoları](kiraci-senaryolari.md) her kararın künyesini, kaynak bağlantısını, sonucunu ve kullanım sınırlarını birlikte gösterir. Kurgular kararların gerçek olaylarından ayrıdır. İki yeni kayıttaki açık kişi adları anonimleştirilmiştir; kaynak ve dağıtılan metin hash değerleri ile `redactions` alanı bu farkı gösterir.
+
+### Ankara Bölge Adliye Mahkemesi 37. Hukuk Dairesi, E. 2024/2839 K. 2024/2118 T. 24.10.2024
+
+[Kaynak](https://app.dejure.ai/dokuman/8e67cad0-eca1-4c28-b96c-a608b1c762a3) · Kimlik: `8e67cad0-eca1-4c28-b96c-a608b1c762a3`
+
+**Araştırma konusu:** depozito, itirazın iptali, ödeme emrinden önce itiraz.
+
+İşin esasına girilmeden verilen ret kaldırıldı; dosya yeniden görülmek üzere gönderildi.
+
+Depozitonun iadesi veya hasar mahsubunun haklılığı hakkında esastan karar değildir.
+
+Başlıktaki 24/20/2024 açık tarih hatasıdır; künye, hüküm ve gerekçeli karar tarihi 24.10.2024 olarak örtüşür.
+
+Gerekçede davalı kiracı denilmesine rağmen dava anlatımında davacı kiracı depozitoyu istemektedir; taraf sıfatı aktarımını genelleme.
+
+İtirazdan sonra her zaman dava açılabileceği ifadesini süresiz dava hakkı sayma; İİK süreleri ayrıca doğrulanmalı.
+
+Aktarılan Yargıtay kararları bu güncellemede bağımsız tam metinden incelenmedi.
+
+### Gaziantep Bölge Adliye Mahkemesi 3. Hukuk Dairesi, E. 2017/288 K. 2017/286 T. 21.03.2017
+
+[Kaynak](https://app.dejure.ai/dokuman/9ca8de68-9bcb-444d-9c07-3257427162e2) · Kimlik: `9ca8de68-9bcb-444d-9c07-3257427162e2`
+
+**Araştırma konusu:** yeni malik, ihtiyaç, bildirim, alternatif dönem sonu yolu.
+
+Yeni malikin edinmeye bağlı bildirim yolu uygun bulunmadı; sözleşme dönemi sonundaki ihtiyaç davası süresinde görülerek kiracının istinafı reddedildi.
+
+Edinmeden itibaren bir aylık bildirimin kaçırılması bütün ihtiyaç yollarını ortadan kaldırmaz; somut dönem sonu seçeneği ayrı incelenmiştir.
+
+Kirada oturma yanında tapu araştırması, tahliye baskısı ve tanıklar değerlendirilmiştir; salt ihtiyaç beyanını kesin ispat sayma.
+
+Satılık ilanı fotoğraflarının tarih ve taşınmaz bağlantısı ispatlanamadığı için karşı delil yeterli görülmemiştir.
+
+2017 tarihli karar güncel arabuluculuk koşullarına kaynak değildir; edinme gününün dahil olduğu anlatımı süre rejimiyle birlikte incelenmelidir.
+
+### İstanbul Bölge Adliye Mahkemesi 35. Hukuk Dairesi, E. 2017/1061 K. 2018/40 T. 10.01.2018
+
+[Kaynak](https://app.dejure.ai/dokuman/22c1c746-82ef-49f2-9db7-66b4e2326652) · Kimlik: `22c1c746-82ef-49f2-9db7-66b4e2326652`
+
+**Araştırma konusu:** yeniden kiralama, TBK 355, tazminat, fesih ve teslim anlaşması.
+
+İhtiyaç nedeniyle tahliye kararından sonra tarafların fesih ve teslim belgesi düzenlediği olayda kiracının tazminat talebinin reddine karşı istinafı esastan reddedildi.
+
+Mahkeme kararı bulunsa da sonradan yapılan anlaşma ve icra yoluna gidilmemesi sonucu belirlemiştir.
+
+Bütün gönüllü tahliyelerde hiçbir tazminat istenemeyeceği şeklinde genelleme; belgenin içeriğini ve güncel karşı içtihadı araştır.
+
+Bir yıllık kira bedeli davacının talebidir; hükmedilmiş tazminat değildir.
+
+2018 tarihli karardan güncel arabuluculuk veya zamanaşımı sonucu türetme.
+
+### İstanbul Bölge Adliye Mahkemesi 36. Hukuk Dairesi, E. 2021/1010 K. 2023/2382 T. 19.10.2023
+
+[Kaynak](https://app.dejure.ai/dokuman/bb12b6b8-f33f-43ff-aded-6c9a2d166985) · Kimlik: `bb12b6b8-f33f-43ff-aded-6c9a2d166985`
+
+**Araştırma konusu:** on yıllık uzama, TBK 347, erken dava, ilk sözleşme süresi.
+
+01.11.2009 başlangıçlı bir yıllık sözleşmede 03.11.2020 tarihli dava erken bulunmuş; ret kararına karşı kiraya verenin istinafı esastan reddedilmiştir.
+
+Mahkeme ilk sözleşme bitimini 01.11.2010, on yıllık uzamayı 01.11.2020, izleyen yılı 01.11.2021 olarak değerlendirmiştir.
+
+Pandemi nedeniyle dört ay eklenmesi taraf savunmasıdır; kabul edilmiş hesap değildir.
+
+Dava anlatımındaki 47 madde atfını gerekçedeki TBK 347 yerine kullanma.
+
+Eski sözleşmelerde geçiş hükümlerini ve yeni sözleşme olup olmadığını ayrıca incele; otomatik bir aylık dava penceresi türetme.

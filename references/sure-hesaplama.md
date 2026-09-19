@@ -58,7 +58,7 @@ Dayanak: TBK 92 ve HMK 92. Hangi hükmün uygulanacağını işlem türü belirl
 
 İstanbul BAM 36. HD, E. 2021/1010, K. 2023/2382, 19.10.2023 tam metni incelendi. Mahkeme 01.11.2009 başlangıçlı bir yıllık sözleşmede ilk sürenin 01.11.2010, on yıllık uzamanın 01.11.2020, izleyen yılın 01.11.2021 tarihinde dolduğunu değerlendirmiş; 03.11.2020 tarihli davayı erken bulmuş ve kiraya verenin istinafını esastan reddetmiştir. [Karar kaynağı](https://app.dejure.ai/dokuman/bb12b6b8-f33f-43ff-aded-6c9a2d166985).
 
-Bu örnek `ilk süre bitimi + 10 + 1 yıl` ayrımını kontrol eder. Tarafın pandemi nedeniyle dört ay ekleme iddiası kabul edilen hesap değildir. Metnin dava anlatımındaki “47” madde atfı ile gerekçedeki 347'yi karıştırma. Karar dış araştırma kaynağıdır; bu güncellemede tam metin havuzuna eklenmemiştir. Bütün eski sözleşmeler için geçiş hükmü incelemesini ortadan kaldırmaz.
+Bu örnek `ilk süre bitimi + 10 + 1 yıl` ayrımını kontrol eder. Tarafın pandemi nedeniyle dört ay ekleme iddiası kabul edilen hesap değildir. Metnin dava anlatımındaki “47” madde atfı ile gerekçedeki 347'yi karıştırma. Kararın tam metni BAM ek havuzundadır: `pool.py get bb12b6b8-f33f-43ff-aded-6c9a2d166985`. Bütün eski sözleşmeler için geçiş hükmü incelemesini ortadan kaldırmaz.
 
 ## Komutlar ve çıktı
 
