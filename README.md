@@ -95,6 +95,21 @@ python scripts/scenarios.py show K6
 
 Her senaryo gerekli belgeleri, sonucu değiştiren soruları ve emsalin sınırlarını gösterir. Kurgu olaylar gerçek karar metinlerinden ayrıdır; sıralama kazanma ihtimali değildir.
 
+### Süre ve Dava Takvimi Hesaplayıcı
+
+TBK 344/345 bildirim ve dava açma süreleri, 5 yıllık hak ve nesafet dönemi ile TBK 347 uyarınca 10 yıllık uzama tahliye takvimini yerel olarak hesaplayan araç:
+
+```sh
+# Kira tespiti süre ve hedef dönem analizi (artış şartı, ihtar ve dava denetimi)
+python scripts/hesap.py tespit --baslangic 01.07.2018 --artis-sarti --dava-tarihi 15.05.2024
+
+# 10 yıllık uzama süresi sonu tahliye takvimi (en geç ihtar ve dava aralığı)
+python scripts/hesap.py tahliye-10yil --baslangic 01.01.2015
+
+# Kronolojik kira dönemleri ve hak-nesafet / ara yıl çizelgesi
+python scripts/hesap.py donemler --baslangic 15.09.2017
+```
+
 **Dosyanın güçlü ve zayıf yönlerini görmek için**
 
 > $kira-tespit-asistani sözleşmeyi ve olayları incele. Talep edilen dönem bakımından belirleyici konuları, eksik belgeleri ve karşı tarafın ileri sürebileceği itirazları göster.
