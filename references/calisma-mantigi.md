@@ -15,6 +15,8 @@ Kullanıcının istemediği ayrı bir dilekçe veya hukuki işlem üretme. Kısa
 
 ## 2. Olguları ve zaman çizelgesini kur
 
+Eksik bilgi için [soru akışındaki](soru-akisi.md) ilgili başlığı kullan. İlk turda sonucu etkileyen en fazla 3–5 kısa soru seç; mevcut belgelerde cevaplananları çıkar. Yeni cevap geldikçe yalnız etkilenen meseleleri ve kalan belirleyici eksikleri ele al.
+
 Her belirleyici bilgiyi şu ayrımla ele al: **belgede görülen**, **kullanıcının beyanı**, **karşı tarafın iddiası**, **henüz bilinmeyen**. Belgede yazması, çekişmeli bir iddianın ispatlandığı anlamına gelmez. Çelişen tarih veya bedelleri sessizce birleştirme.
 
 İhtiyaç varsa kısa bir çalışma tablosu tut: `olgu | değer/tarih | belge ve sayfa | çekişme/eksik`. Sözleşme başlangıcı, hedef kira dönemi, ihtar-tebliğ, arabuluculuk ve dava tarihlerini birbirinden ayrı yerleştir. Aylık/yıllık ve net/brüt bedelleri aynı temele getirmeden karşılaştırma.

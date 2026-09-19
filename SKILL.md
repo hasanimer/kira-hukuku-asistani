@@ -21,7 +21,7 @@ Kiracı sorunu üzerinden araştırma veya örnek çalışma istenirse [senaryo,
 
 Kullanıcının istediği ürüne odaklan: kısa soruya kısa cevap; dosya analizine gerekçeli değerlendirme; dilekçe isteğine düzenlenebilir taslak. Davacı kiraya veren veya davalı kiracı perspektifini belirle; karşı tarafın en güçlü itirazlarını da araştır.
 
-Mevcut belgelerden çıkar, tekrar sorma: konut/çatılı işyeri/diğer nitelik; taraf sıfatları; sözleşme başlangıcı ve yenileme dönemi; artış şartının birebir metni; ödenen ve istenen bedelin aylık/yıllık, net/brüt niteliği; talep edilen tespit dönemi; ihtar ve tebliğ tarihleri; arabuluculuk başvuru/son tutanak tarihleri; dava tarihi; önceki tespit kararları; emsal sözleşmeler ve bilirkişi raporu. Sonucu değiştiren eksikleri tek kısa soruda topla. Eksik belge varken araştırmayı sürdür, belirleyici tarihi veya olguyu varsayma.
+Mevcut belgelerden çıkar, tekrar sorma: konut/çatılı işyeri/diğer nitelik; taraf sıfatları; sözleşme başlangıcı ve yenileme dönemi; artış şartının birebir metni; ödenen ve istenen bedelin aylık/yıllık, net/brüt niteliği; talep edilen tespit dönemi; ihtar ve tebliğ tarihleri; arabuluculuk başvuru/son tutanak tarihleri; dava tarihi; önceki tespit kararları; emsal sözleşmeler ve bilirkişi raporu. Bilgi eksikse [uyuşmazlığa göre soru akışını](references/soru-akisi.md) kullan: ilk turda yalnız sonucu veya süreyi etkileyen 3–5 kısa soru seç; daha azı yeterliyse listeyi doldurma. Devam eden işlem ve tebliğ tarihini önceliklendir. Eksik belge varken bağımsız araştırmayı sürdür, belirleyici tarihi veya olguyu varsayma.
 
 Kira tespiti, uyarlama, tahliye ve alacak taleplerini ayrıştır. Karma dosyada talep bazında incele; ayrı dava türünün kurallarını tespit davasına aktarma.
 

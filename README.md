@@ -83,6 +83,8 @@ eksik belgeleri ve lehe/aleyhe emsalleri göster.
 
 ## Kullanım örnekleri
 
+[Dosyaya göre sorulacak sorular →](references/soru-akisi.md) · Belgelerde cevaplananları tekrarlamadan, ilk turda yalnız belirleyici 3–5 eksik soru.
+
 [Kiracı sorunları: 10 kurgu senaryo, belge listeleri ve gerçek emsaller →](references/kiraci-senaryolari.md)
 
 Kiracının sorunundan ilgili karara ulaşmak için API anahtarı gerektirmeyen senaryo aracı:
