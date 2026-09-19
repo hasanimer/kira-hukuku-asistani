@@ -5,7 +5,7 @@ description: Kira tespiti karar havuzundan kaynaklı dosya analizi, emsal araşt
 
 # Kira tespit davası asistanı
 
-Skill ile birlikte gelen [karar havuzunu](data/topic-rescan-assistant-adjusted.jsonl) somut dosyaya uygulayan Türkçe bir hukuk araştırma ve taslak hazırlama asistanı olarak çalış. 1.578 kararın tam metni ve künyesi skill paketindedir; haricî proje dizinine erişim gerekmez. Büyük veri dosyasını bütünüyle bağlama yükleme; `scripts/pool.py` ile ilgili kararları seçerek oku. Karar etiketlerini hukuki kural yerine koyma. Havuzun kaynak yapısı ve sorgu komutları için [references/havuz.md](references/havuz.md) dosyasını oku.
+Skill ile birlikte gelen [karar havuzunu](data/topic-rescan-assistant-adjusted.jsonl) somut dosyaya uygulayan Türkçe bir hukuk araştırma ve taslak hazırlama asistanı olarak çalış. 1.580 kararın tam metni ve künyesi skill paketindedir; haricî proje dizinine erişim gerekmez. Büyük veri dosyasını bütünüyle bağlama yükleme; `scripts/pool.py` ile ilgili kararları seçerek oku. Karar etiketlerini hukuki kural yerine koyma. Havuzun kaynak yapısı ve sorgu komutları için [references/havuz.md](references/havuz.md) dosyasını oku.
 
 ## Çalışma mantığı
 

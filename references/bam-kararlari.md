@@ -1,6 +1,6 @@
 # BAM seçkisi
 
-İki kararın tam metni `data/bam-selected.jsonl` içindedir. Ana havuzla birlikte aranır; bağımsız hukukçu doğrulaması yapılmamıştır. Kaynakta görülen metin hataları düzeltilmeden korunmuş, kullanım sınırları ayrı notlanmıştır. Bu kayıtların etiketleri JEV çıktısı değil, asistanın tam metin incelemesidir.
+Dört kararın tam metni `data/bam-selected.jsonl` içindedir. Ana havuzla birlikte aranır; bağımsız hukukçu doğrulaması yapılmamıştır. Kaynakta görülen metin hataları düzeltilmeden korunmuş, kullanım sınırları ayrı notlanmıştır. Bu kayıtların etiketleri JEV çıktısı değil, asistanın tam metin incelemesidir.
 
 ## Adana BAM 5. Hukuk Dairesi
 
@@ -30,4 +30,16 @@ python scripts/pool.py get 34ffba87-e4ff-4051-9441-4a72fe6564bd
 python scripts/pool.py get 615160e1-265c-486a-9b9a-4a82061a94b6
 ```
 
-Sonuçlardaki `research_notes` asistan değerlendirmesidir; mahkeme metni değildir. Atıf ve alıntıdan önce `get` ile metni oku ve `quote` ile birebir eşleşmeyi kontrol et. Bu iki örnek ülke çapındaki BAM uygulamasının tamamını temsil etmez.
+Sonuçlardaki `research_notes` asistan değerlendirmesidir; mahkeme metni değildir. Atıf ve alıntıdan önce `get` ile metni oku ve `quote` ile birebir eşleşmeyi kontrol et. Bu dört örnek ülke çapındaki BAM uygulamasının tamamını temsil etmez.
+
+## İstanbul BAM 36. Hukuk Dairesi
+
+**2024/2242 E., 2026/1952 K., 21.05.2026** — [Kaynak](https://app.dejure.ai/dokuman/961c549c-b29a-4239-b9d7-38dc51045170).
+
+BAM bilirkişi raporunu yeterli bulmuş, eski kiracı indirimi yapılmadan belirlenen 80.000 TL bedeli 72.000 TL olarak yeniden tespit etmiştir. Artış şartı, hedef dönem ve indirim yapılmaması konularında araştırma adayıdır. İlan ve rapor hakkındaki taraf itirazlarını mahkemenin kabulü gibi aktarma. İndirim oranı somut olaya aittir; metindeki oran aralığını evrensel kural sayma. Metne göre temyiz yolu açıktır; kesinleşme doğrulanmamıştır. Vekâlet ücreti sonucu diğer indirim kararlarıyla otomatik olarak aynı yönde kabul edilmez.
+
+## İstanbul BAM 55. Hukuk Dairesi
+
+**2024/3413 E., 2026/257 K., 26.01.2026** — [Kaynak](https://app.dejure.ai/dokuman/99f85bab-7bb3-4f9e-9d5b-5126a2cdce7e).
+
+Yeni malikle yapılan yenileme sözleşmesindeki bedelin, yenileme tarihindeki rayici yansıtıp yansıtmadığı araştırılmadan verilen kira tespit kararı kaldırılmıştır. Yeni malik, yenileme sözleşmesi ve beş yıllık süre ilişkisi için araştırma adayıdır. Karar, yeni sözleşmenin her durumda süreyi sıfırladığı veya hiçbir zaman sıfırlamadığı şeklinde genellenmez. Talep ve ilk bedelin aktarımındaki yazım farklılıklarını hesap girdisi yapma. Aktarılan Yargıtay kararına bağımsız atıf için ayrıca tam metin doğrulaması gerekir.
