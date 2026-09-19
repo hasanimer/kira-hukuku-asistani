@@ -91,6 +91,7 @@ def calculate(rule, start, *, count=None, unit=None):
 def main():
     if hasattr(sys.stdout, 'reconfigure'):
         sys.stdout.reconfigure(encoding='utf-8')
+        sys.stderr.reconfigure(encoding='utf-8')
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('rule', choices=['takvim', 'tbk344', 'tbk345', 'tbk315',
                                        'tbk351', 'tbk352', 'tbk347', 'uets'])

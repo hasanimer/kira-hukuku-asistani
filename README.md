@@ -104,6 +104,21 @@ python scripts/deadlines.py takvim 2026-01-31 --count 1 --unit ay
 
 Araç gün/ay/yıl ayrımını, ilgili kira sürelerini ve UETS hesabını gösterir. Sonuçlar takvim adayıdır; tatil, arabuluculuk ve somut dosyanın hukuki koşulları ayrıca kontrol edilir.
 
+### Süre ve Dava Takvimi Hesaplayıcı
+
+TBK 344/345 bildirim ve dava açma süreleri, 5 yıllık hak ve nesafet dönemi ile TBK 347 uyarınca 10 yıllık uzama tahliye takvimini yerel olarak hesaplayan araç:
+
+```sh
+# Kira tespiti süre ve hedef dönem analizi (artış şartı, ihtar ve dava denetimi)
+python scripts/hesap.py tespit --baslangic 01.07.2018 --artis-sarti --dava-tarihi 15.05.2024 --hedef-donem 01.07.2024
+
+# 10 yıllık uzama süresi sonu tahliye takvimi (yıldönümü ve bildirim adayları)
+python scripts/hesap.py tahliye-10yil --baslangic 01.01.2015
+
+# Kronolojik kira dönemleri ve hak-nesafet / ara yıl çizelgesi
+python scripts/hesap.py donemler --baslangic 15.09.2017
+```
+
 **Dosyanın güçlü ve zayıf yönlerini görmek için**
 
 > $kira-tespit-asistani sözleşmeyi ve olayları incele. Talep edilen dönem bakımından belirleyici konuları, eksik belgeleri ve karşı tarafın ileri sürebileceği itirazları göster.

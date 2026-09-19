@@ -84,6 +84,13 @@ def main():
         require(article['requested_article'] == number and article['markdown'],
                 f'Article {number} unavailable')
     run('tbk.py', '650', expected=2)
+    calc = run('hesap.py', 'tespit', '--baslangic', '01.07.2018', '--artis-sarti', '--hedef-donem', '01.07.2024', '--json')
+    require(calc['bes_yil_dolum_tarihi'] == '30.06.2023' and calc['ilk_hak_nesafet_donemi']['kira_yili'] == 6,
+            'hesap.py tespit calculation error')
+    calc10 = run('hesap.py', 'tahliye-10yil', '--baslangic', '01.01.2015', '--json')
+    require(calc10['toplam_yil'] == 12 and calc10['en_gec_ihtar_teblig_tarihi'] == '01.10.2026',
+            'hesap.py tahliye-10yil calculation error')
+    run('hesap.py', 'tespit', '--baslangic', 'invalid', '--hedef-donem', '01.07.2024', '--artis-sarti', expected=1)
     with tempfile.TemporaryDirectory(prefix='kira-integrity-') as directory:
         corrupt = dict(row, text=row['text'] + 'changed')
         path = Path(directory) / 'topic-rescan-assistant-adjusted.jsonl'

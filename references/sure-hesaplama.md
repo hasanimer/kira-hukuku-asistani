@@ -62,6 +62,10 @@ Bu örnek `ilk süre bitimi + 10 + 1 yıl` ayrımını kontrol eder. Tarafın pa
 
 ## Komutlar ve çıktı
 
+`deadlines.py` tek bir süre kuralının ham hesabını yapar. `hesap.py` kira dönemi çizelgesini ve TBK 345 tarih koşullarını birleştirir; ay/yıl işlemleri ve TBK 347 hesabında aynı takvim işlevlerini kullanır. `hesap.py tespit` için `--hedef-donem` ile `--artis-sarti` veya `--artis-sarti-yok` açıkça verilmelidir; eksik hedefi bugüne göre seçmez, dönemle eşleşmeyen tarihi sessizce düzeltmez.
+
+`hesap.py` çıktısında `kararin_gecerlilik_tarihi` kesinlik izlenimi vermemek için boş bırakılır; yalnız tarih koşulu sağlanıyorsa `aday_etki_tarihi` üretilir. Tarih koşulu sağlanmıyorsa sonraki dönem otomatik ilan edilmez. `tahliye_dava_acma_araligi` alanı da otomatik bir aylık pencere varsaymamak için boştur. Eski `en_gec_dava_tarihi` alanı yalnız hedef dönemin ham sonunu gösterir; genel dava son günü değildir.
+
 ```sh
 python scripts/deadlines.py takvim 2026-01-31 --count 1 --unit ay
 python scripts/deadlines.py tbk345 2026-09-01

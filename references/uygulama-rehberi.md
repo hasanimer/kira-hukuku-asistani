@@ -8,9 +8,9 @@ TBK 344/1–2 kapsamında yenileme bedelini incelerken güncel ölçüt TÜFE'ni
 
 TBK 344/3, beş yıldan uzun süreli veya beş yıldan sonra yenilenen sözleşmelerde rayiç ve hakkaniyet değerlendirmesini düzenler. Başlangıçtan beş yılın dolmasıyla altıncı kira yılı için uygulanabilir; baştan on yıllık sözleşme kurulması tek başına bunu onuncu yıla ertelemez. “4+1” kısaltması yerine başlangıç ve hedef dönem tarihlerini yaz. Sonraki beş yıllık aralıkları önceki tespitler ve sözleşmelerle birlikte hesapla; ara yılları her yıl serbest rayiç belirleme hakkı gibi sunma. [Dayanak: TBK 344](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5).
 
-Örnek: 01.09.2020 başlangıcında ilk beş yıl 31.08.2025 sonunda tamamlanır; altıncı kira yılı 01.09.2025'te başlar. Bu hesap tek başına hükmün o tarihten etkili olacağını göstermez; TBK 345 ayrıca uygulanır.
+Örnek: 01.09.2020 başlangıcında ilk beş yıl 31.08.2025 sonunda tamamlanır; altıncı kira yılı 01.09.2025'te başlar. Bu hesap tek başına hükmün o tarihten etkili olacağını göstermez; TBK 345 ayrıca uygulanır. Dönem çizelgesi ve 5 yıllık dönemin takvim adayı için `python scripts/hesap.py donemler --baslangic 01.09.2020` çalıştırılabilir.
 
-Yeni sözleşme, ek protokol veya malik değişikliği görünce süreyi otomatik sıfırlama. Belgenin niteliğini, devam eden ilişkiyi ve o tarihte belirlenen bedelin emsalleri yansıtıp yansıtmadığını incele. İstanbul BAM 55. HD, E. 2024/3413, K. 2026/257, 26.01.2026 bu araştırmanın yapılmasını isteyen bir kaldırma kararıdır; her protokolün süreyi sıfırladığına dair genel kural değildir. [Seçki ve tam metne erişim](bam-kararlari.md).
+Yeni sözleşme, ek protokol veya malik değişikliği görünce süreyi otomatik sıfırlama. Belgenin niteliğini, devam eden ilişkiyi ve o tarihte belirlenen bedelin emsalleri yansıtıp yansıtmadığını incele. İstanbul BAM 55. HD, E. 2024/3413, K. 2026/257, 26.01.2026 bu araştırmanın yapılmasını isteyen bir kaldırma kararıdır; her protokolün süreyi sıfırladığına dair genel kural değildir. [Seçki ve tam metne erişim](bam-kararlari.md). Hedef dönem ve 30 günlük ihtar analizi için `python scripts/hesap.py tespit --baslangic 01.09.2020 --hedef-donem 01.09.2025 --artis-sarti` komutundan faydalan.
 
 ## Hedef döneme etki: TBK 345
 

@@ -41,11 +41,11 @@ BAM kararlarını kullanırken [seçki ve kullanım sınırlarını](references/
 
 ## Zaman ve güncellik
 
-Paket [6098 sayılı Türk Borçlar Kanunu'nun tam metnini](data/mevzuat/6098-turk-borclar-kanunu.md) yedi bölümün tamamıyla içerir. `python scripts/tbk.py 344` veya `345` ile ilgili maddeyi getir; numarasız çağrı kaynak ve alınma bilgisini verir. Ayrıntılar: [references/mevzuat.md](references/mevzuat.md). Bu sabit kopyadır; somut dosyada uygulanacak dönem ve sonraki değişiklikleri ayrıca doğrula.
+Paket [6098 sayılı Türk Borçlar Kanunu'nun tam metnini](data/mevzuat/6098-turk-borclar-kanunu.md) yedi bölümün tamamıyla içerir. `python scripts/tbk.py 344` veya `345` ile ilgili maddeyi getir; numarasız çağrı kaynak ve alınma bilgisini verir. Ayrıntılar: [references/mevzuat.md](references/mevzuat.md). Bu sabit kopyadır; somut dosyada uygulanacak dönem ve sonraki değişiklikleri ayrıca doğrula. Dönem ve süre hesaplamalarında `python scripts/hesap.py tespit --baslangic GG.AA.YYYY --hedef-donem GG.AA.YYYY (--artis-sarti veya --artis-sarti-yok) [--ihtar-tarihi GG.AA.YYYY]`, 10 yıllık uzama takviminde `python scripts/hesap.py tahliye-10yil --baslangic GG.AA.YYYY` veya dönem dökümünde `python scripts/hesap.py donemler --baslangic GG.AA.YYYY` araçlarından yararlan.
 
 Havuz tarihî içtihat içerir; güncel mevzuatın veya tüm yeni kararların yerine geçmez. Somut hukuki sonuç vermeden önce uygulanacak tarihteki ve güncel düzenlemeyi resmî mevzuat/Resmî Gazete üzerinden çevrimiçi doğrula; erişilebilir Yargı araçlarını kendi kullanım yönergeleriyle birlikte kullanabilirsin. TBK 344–345, ilgili geçici düzenlemeler, arabuluculuk, görev/yetki ve usul konularını dosyanın gerektirdiği ölçüde kontrol et. İnternete erişilemiyorsa doğrulanamayan kuralı açıkça işaretle, kesin süre veya sonuç üretme.
 
-Karar tarihi ile uyuşmazlığa uygulanan hukuki dönemi ayrı tut. Eski endeks uygulamasını, geçici artış sınırını veya geçmiş usul uygulamasını bugün geçerliymiş gibi aktarma. Eski kiracı indirimi için evrensel sabit oran veya başarı yüzdesi verme. Süre hesabında başlangıç olayı, tebliğ, dönem, kural ve istisnayı görünür kıl; tarih eksikse alternatif senaryoları koşullu sun.
+Karar tarihi ile uyuşmazlığa uygulanan hukuki dönemi ayrı tut. Eski endeks uygulamasını, geçici artış sınırını veya geçmiş usul uygulamasını bugün geçerliymiş gibi aktarma. Eski kiracı indirimi için evrensel sabit oran veya başarı yüzdesi verme. Süre hesabında başlangıç olayı, tebliğ, dönem, kural ve istisnayı görünür kıl; tarih eksikse alternatif senaryoları koşullu sun. Hedef dönem ve ihtar tarihlerini doğrulamak için `hesap.py` çıktılarını hukuki gerekçeyle birleştir.
 
 ## Ürünü oluştur
 
