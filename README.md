@@ -6,7 +6,7 @@
 
 Kira tespiti, tahliye, uyarlama, alacak ve depozito dosyaları için kaynaklara dayalı araştırma ve dilekçe hazırlama becerisi.
 
-[![Paket kontrolü](https://github.com/hasanimer/kira-tespit-asistani/actions/workflows/validate.yml/badge.svg)](https://github.com/hasanimer/kira-tespit-asistani/actions/workflows/validate.yml)
+[![Paket kontrolü](https://github.com/hasanimer/kira-hukuku-asistani/actions/workflows/validate.yml/badge.svg)](https://github.com/hasanimer/kira-hukuku-asistani/actions/workflows/validate.yml)
 ![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square)
 ![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827?style=flat-square)
 
@@ -60,7 +60,7 @@ Bilirkişi raporunun emsallerini ve hesap yöntemini inceleyerek somut itirazlar
 ### 1. Skill'i ekleyin
 
 ```sh
-git clone https://github.com/hasanimer/kira-tespit-asistani.git "$HOME/.codex/skills/kira-tespit-asistani"
+git clone https://github.com/hasanimer/kira-hukuku-asistani.git "$HOME/.codex/skills/kira-tespit-asistani"
 ```
 
 <details>
@@ -109,7 +109,7 @@ Skill, ilgili kaynakları paket içinden seçerek okur; kararlarla yeniden eğit
 
 ## Veri kapsamı
 
-Yerel karar havuzu kira tespiti ağırlıklıdır. Diğer kira hukuku konuları [modüller](references/moduller.md) üzerinden bağlı karar ve mevzuat kaynaklarında araştırılır. İsteğe bağlı [TypeSafe entegrasyonu](references/typesafe.md), karma talepleri yönlendirir ve karar adaylarını sıralar; hukuki sonuç veya dava başarı oranı üretmez. TypeSafe kullanımı ayrıca API anahtarı ve ağ erişimi gerektirir. Mevcut repo adresi ve `$kira-tespit-asistani` çağrısı korunmuştur.
+Yerel karar havuzu kira tespiti ağırlıklıdır. Diğer kira hukuku konuları [modüller](references/moduller.md) üzerinden bağlı karar ve mevzuat kaynaklarında araştırılır. İsteğe bağlı [TypeSafe entegrasyonu](references/typesafe.md), karma talepleri yönlendirir ve karar adaylarını sıralar; hukuki sonuç veya dava başarı oranı üretmez. TypeSafe kullanımı ayrıca API anahtarı ve ağ erişimi gerektirir. Mevcut `$kira-tespit-asistani` çağrısı korunmuştur.
 
 | | |
 | :--- | :--- |
@@ -170,6 +170,6 @@ kira-tespit-asistani/
 
 **Bir hata mı buldunuz, bir öneriniz mi var?**
 
-[Issue açın](https://github.com/hasanimer/kira-tespit-asistani/issues) · [Katkı rehberini okuyun](CONTRIBUTING.md)
+[Issue açın](https://github.com/hasanimer/kira-hukuku-asistani/issues) · [Katkı rehberini okuyun](CONTRIBUTING.md)
 
 </div>
