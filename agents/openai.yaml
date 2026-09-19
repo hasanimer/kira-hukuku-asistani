@@ -1,4 +1,4 @@
 interface:
-  display_name: "Kira Tespit Davası Asistanı"
+  display_name: "Kira Hukuku Asistanı"
   short_description: "Karar havuzundan dosya analizi ve dilekçe taslağı"
-  default_prompt: "$kira-tespit-asistani ile kira tespit dosyamı incele, havuzdan ilgili kararları doğrula ve istediğim hukuki taslağı hazırla."
+  default_prompt: "$kira-tespit-asistani ile kira hukuku dosyamı ilgili modüllere ayır, kaynakları doğrula ve istediğim analizi veya taslağı hazırla."

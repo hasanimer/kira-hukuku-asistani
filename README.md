@@ -1,10 +1,10 @@
 <div align="center">
 
-# Kira Tespit Davası Asistanı
+# Kira Hukuku Asistanı
 
 **Dosyadan içtihada, içtihattan gerekçeli taslağa.**
 
-Kira tespit dosyaları için kaynaklara dayalı araştırma ve dilekçe hazırlama becerisi.
+Kira tespiti, tahliye, uyarlama, alacak ve depozito dosyaları için kaynaklara dayalı araştırma ve dilekçe hazırlama becerisi.
 
 [![Paket kontrolü](https://github.com/hasanimer/kira-tespit-asistani/actions/workflows/validate.yml/badge.svg)](https://github.com/hasanimer/kira-tespit-asistani/actions/workflows/validate.yml)
 ![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square)
@@ -108,6 +108,8 @@ eksik belgeleri ve lehe/aleyhe emsalleri göster.
 Skill, ilgili kaynakları paket içinden seçerek okur; kararlarla yeniden eğitilmiş bir model değildir. [Ayrıntılı çalışma mantığı →](references/calisma-mantigi.md)
 
 ## Veri kapsamı
+
+Yerel karar havuzu kira tespiti ağırlıklıdır. Diğer kira hukuku konuları [modüller](references/moduller.md) üzerinden bağlı karar ve mevzuat kaynaklarında araştırılır. İsteğe bağlı [TypeSafe entegrasyonu](references/typesafe.md), karma talepleri yönlendirir ve karar adaylarını sıralar; hukuki sonuç veya dava başarı oranı üretmez. TypeSafe kullanımı ayrıca API anahtarı ve ağ erişimi gerektirir. Mevcut repo adresi ve `$kira-tespit-asistani` çağrısı korunmuştur.
 
 | | |
 | :--- | :--- |

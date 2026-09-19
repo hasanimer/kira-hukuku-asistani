@@ -10,6 +10,7 @@ Kullandığınız komutu, Python sürümünü, beklenen sonucu ve gerçekleşen 
 
 ```sh
 python scripts/validate.py
+python -m unittest discover -s tests -v
 ```
 
 Standart kütüphane yeterlidir. GitHub Actions aynı denetimi Windows ve Linux üzerinde çalıştırır.

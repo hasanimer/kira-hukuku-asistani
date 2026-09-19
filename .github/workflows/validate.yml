@@ -16,3 +16,4 @@ jobs:
         with:
           python-version: '3.10'
       - run: python scripts/validate.py
+      - run: python -m unittest discover -s tests -v
