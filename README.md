@@ -1,69 +1,171 @@
+<div align="center">
+
 # Kira Tespit Davası Asistanı
 
-Kira tespit dosyalarını incelemek, ilgili kararları araştırmak ve kaynaklara dayalı dilekçe taslakları hazırlamak için taşınabilir bir Codex skill'i.
+**Dosyadan içtihada, içtihattan gerekçeli taslağa.**
 
-**1.576 karar · 6098 sayılı Türk Borçlar Kanunu · Python standart kütüphanesi**
+Kira tespit dosyaları için kaynaklara dayalı araştırma ve dilekçe hazırlama becerisi.
 
-## Neler yapar?
+[![Paket kontrolü](https://github.com/hasanimer/kira-tespit-asistani/actions/workflows/validate.yml/badge.svg)](https://github.com/hasanimer/kira-tespit-asistani/actions/workflows/validate.yml)
+![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square)
+![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827?style=flat-square)
 
-- Dosyadaki olayları, tarihleri ve eksik belgeleri belirler.
-- Lehe ve aleyhe kararları arar, tam metinleri okur ve alıntıları doğrular.
-- Dava ve cevap dilekçesi ile bilirkişi raporuna itiraz taslağı hazırlar.
-- Kanun hükümleri, karar gerekçeleri ve somut olay arasındaki bağlantıyı açıklar.
+[Hızlı başlangıç](#hızlı-başlangıç) · [Kullanım örnekleri](#kullanım-örnekleri) · [Çalışma akışı](#çalışma-akışı) · [Rehberler](#rehberler)
 
-## Kurulum
+</div>
 
-Git ve Python 3.10 veya üzeri gerekir. Yerel arama için API anahtarı ya da ek Python paketi gerekmez. Güncel kaynak araştırması, kullandığınız asistanın internet ve araç erişimine bağlıdır.
+---
 
-Codex beceri dizininize klonlayın; hedef klasörde mevcut bir kopya varsa üzerine yazmayın. Özel bir `CODEX_HOME` kullanıyorsanız hedef olarak onun `skills` dizinini seçin.
+| **1.576 karar** | **6098 sayılı Kanun** | **Taşınabilir paket** |
+| :---: | :---: | :---: |
+| Tam metin, künye ve kaynak izi | Türk Borçlar Kanunu tam metni | Yerel aramada API anahtarı gerekmez |
+
+## Dosyanız için ne yapar?
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3>01 · Dosya analizi</h3>
+Olayları ve tarihleri düzenler; sonucu etkileyen eksik bilgi ve belgeleri belirler.
+
+</td>
+<td width="50%" valign="top">
+
+<h3>02 · Emsal araştırması</h3>
+Lehe ve aleyhe kararları bulur; tam metinleri inceler, birebir alıntıları doğrular.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3>03 · Dilekçe taslağı</h3>
+Dava ve cevap dilekçelerinde somut olay, delil, hukuki dayanak ve talep arasında bağ kurar.
+
+</td>
+<td width="50%" valign="top">
+
+<h3>04 · Rapor incelemesi</h3>
+Bilirkişi raporunun emsallerini ve hesap yöntemini inceleyerek somut itirazlar hazırlar.
+
+</td>
+</tr>
+</table>
+
+## Hızlı başlangıç
+
+**Gerekenler:** Codex, Git ve Python 3.10+. Yerel yardımcılar yalnız Python standart kütüphanesini kullanır.
+
+### 1. Skill'i ekleyin
 
 ```sh
 git clone https://github.com/hasanimer/kira-tespit-asistani.git "$HOME/.codex/skills/kira-tespit-asistani"
 ```
 
-Bu komut PowerShell, Bash ve Zsh ile kullanılabilir. Codex'te beceriyi `$kira-tespit-asistani` adıyla çağırın.
+<details>
+<summary>Kurulum yolu ve mevcut kurulum hakkında</summary>
 
-## Örnek istekler
+Komut PowerShell, Bash ve Zsh ile kullanılabilir. Özel bir `CODEX_HOME` kullanıyorsanız hedef olarak onun `skills` dizinini seçin. Hedef klasörde mevcut bir kopya varsa üzerine yazmadan önce değişikliklerinizi koruyun.
 
-> $kira-tespit-asistani kira tespit dosyamı incele; eksik belgeleri ve lehe/aleyhe emsalleri göster.
+</details>
 
-> $kira-tespit-asistani sözleşme ve dava dilekçesine dayanarak cevap dilekçesi taslağı hazırla.
+### 2. Codex'te çağırın
 
-> $kira-tespit-asistani bilirkişi raporundaki emsalleri ve hesap yöntemini incele, somut itirazları belirle.
+```text
+$kira-tespit-asistani kira tespit dosyamı incele;
+eksik belgeleri ve lehe/aleyhe emsalleri göster.
+```
 
-## Nasıl çalışır?
+### 3. Dosyanızla çalışın
 
-Belgeler → olgu ve tarih çizelgesi → hukuki meseleler → kanun ve karar araştırması → uygulanabilirlik ve karşı görüş kontrolü → gerekçeli sonuç veya taslak.
+İlgili sözleşmeyi, dilekçeyi veya raporu paylaşın; istediğiniz çıktıyı belirtin. Asistan önce belirleyici olguları çıkarır, ardından ilgili kaynakları araştırır.
 
-Skill, ilgili kaynakları paket içinden seçerek okur. Kararlarla yeniden eğitilmiş bir model değildir. Ayrıntılar [çalışma mantığında](references/calisma-mantigi.md) açıklanır.
+## Kullanım örnekleri
 
-## Kapsam
+**Dosyanın güçlü ve zayıf yönlerini görmek için**
 
-Kararlar 14.10.2004–21.01.2026 tarih aralığındadır. Veri paketi sabit bir kopyadır ve kendiliğinden güncellenmez. Karar etiketleri bağımsız hukukçu doğrulamasından geçmemiştir. Somut dosyada uygulanacak hükmün dönemi ve güncelliği ayrıca kontrol edilir; taslaklar dosya belgeleriyle birlikte değerlendirilir.
+> $kira-tespit-asistani sözleşmeyi ve olayları incele. Talep edilen dönem bakımından belirleyici konuları, eksik belgeleri ve karşı tarafın ileri sürebileceği itirazları göster.
 
-## Depo yapısı
+**Cevap dilekçesi hazırlamak için**
 
-| Yol | İçerik |
-| --- | --- |
-| [SKILL.md](SKILL.md) | Asistan yönergeleri |
-| [references/](references/) | Çalışma akışı, havuz ve mevzuat rehberleri |
-| [data/](data/) | Karar tam metinleri, kanun ve kaynak kayıtları |
-| [scripts/](scripts/) | Arama, madde erişimi ve bütünlük kontrolü |
-| [agents/openai.yaml](agents/openai.yaml) | Codex görünüm bilgileri |
+> $kira-tespit-asistani sözleşme ve dava dilekçesine dayanarak cevap dilekçesi taslağı hazırla. Dayandığın kararları tam metinden doğrula.
+
+**Bilirkişi raporunu değerlendirmek için**
+
+> $kira-tespit-asistani bilirkişi raporundaki emsalleri ve hesap yöntemini incele; dosyadaki belgelere bağlı somut itirazları belirle.
+
+## Çalışma akışı
+
+| Aşama | Yapılan iş |
+| :--- | :--- |
+| **01 · Dosyayı anla** | Belgelerden olgu ve tarih çizelgesi çıkarılır. |
+| **02 · Soruyu belirle** | Sonucu değiştiren hukuki meseleler ayrıştırılır. |
+| **03 · Kaynağı araştır** | İlgili kanun hükümleri ve karar tam metinleri okunur. |
+| **04 · Karşılaştır** | Lehe/aleyhe gerekçeler, olgusal farklar ve dönem incelenir. |
+| **05 · Sonucu hazırla** | Kaynaklara bağlı değerlendirme veya taslak oluşturulur. |
+
+Skill, ilgili kaynakları paket içinden seçerek okur; kararlarla yeniden eğitilmiş bir model değildir. [Ayrıntılı çalışma mantığı →](references/calisma-mantigi.md)
+
+## Veri kapsamı
+
+| | |
+| :--- | :--- |
+| **Karar havuzu** | 1.576 karar · 14.10.2004–21.01.2026 |
+| **Mevzuat** | 6098 sayılı Türk Borçlar Kanunu |
+| **Kaynak kontrolü** | Künye, metin hash'i ve birebir alıntı doğrulaması |
+| **Otomatik denetim** | Windows ve Linux üzerinde paket bütünlüğü kontrolleri |
+
+> [!NOTE]
+> Veri paketi sabit bir kopyadır; kendiliğinden güncellenmez. Karar etiketleri bağımsız hukukçu doğrulamasından geçmemiştir. Somut dosyada uygulanacak hükmün dönemi ve güncelliği ayrıca kontrol edilir. Güncel kaynak araştırması, asistanın internet ve araç erişimine bağlıdır.
 
 ## Komut satırı
 
 Depo kökünde çalıştırın. Sisteminizde gerekirse `python` yerine `python3` kullanın.
 
 ```sh
+# Havuzun kapsamını görün
 python scripts/pool.py stats
+
+# İlgili kararları arayın
 python scripts/pool.py search "eski kiracı" --kind esas_gerekcesi --limit 8
+
+# Kanun maddesini okuyun
 python scripts/tbk.py 344
+
+# Paketin bütünlüğünü kontrol edin
 python scripts/validate.py
 ```
 
-Tam metin ve alıntı komutları için [havuz rehberini](references/havuz.md), kanun erişimi için [mevzuat rehberini](references/mevzuat.md) okuyun.
+<details>
+<summary>Depo yapısı</summary>
 
-## Katkı
+```text
+kira-tespit-asistani/
+├── SKILL.md             Asistan yönergeleri
+├── agents/              Codex görünüm bilgileri
+├── data/                Karar havuzu, mevzuat ve kaynak kayıtları
+├── references/          Çalışma akışı ve kullanım rehberleri
+├── scripts/             Arama, madde erişimi ve doğrulama
+└── .github/workflows/   Otomatik paket kontrolleri
+```
 
-Hata bildirimi ve değişiklik önerileri için [katkı rehberini](CONTRIBUTING.md) kullanın. Veri kaynağı, sürüm ve bütünlük bilgileri [veri rehberinde](data/README.md) bulunur.
+</details>
+
+## Rehberler
+
+| Başlamak için | Ayrıntıya inmek için |
+| :--- | :--- |
+| [Skill yönergeleri](SKILL.md) | [Karar havuzu ve arama komutları](references/havuz.md) |
+| [Çalışma mantığı](references/calisma-mantigi.md) | [Borçlar Kanunu erişimi](references/mevzuat.md) |
+| [Katkı rehberi](CONTRIBUTING.md) | [Veri kaynakları ve bütünlük](data/README.md) |
+
+---
+
+<div align="center">
+
+**Bir hata mı buldunuz, bir öneriniz mi var?**
+
+[Issue açın](https://github.com/hasanimer/kira-tespit-asistani/issues) · [Katkı rehberini okuyun](CONTRIBUTING.md)
+
+</div>
