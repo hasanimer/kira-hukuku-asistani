@@ -16,7 +16,7 @@ Kira tespiti, tahliye, uyarlama, alacak ve depozito dosyaları için kaynaklara 
 
 ---
 
-| **1.580 karar** | **6098 sayılı Kanun** | **Taşınabilir paket** |
+| **1.585 karar** | **6098 sayılı Kanun** | **Taşınabilir paket** |
 | :---: | :---: | :---: |
 | Tam metin, künye ve kaynak izi | Türk Borçlar Kanunu tam metni | Yerel aramada API anahtarı gerekmez |
 
@@ -113,7 +113,7 @@ Yerel karar havuzu kira tespiti ağırlıklıdır. Diğer kira hukuku konuları 
 
 | | |
 | :--- | :--- |
-| **Karar havuzu** | 1.580 karar · 14.10.2004–21.05.2026 |
+| **Karar havuzu** | 1.585 karar · 14.10.2004–21.05.2026 |
 | **Mevzuat** | 6098 sayılı Türk Borçlar Kanunu |
 | **Kaynak kontrolü** | Künye, metin hash'i ve birebir alıntı doğrulaması |
 | **Otomatik denetim** | Windows ve Linux üzerinde paket bütünlüğü kontrolleri |

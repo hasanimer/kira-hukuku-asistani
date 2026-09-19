@@ -27,4 +27,4 @@ Talebi bir veya birden çok modülle eşleştir. TypeSafe sinyalleri yardımcıd
 
 Yargıtay 6. HD, E. 2013/5349, K. 2013/16244, 04.12.2013 tam metni incelendi: depozitodan kira alacağının mahsubunun araştırılması ve kiracının götürdüğü demirbaşlara ilişkin tazminat değerlendirmesi nedeniyle bozma. 2009 sözleşmesi ve 2010 feshiyle ilgili tarihî karar; güncel TBK 342 uygulaması yerine geçmez. Metindeki taraf sıfatı anlatım hatalarını ve aktarılan başka kararın bağımsız doğrulanmadığını dikkate al. [Karar](https://mevzuat.adalet.gov.tr/ictihat/520782500).
 
-Bu iki kayıt dış araştırma örneğidir; ana havuz sayısına dahil değildir. Her modül için karşı yöndeki ve güncel kararları somut dosyada ayrıca araştır.
+İstanbul BAM 36. HD E. 2024/5083, K. 2026/377 tam metni 20.09.2026 tarihinde BAM ek havuzuna alındı; Yargıtay depozito kararı dış araştırma örneği olarak kalır. Yeni beş kararın kullanım sınırları [BAM seçkisindedir](bam-kararlari.md). Her modül için karşı yöndeki ve güncel kararları somut dosyada ayrıca araştır.

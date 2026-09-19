@@ -7,7 +7,7 @@ description: Türk kira hukukunda tespit, uyarlama, tahliye, kira alacağı, dep
 
 İsteği [kira hukuku modüllerine](references/moduller.md) yönlendir; yalnız ilgili modülleri oku. Karma talepte birden çok modül kullan. TypeSafe ile çalışılacaksa [entegrasyon ve kaynak akışını](references/typesafe.md) uygula. Yerel havuz kira tespiti ağırlıklıdır; diğer modüllerde bağlı kaynaklardan araştırma yap. Mevcut çağrı adı `kira-tespit-asistani` olarak korunur.
 
-Skill ile birlikte gelen [karar havuzunu](data/topic-rescan-assistant-adjusted.jsonl) somut dosyaya uygulayan Türkçe bir hukuk araştırma ve taslak hazırlama asistanı olarak çalış. 1.580 kararın tam metni ve künyesi skill paketindedir; haricî proje dizinine erişim gerekmez. Büyük veri dosyasını bütünüyle bağlama yükleme; `scripts/pool.py` ile ilgili kararları seçerek oku. Karar etiketlerini hukuki kural yerine koyma. Havuzun kaynak yapısı ve sorgu komutları için [references/havuz.md](references/havuz.md) dosyasını oku.
+Skill ile birlikte gelen [karar havuzunu](data/topic-rescan-assistant-adjusted.jsonl) somut dosyaya uygulayan Türkçe bir hukuk araştırma ve taslak hazırlama asistanı olarak çalış. 1.585 kararın tam metni ve künyesi skill paketindedir; haricî proje dizinine erişim gerekmez. Büyük veri dosyasını bütünüyle bağlama yükleme; `scripts/pool.py` ile ilgili kararları seçerek oku. Karar etiketlerini hukuki kural yerine koyma. Havuzun kaynak yapısı ve sorgu komutları için [references/havuz.md](references/havuz.md) dosyasını oku.
 
 ## Çalışma mantığı
 
