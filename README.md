@@ -16,7 +16,7 @@ Kira tespit dosyaları için kaynaklara dayalı araştırma ve dilekçe hazırla
 
 ---
 
-| **1.576 karar** | **6098 sayılı Kanun** | **Taşınabilir paket** |
+| **1.578 karar** | **6098 sayılı Kanun** | **Taşınabilir paket** |
 | :---: | :---: | :---: |
 | Tam metin, künye ve kaynak izi | Türk Borçlar Kanunu tam metni | Yerel aramada API anahtarı gerekmez |
 
@@ -111,7 +111,7 @@ Skill, ilgili kaynakları paket içinden seçerek okur; kararlarla yeniden eğit
 
 | | |
 | :--- | :--- |
-| **Karar havuzu** | 1.576 karar · 14.10.2004–21.01.2026 |
+| **Karar havuzu** | 1.578 karar · 14.10.2004–21.01.2026 |
 | **Mevzuat** | 6098 sayılı Türk Borçlar Kanunu |
 | **Kaynak kontrolü** | Künye, metin hash'i ve birebir alıntı doğrulaması |
 | **Otomatik denetim** | Windows ve Linux üzerinde paket bütünlüğü kontrolleri |

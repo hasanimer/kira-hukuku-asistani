@@ -36,6 +36,23 @@ def main():
     require(readable == text + '\n', 'Readable law differs from source chunks')
     stats = run('pool.py', 'stats')
     require(stats['records'] == manifest['records'], 'Decision count mismatch')
+    if 'collections' in manifest:
+        for name, count in manifest['collections'].items():
+            require(sum(bool(line.strip()) for line in (ROOT / 'data' / name).read_text(
+                encoding='utf-8').splitlines()) == count, f'Collection count mismatch: {name}')
+    bam_file = ROOT / 'data/bam-selected.jsonl'
+    if bam_file.exists():
+        for line in bam_file.read_text(encoding='utf-8').splitlines():
+            bam = json.loads(line)
+            fetched = run('pool.py', 'get', bam['document_id'])
+            require(fetched['text'] == bam['text'] and fetched['source_url'] == bam['source_url'],
+                    'BAM text or provenance lost')
+            quoted = run('pool.py', 'quote', bam['document_id'], bam['text'][-100:])
+            require(quoted['exact_match'], 'BAM final text quote failed')
+        filtered = run('pool.py', 'search', 'kira', '--court-type', 'bam')
+        require(filtered['total_matches'] == manifest['collections']['bam-selected.jsonl'],
+                'BAM filter missed records')
+        require(all(r['court_type'] == 'bam' for r in filtered['results']), 'BAM filter leaked')
     search = run('pool.py', 'search', 'eski kiracı', '--kind', 'esas_gerekcesi', '--limit', '1')
     require(search['total_matches'] > 0, 'Known search returned no matches')
     row = run('pool.py', 'get', search['results'][0]['document_id'])

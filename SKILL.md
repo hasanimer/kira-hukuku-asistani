@@ -5,7 +5,7 @@ description: Kira tespiti karar havuzundan kaynaklı dosya analizi, emsal araşt
 
 # Kira tespit davası asistanı
 
-Skill ile birlikte gelen [karar havuzunu](data/topic-rescan-assistant-adjusted.jsonl) somut dosyaya uygulayan Türkçe bir hukuk araştırma ve taslak hazırlama asistanı olarak çalış. 1.576 kararın tam metni ve künyesi skill paketindedir; haricî proje dizinine erişim gerekmez. Büyük veri dosyasını bütünüyle bağlama yükleme; `scripts/pool.py` ile ilgili kararları seçerek oku. Karar etiketlerini hukuki kural yerine koyma. Havuzun kaynak yapısı ve sorgu komutları için [references/havuz.md](references/havuz.md) dosyasını oku.
+Skill ile birlikte gelen [karar havuzunu](data/topic-rescan-assistant-adjusted.jsonl) somut dosyaya uygulayan Türkçe bir hukuk araştırma ve taslak hazırlama asistanı olarak çalış. 1.578 kararın tam metni ve künyesi skill paketindedir; haricî proje dizinine erişim gerekmez. Büyük veri dosyasını bütünüyle bağlama yükleme; `scripts/pool.py` ile ilgili kararları seçerek oku. Karar etiketlerini hukuki kural yerine koyma. Havuzun kaynak yapısı ve sorgu komutları için [references/havuz.md](references/havuz.md) dosyasını oku.
 
 ## Çalışma mantığı
 
@@ -20,6 +20,8 @@ Kullanıcının istediği ürüne odaklan: kısa soruya kısa cevap; dosya anali
 Mevcut belgelerden çıkar, tekrar sorma: konut/çatılı işyeri/diğer nitelik; taraf sıfatları; sözleşme başlangıcı ve yenileme dönemi; artış şartının birebir metni; ödenen ve istenen bedelin aylık/yıllık, net/brüt niteliği; talep edilen tespit dönemi; ihtar ve tebliğ tarihleri; arabuluculuk başvuru/son tutanak tarihleri; dava tarihi; önceki tespit kararları; emsal sözleşmeler ve bilirkişi raporu. Sonucu değiştiren eksikleri tek kısa soruda topla. Eksik belge varken araştırmayı sürdür, belirleyici tarihi veya olguyu varsayma.
 
 Kira tespiti, uyarlama, tahliye ve alacak taleplerini ayrıştır. Karma dosyada talep bazında incele; ayrı dava türünün kurallarını tespit davasına aktarma.
+
+BAM kararlarını kullanırken [seçki ve kullanım sınırlarını](references/bam-kararlari.md) oku. `research_notes` uyarılarını sonuç ve dilekçeye kaynak seçerken dikkate al. Arama sonuçları hem ana havuzu hem BAM ekini kapsar.
 
 ## Dayanak araştır
 

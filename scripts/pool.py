@@ -33,7 +33,8 @@ def read_rows(path):
 
 def metadata(row):
     keys = ('document_id', 'court', 'esas_no', 'karar_no', 'karar_tarihi',
-            'text_sha256', 'human_validated', 'review_level', 'value_assessment')
+            'text_sha256', 'human_validated', 'review_level', 'value_assessment',
+            'court_type', 'source_url', 'source_provider', 'research_notes')
     return {key: row.get(key) for key in keys}
 
 
@@ -52,6 +53,7 @@ def main():
     search = sub.add_parser('search')
     search.add_argument('terms', nargs='+')
     search.add_argument('--limit', type=int, default=8)
+    search.add_argument('--court-type', choices=['bam'])
     search.add_argument('--kind', choices=['esas_gerekcesi', 'usul_gerekcesi',
                                          'kisa_karar', 'sinirda'])
     get = sub.add_parser('get')
@@ -62,6 +64,14 @@ def main():
     args = parser.parse_args()
     source = args.root / 'topic-rescan-assistant-adjusted.jsonl'
     rows = list(read_rows(source))
+    sources = [source]
+    bam = args.root / 'bam-selected.jsonl'
+    if bam.exists():
+        rows.extend(read_rows(bam))
+        sources.append(bam)
+    ids = [str(row['document_id']) for row in rows]
+    if len(ids) != len(set(ids)):
+        raise ValueError('Duplicate document_id across pools')
     prior = args.root / 'verified-topic-pool.jsonl'
     if prior.exists():
         labels = {(str(r['document_id']), r['text_sha256']): r.get('value_assessment')
@@ -70,7 +80,9 @@ def main():
             row['value_assessment'] = labels.get(
                 (str(row['document_id']), row['text_sha256']), row.get('value_assessment'))
     envelope = {'source_file': str(source.resolve()), 'records': len(rows),
-                'source_file_sha256': hashlib.sha256(source.read_bytes()).hexdigest()}
+                'source_file_sha256': hashlib.sha256(source.read_bytes()).hexdigest(),
+                'source_files': {str(p.resolve()): hashlib.sha256(p.read_bytes()).hexdigest()
+                                 for p in sources}}
     if args.command == 'stats':
         dates = sorted(r['karar_tarihi'] for r in rows if r.get('karar_tarihi'))
         kinds = collections.Counter((r.get('value_assessment') or {}).get(
@@ -86,6 +98,8 @@ def main():
             parser.error('Search terms cannot be empty')
         found = []
         for row in rows:
+            if args.court_type and row.get('court_type') != args.court_type:
+                continue
             kind = (row.get('value_assessment') or {}).get('icerik_turu', {}).get('choice')
             if args.kind and kind != args.kind:
                 continue

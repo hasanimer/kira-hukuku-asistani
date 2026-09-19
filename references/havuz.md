@@ -1,6 +1,6 @@
 # Yerel havuz ve kaynak izi
 
-Varsayılan kök: bu skill klasöründeki `data/`. Yardımcı yolu kendi konumundan çözer; skill klasörünün tamamı başka dizine taşınabilir. 1.576 kararın tam metni ve künyesi pakete dahildir. Başka havuzu açıkça seçmek için komuta `--root "..."` ekle.
+Varsayılan kök: bu skill klasöründeki `data/`. Yardımcı yolu kendi konumundan çözer; skill klasörünün tamamı başka dizine taşınabilir. Ana havuzdaki 1.576 karar ile `bam-selected.jsonl` dosyasındaki 2 BAM kararının toplam 1.578 tam metni pakete dahildir. BAM seçkisi için [kullanım notlarını](bam-kararlari.md) oku. Başka havuzu açıkça seçmek için komuta `--root "..."` ekle.
 
 Bu paket 19.09.2026 tarihli sabit kopyadır; kaynak proje değişince otomatik güncellenmez. `data/manifest.json` kaynak ve paket dosyalarının hash değerlerini, kayıt sayısını ve etiket birleştirme yöntemini içerir. Kararların metinleri değiştirilmeden aktarılmıştır.
 
@@ -31,3 +31,5 @@ python scripts/pool.py quote KARAR_KIMLIGI "Birebir kısa alıntı"
 Yardımcı her okumada kayıt metni SHA-256 değerini kontrol eder; uyuşmazlıkta durur. Hash yalnız dosya içi bütünlüğü doğrular, resmî kaynağın doğruluğunu veya eksiksizliğini kanıtlamaz. `quote` büyük/küçük harf, noktalama ve boşlukları değiştirmeden arar; konumlar Python Unicode karakter dizisinde sıfır tabanlı, bitiş hariçtir. Bulunamayan alıntıyı yaklaşık eşleşmiş diye doğrulama.
 
 Araştırma izinde: havuz dosyası, document_id, court, esas_no, karar_no, karar_tarihi, text_sha256, alıntı ve konumu, dosyaya uygulanabilirlik gerekçesi. Kayıtta doğrulanmış kaynak URL'si yoksa URL türetme; yerel dosya ve künye ile atıf yap.
+
+Yalnız BAM kararları için `python scripts/pool.py search ihtar --court-type bam` kullan. BAM kaynak adresleri `source_url`, kullanım sınırları `research_notes` alanında döner. Dejure bağlantıları giriş gerektirebilir; yerel tam metin erişimi çevrimdışı çalışır.

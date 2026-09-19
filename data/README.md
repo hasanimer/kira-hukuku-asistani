@@ -1,9 +1,10 @@
 # Veri paketi
 
-Karar havuzu 1.576 kayıt içerir; karar metinleri kaynak kopyalarıyla aynı tutulur. Seçim ve etiketleme yöntemleri [havuz rehberinde](../references/havuz.md) açıklanır. Bu paket tüm kira uyuşmazlıklarını veya güncel içtihadın tamamını kapsadığı iddiasını taşımaz.
+Karar havuzu 1.578 kayıt içerir; karar metinleri kaynak kopyalarıyla aynı tutulur. Seçim ve etiketleme yöntemleri [havuz rehberinde](../references/havuz.md) açıklanır. Bu paket tüm kira uyuşmazlıklarını veya güncel içtihadın tamamını kapsadığı iddiasını taşımaz.
 
 | Dosya | Amaç |
 | --- | --- |
+| `bam-selected.jsonl` | İki BAM kararının tam metni, kaynak bağlantısı ve asistan inceleme notları |
 | `topic-rescan-assistant-adjusted.jsonl` | Karar künyesi, tam metin, metin hash'i ve değerlendirme etiketleri |
 | `topic-rescan-report.md` | Sıkı havuz seçiminin yöntemi |
 | `verified-topic-report.md` | Önceki seçim aşamasının raporu |
