@@ -1,6 +1,6 @@
 # Yargıtay ek seçkisi
 
-Üç kararın tam metni `data/yargitay-selected.jsonl` dosyasındadır. Asistan tarafından incelenmiştir; bağımsız hukukçu doğrulaması yapılmamıştır. Kaynak metin hataları düzeltilmeden korunur, kullanım sınırları ayrı notlanır.
+Yedi kararın tam metni `data/yargitay-selected.jsonl` dosyasındadır. Asistan tarafından incelenmiştir; bağımsız hukukçu doğrulaması yapılmamıştır. Kaynak metin hataları düzeltilmeden korunur, kullanım sınırları ayrı notlanır.
 
 ```sh
 python scripts/pool.py search depozito --court-type yargitay
@@ -54,3 +54,67 @@ Bir yıllık kira bedeli tazminatın her durumda üst sınırı değildir; bu do
 İcra yoluyla tahliye olgusu vardır; anlaşmalı teslimi konu alan BAM E.2017/1061 K.2018/40 ile aynı olgu seti gibi sunma.
 
 Manevi tazminata ilişkin ilk derece anlatımını her ihtimale uygulanacak genel ret kuralı yapma.
+
+## Yargıtay 3. Hukuk Dairesi, E. 2017/13231, K. 2019/1657, T. 27.02.2019
+
+[Kaynak](https://app.dejure.ai/dokuman/4c8c9a72-a027-4670-a768-34a95067ccbb)
+
+**Kullanım:** erken tahliye, yeniden kiralama, depozito mahsubu.
+
+İki aylık makul süreye rağmen daha önce gerçekleşen yeniden kiralama dikkate alınmadığı ve depozito mahsubu incelenmediği için hüküm bozuldu.
+
+Anahtarın güvenlik görevlisine bırakılması, kiraya veren bildirilen tahliye tarihine karşı çıkmadığı somut olayda kabul edilmiştir; her teslim bu şekilde geçerli sayılmaz.
+
+İki ay evrensel makul süre değildir; fiilen yeniden kiralama 01.09.2012 tarihinde gerçekleşmiştir.
+
+Dava dilekçesiyle hasar bildiriminin yeterli görülmesi somut tarih akışına özgüdür; TBK 335 için genel süre üretme.
+
+Metindeki davacı/davalı kiracı sıfatı kaymalarını aynen hukuki sonuca taşıma; sözleşmesel cezalar için dönem ve geçiş rejimini ayrıca incele.
+
+## Yargıtay 3. Hukuk Dairesi, E. 2023/2841, K. 2024/1036, T. 06.03.2024
+
+[Kaynak](https://app.dejure.ai/dokuman/e5c8048b-4685-4456-8ad1-39133abef50f)
+
+**Kullanım:** ayıplı kiralanan, haklı fesih, makul süre, TBK 325.
+
+Kiracının haklı feshi kabul edilerek makul süre bedelinin reddedilmesi uygun bulunmadı; BAM kararı kaldırılıp ilk derece hükmü kiraya veren yararına bozuldu.
+
+Ayıpların giderilmesi için süre verilmemesi ve bildirilen fesih tarihlerinde tahliye edilmemesi birlikte değerlendirilmiştir; her ayıpta aynı sonuç varsayılmaz.
+
+İlk derece ve BAM'ın haklı fesih kabulünü Yargıtay sonucu gibi sunma.
+
+2015 işyeri sözleşmesindeki muacceliyet kaydı, güncel konut/çatılı işyerleri için geçerli örnek değildir; 6217 geçici 2 atfı ve TBK 346 ayrıca incelenir.
+
+Anahtarın notere bırakıldığı tarih ile tahliye tarihinin anlatımı farklıdır; buradan doğrulanmamış süre veya bakiye hesabı yapma.
+
+## Yargıtay 3. Hukuk Dairesi, E. 2022/8302, K. 2023/167, T. 21.02.2023
+
+[Kaynak](https://app.dejure.ai/dokuman/339cd8cf-0eab-47de-90ba-2f0b52a02c73)
+
+**Kullanım:** tahliye taahhüdü, imza incelemesi, boş imza, ispat.
+
+İmzanın şirket yetkilisine ait olduğu bilirkişiyle belirlenen ve savunmaların kesin delillerle ispatlanamadığı olayda tahliye ve itirazın iptali sonucu onandı.
+
+Başlangıç tarihi ve taahhüdün düzenleme tarihi anlatımında farklı tarihler vardır; süre hesabında veya teslim-sonrası koşulunu tek başına doğrulamakta kullanma.
+
+BAM'ın boş imza hakkındaki geniş ifadesini bütün savunmaları ortadan kaldıran kural sayma; Yargıtay gerekçesi somut ispat durumuna dayanır.
+
+HGK E.2008/369 K.2008/394 bu güncellemede ayrıca tam metinden okunmuştur; anlaşmaya aykırı doldurma ile hile/sahtecilik ayrımını koru.
+
+Şirketin işyeri uyuşmazlığı aile konutu itirazını çözmez.
+
+## Yargıtay Hukuk Genel Kurulu, E. 2008/369, K. 2008/394, T. 28.05.2008
+
+[Kaynak](https://app.dejure.ai/dokuman/202209-1215-0532-2008369-2008394-0adafbc2-c10f-47aa-94f6-c2327d600cce)
+
+**Kullanım:** Hukuk Genel Kurulu, tahliye taahhüdü, hile, yemin.
+
+Hileyle imzalatılma savunmasının usulünce ispatlanamadığı ve yemin teklifinin o olayda dinlenemediği gerekçesiyle ret yönündeki direnme kararı oyçokluğuyla bozuldu.
+
+Anlaşarak boş imzalama ve anlaşmaya aykırı doldurma iddiası ile habersizce hileyle imzalatılma iddiası ayrı değerlendirilmiştir.
+
+Yemin delili hiçbir boş imza uyuşmazlığında kullanılamaz sonucunu çıkarma; karar iki durumu açıkça ayırır.
+
+2008 tarihli karar 1086 sayılı HUMK ve eski Borçlar Kanunu dönemindedir; güncel HMK/TBK delil ve süre rejimini ayrıca doğrula.
+
+Araç künyesinde esas numarası 2008/369 olarak verilmiştir; araçla doğrulanmamış daire eki ekleme.

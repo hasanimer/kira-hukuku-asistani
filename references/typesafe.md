@@ -36,7 +36,7 @@ Canlı çağrı `TYPESAFE_API_KEY` ortam değişkenini kullanır; açıkça veri
 
 ## Kaynak araçlarıyla çalışma
 
-- Yerel paket: `pool.py search/get/quote`. Mevcut 1.596 kayıt kira tespiti ağırlıklıdır; bütün kira hukuku modüllerini kapsadığı iddia edilmez.
+- Yerel paket: `pool.py search/get/quote`. Mevcut 1.600 kayıt kira tespiti ağırlıklıdır; bütün kira hukuku modüllerini kapsadığı iddia edilmez.
 - DeJure: `search_decisions` ile aday, `lookup_decisions` ile künye, `get_decision` ile metin. Kesilme varsa `next_offset` üzerinden devam et.
 - Legaluga: `search_cases` → `get_case` → gerektiğinde `verify_quotation`. `source_ref`, `passage_id`, görüş sahibi ve kesilme alanlarını koru. `get_case` yalnız kesit döndürebilir; `full_text_truncated` doğruysa tam metin sayma. Büyük havuzun tamamının yerel pakete eklendiğini veya her sorguda tarandığını iddia etme.
 - Bağlı mevzuat/içtihat aracı: kendi başlangıç yönergesini uygula; maddeyi veya kararı dönen kimlikle getir. Arama sözdizimini sağlayıcıya göre kullan; boşlukların AND olduğu varsayımında bulunma.

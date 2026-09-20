@@ -32,9 +32,11 @@
         "erken tahliye makul süre yeniden kiraya verme"
       ],
       "decision_ids": [
-        "7ad0f708-0612-47c9-956d-f722f4fe55fe"
+        "7ad0f708-0612-47c9-956d-f722f4fe55fe",
+        "4c8c9a72-a027-4670-a768-34a95067ccbb",
+        "e5c8048b-4685-4456-8ad1-39133abef50f"
       ],
-      "coverage": "Sözleşmesel çıkış hakkına ilişkin emsal; gerçek erken tahliyedeki sorumluluk süresini tek başına çözmez.",
+      "coverage": "Sözleşmesel çıkış BAM kararı ile gerçek erken tahliyeyi inceleyen Yargıtay kararlarını ayır. Makul süre sabit değildir; yeniden kiralama ve haklı fesih koşulları ayrı incelenir.",
       "counterfacts": [
         "Bildirim koşuluna uyulmaması",
         "Teslim tarihinin ispatlanamaması"
@@ -69,7 +71,8 @@
         "rutubet bilirkişi çelişkili rapor kiracı kusuru"
       ],
       "decision_ids": [
-        "eb8af224-a46c-4101-867f-2d58b76a0aef"
+        "eb8af224-a46c-4101-867f-2d58b76a0aef",
+        "e5c8048b-4685-4456-8ad1-39133abef50f"
       ],
       "coverage": "Eksik inceleme nedeniyle kaldırma; kesin indirim oranı veya tek taraflı eksik ödeme izni değildir.",
       "counterfacts": [
@@ -182,9 +185,11 @@
         "aile konutu tahliye taahhüdü bildirim"
       ],
       "decision_ids": [
-        "191fe3e9-f690-420c-ad33-23cfeb89e8ad"
+        "191fe3e9-f690-420c-ad33-23cfeb89e8ad",
+        "339cd8cf-0eab-47de-90ba-2f0b52a02c73",
+        "202209-1215-0532-2008369-2008394-0adafbc2-c10f-47aa-94f6-c2327d600cce"
       ],
-      "coverage": "Kiracının istinafının reddedildiği somut olay; boş imza ve aile konutu savunmalarını her dosyada sonuçsuz saydırmaz.",
+      "coverage": "BAM ve Yargıtay somut ispat değerlendirmeleri ile tarihsel HGK ayrımı birlikte okunur. Boş imza, anlaşmaya aykırı doldurma ve hile savunmaları eşit değildir; güncel delil rejimi ayrıca doğrulanır.",
       "counterfacts": [
         "İmzanın ayrıca inkâr edilmesi",
         "Farklı teslim veya bildirim kronolojisi"

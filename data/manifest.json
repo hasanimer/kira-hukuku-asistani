@@ -1,6 +1,6 @@
 {
   "snapshot_date": "2026-09-20",
-  "records": 1596,
+  "records": 1600,
   "source_sha256": "44135540d2ca7bbe42140a59a7b42269082e456504b20d1138d4d2594c4dd8b0",
   "labels_source_sha256": "24c105c9f12b2e51d3040a25d80e9990dacd81e1c558f14a692bf786722c11c0",
   "label_join": [
@@ -12,15 +12,15 @@
     "bam-selected.jsonl": "69a338372a5a7c57b905afacdff5109f5e86f32fa8b15d50ad4a2c1e5db37d66",
     "mevzuat/6098-source.json": "3aa27ae98b6ebc9a0b852e029cd6032fdcdfbc08fb5d4f93fa1786e650244564",
     "mevzuat/6098-turk-borclar-kanunu.md": "d4dd19c35202b7d9c73e99b14cc58217648a9c5c405f6d91d9bce2cb63910d69",
-    "README.md": "6dd3eb559f1d8523750f0fba2cee8f562db01b130ce99acfe7b3b35908e7eedd",
+    "README.md": "44b12c8078ea8656d83d2e24e4ba4b7699102de58d22b222b949da4d8cad7cb3",
     "topic-rescan-assistant-adjusted.jsonl": "700b7cdd1f6f1f8961605e3e3fb6a9a3108634fe71937c1e43b682c029f1ac63",
     "topic-rescan-report.md": "c311b56954dec76f3912983fc7cca1077837a7cbfdf02d9ddae298539d879e87",
     "verified-topic-report.md": "7e82acb72e6b5b664dba354736d01258b4641184d6b2563595f629655e4af59d",
-    "yargitay-selected.jsonl": "669057f091cbcf77f69da5ec8d1056f20fdace3449a181b0a8b796935df035b2"
+    "yargitay-selected.jsonl": "a683542e30c6e1637fd5f30490c569b4304880e595ef2d0985f1d90c49bfa660"
   },
   "collections": {
     "topic-rescan-assistant-adjusted.jsonl": 1576,
     "bam-selected.jsonl": 17,
-    "yargitay-selected.jsonl": 3
+    "yargitay-selected.jsonl": 7
   }
 }
