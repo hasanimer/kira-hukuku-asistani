@@ -1,6 +1,6 @@
 # Yargıtay ek seçkisi
 
-Yedi kararın tam metni `data/yargitay-selected.jsonl` dosyasındadır. Asistan tarafından incelenmiştir; bağımsız hukukçu doğrulaması yapılmamıştır. Kaynak metin hataları düzeltilmeden korunur, kullanım sınırları ayrı notlanır.
+On kararın tam metni `data/yargitay-selected.jsonl` dosyasındadır. Asistan tarafından incelenmiştir; bağımsız hukukçu doğrulaması yapılmamıştır. Kaynak metin hataları düzeltilmeden korunur, kullanım sınırları ayrı notlanır.
 
 ```sh
 python scripts/pool.py search depozito --court-type yargitay
@@ -118,3 +118,45 @@ Yemin delili hiçbir boş imza uyuşmazlığında kullanılamaz sonucunu çıkar
 2008 tarihli karar 1086 sayılı HUMK ve eski Borçlar Kanunu dönemindedir; güncel HMK/TBK delil ve süre rejimini ayrıca doğrula.
 
 Araç künyesinde esas numarası 2008/369 olarak verilmiştir; araçla doğrulanmamış daire eki ekleme.
+
+## Yargıtay 3. Hukuk Dairesi, E. 2024/2523, K. 2025/1572, T. 12.03.2025
+
+[Kaynak](https://app.dejure.ai/dokuman/2741a64d-0a5f-4a40-8083-e40276bcfb1f)
+
+**Kullanım:** uyarlama, uzun süreli kira, ekonomik değişiklik.
+
+Uyarlama talebinin reddine ilişkin BAM kararı onandı.
+
+Sırf beş yıl dolmadığı için uyarlama hiçbir zaman istenemez sonucu çıkarılmaz; somut dosyada koşullar oluşmamıştır.
+
+Enflasyon hiçbir durumda uyarlamaya gerekçe olamaz şeklinde genelleme; Yargıtay gerekçesi kısa onamadır.
+
+İşyeri uyuşmazlığındaki yüzde 25 göndermesi davacının temyiz iddiasıdır; uygulanmış sınır değildir.
+
+## Yargıtay 3. Hukuk Dairesi, E. 2018/2258, K. 2018/6300, T. 04.06.2018
+
+[Kaynak](https://app.dejure.ai/dokuman/020e7adb-ba73-49cc-8228-2aa4bdf70f18)
+
+**Kullanım:** alt kira, franchise, yazılı muvafakat.
+
+Şirket ilişkileri ve yazılı muvafakat araştırılmadan tahliye talebinin reddi nedeniyle karar bozuldu.
+
+Franchise ilişkisinin varlığı otomatik alt kira izni değildir; unvan değişikliği ve şirket ilişkileri araştırılmalıdır.
+
+Bozma doğrudan tahliye hükmü değildir.
+
+TBK 316 ihtar anlatımını bütün aykırılık türlerinde istisnasız uygulama.
+
+## Yargıtay 6. Hukuk Dairesi, E. 2014/10567, K. 2015/10451, T. 26.11.2015
+
+[Kaynak](https://app.dejure.ai/dokuman/3d040a9a-72cd-42ce-b64a-72bf63459651)
+
+**Kullanım:** zamanaşımı, kısmi dava, ıslah, hasılat kirası.
+
+Islah edilen alacaklar yönünden zamanaşımı ve alacak türü ayrımı değerlendirilmediğinden hüküm oyçokluğuyla bozuldu.
+
+Otobüs işletmesine ilişkin hasılat kirasıdır; konut veya çatılı işyeri uyuşmazlığı değildir.
+
+Dönemsel kira ile sözleşmeye dayalı ceza geri istemi ayrı değerlendirilmiştir; tüm yan alacaklara otomatik aynı süreyi uygulama.
+
+Karşıoy onama yönündedir; çoğunluk gerekçesinden ayrı tut. Belirsiz alacak davası ve güncel ıslah rejimi ayrıca incelenmeli.

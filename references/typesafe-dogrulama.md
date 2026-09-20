@@ -23,3 +23,11 @@ API anahtarı kullanıcı tarafından belirtilen yerel env dosyasından okundu; 
 `python -m unittest discover -s tests -v`: kaynak kimliklerinin korunması, sıralamada düşük puanlı adayların kaybolmaması, eksik yanıt ve geçersiz olasılıkların reddi, yinelenen kaynak ve belirsiz tam metin durumunun reddi.
 
 `python scripts/validate.py`: 1.580 mevcut kararın ve mevzuatın bütünlüğü, yerel bağlantılar ve yardımcı komutlar. Skill şema kontrolü ayrıca çalıştırılır. Bu denetimler canlı servislerin her zaman erişilebilirliğini veya hukuki sonuçların doğruluğunu garanti etmez.
+
+## 20.09.2026 — ek karar elemesi
+
+Legaluga arama aracı hata verdi; aynı yetkili API yoluyla doğrudan denemede HTTP 500 alındı. Bu turda büyük Legaluga havuzundan kayıt alınmadı. Alternatif DeJure kaynağından uyarlama, alt kira ve zamanaşımı için 9 aday toplandı. Güncel TypeSafe doküman uçlarına erişilemedi; mevcut entegrasyon ve daha önce okunmuş API belgeleri kullanıldı.
+
+Canlı TypeSafe çağrısı `jev-1.13.0` döndürdü: 10.061 girdi ve 487 çıktı tokenı. Adayların hiçbiri puan eşiğiyle otomatik elenmedi. İlk iki sıradaki kararlar dahil 5 tam metin okundu: 3 yeni karar eklendi; E.2014/7121 K.2014/8734 mevcut havuzla mükerrerdi. E.2017/4223 K.2019/175 hedeflenen zamanaşımı süresini esastan çözmediği ve ret gerekçelerinin birlikte kullanılması nedeniyle bozma içerdiği için seçilmedi. Kalan 4 adayın tam metni bu turda incelenmedi.
+
+Eklenenler: E.2024/2523 K.2025/1572 (uyarlamanın reddi); E.2018/2258 K.2018/6300 (alt kira ve yazılı muvafakat araştırması); E.2014/10567 K.2015/10451 (hasılat kirasında alacak türü/ıslah/zamanaşımı). Kaynaklar ve sınırlar [Yargıtay seçkisinde](yargitay-kararlari.md). Ham araştırma ve API dosyaları public pakete eklenmedi. Bu çalışma 9 milyon kaydın taranması veya model puanlarının hukuken doğrulanması değildir.

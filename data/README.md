@@ -1,10 +1,10 @@
 # Veri paketi
 
-Karar havuzu 1.600 kayıt içerir; kararların hukuki içeriği korunur. Açık kişi adı çıkarılan kayıtlarda anonimleştirme `redactions` alanında belirtilir; `source_text_sha256` kaynak metnini, `text_sha256` dağıtılan metni izler. Seçim ve etiketleme yöntemleri [havuz rehberinde](../references/havuz.md) açıklanır. Bu paket tüm kira uyuşmazlıklarını veya güncel içtihadın tamamını kapsadığı iddiasını taşımaz.
+Karar havuzu 1.603 kayıt içerir; kararların hukuki içeriği korunur. Açık kişi adı çıkarılan kayıtlarda anonimleştirme `redactions` alanında belirtilir; `source_text_sha256` kaynak metnini, `text_sha256` dağıtılan metni izler. Seçim ve etiketleme yöntemleri [havuz rehberinde](../references/havuz.md) açıklanır. Bu paket tüm kira uyuşmazlıklarını veya güncel içtihadın tamamını kapsadığı iddiasını taşımaz.
 
 | Dosya | Amaç |
 | --- | --- |
-| `yargitay-selected.jsonl` | Yedi Yargıtay kararının tam metni, kaynak bağlantısı ve inceleme notları |
+| `yargitay-selected.jsonl` | On Yargıtay kararının tam metni, kaynak bağlantısı ve inceleme notları |
 | `bam-selected.jsonl` | On yedi BAM kararının tam metni, kaynak bağlantısı ve asistan inceleme notları |
 | `topic-rescan-assistant-adjusted.jsonl` | Karar künyesi, tam metin, metin hash'i ve değerlendirme etiketleri |
 | `topic-rescan-report.md` | Sıkı havuz seçiminin yöntemi |
