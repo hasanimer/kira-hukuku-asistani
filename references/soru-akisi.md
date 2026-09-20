@@ -55,6 +55,8 @@ Yalnız ileri sürülen tahliye sebebine ilişkin soruları seç. Uzama hesabın
 
 Hasarın varlığı, sorumluluğu ve tutarı ayrı meselelerdir. “Ev zarar görmüş mü?” gibi tek soruyla hepsini çözülmüş sayma. Depozitonun tamamının iadesini veya kesintinin haklılığını cevaplardan otomatik çıkarma.
 
+Hasar bildiriminde eksikliğin ne zaman fark edildiğini ve yazılı bildirimin ne zaman ulaştığını ayır. Kefalet tartışılıyorsa kefalet metni, el yazılı alanlar, tarih, azami tutar, kapsam ve gerekiyorsa eş rızası belgesini incele. Devirde yazılı rıza ve devredilen şeyin kira ilişkisi mi kullanım mı olduğunu belirle. Ayrıntılar: [teslim, masraf ve kefalet](teslim-masraf-kefalet.md).
+
 ## İlk tur seçimi örnekleri
 
 **“İki ihtar geldi, ödedim.”** İhtar/ödeme emirlerinin tebliğ veya öğrenme tarihleri; hangi kira aylarına ilişkin oldukları; ödemelerin tarih-saatleri; takip veya davanın mevcut aşaması. Sözleşme başlangıcı belgede yoksa ve dönem ayrımını etkiliyorsa ekle. Depozito ve tadilat sorularını sorma.

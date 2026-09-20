@@ -19,6 +19,8 @@ Talebi bir veya birden çok modülle eşleştir. TypeSafe sinyalleri yardımcıd
 
 **Güvence:** Depozitonun hangi borcu güvence altına aldığı, banka/para biçimi, iade ve mahsup koşullarını araştır. Hasar ile olağan kullanım izini ayır; kiracının götürdüğü eşya bedelini otomatik taşınmaz masrafı sayma.
 
+Hasar bildirimi, ayıp gideri, erken sona erme giderleri, kefalet veya alt kira/devir gündeminde [teslim, masraf ve kefalet rehberini](teslim-masraf-kefalet.md) oku. Mahkemenin önceki bozmayı aktarmasıyla kendi bozma nedenini ayır.
+
 **Uyarlama ve sözleşme:** Talebin tespit, uyarlama veya sözleşme yorumundan hangisi olduğunu gerekçelendir. Konut, çatılı işyeri, açık alan ve taşınır ayrımını etiket üzerinden yapma.
 
 **Rejim, usul ve taraflar:** Ürün kirası/çatılı işyeri ayrımı, sözlü sözleşme, temsil, paydaşlık, görev/yetki veya tahkim tartışmasında [ön inceleme rehberini](kira-rejimi-ve-taraflar.md) kullan. Paylaşılan emsal özetini doğrudan kural sayma; [künye ve gerekçe kontrolünü](emsal-listesi-dogrulama.md) ayır.

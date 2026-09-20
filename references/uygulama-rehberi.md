@@ -52,6 +52,8 @@ Aşağıdaki konular ayrıca güncel kaynak doğrulaması gerektirir; bu rehber 
 
 ## Karma dosyalarda yanlış genellemeler
 
+Bilirkişi denetimi için [emsal kontrolündeki](emsal-listesi-dogrulama.md) 3. HD 2017/7612–2019/1309, 6. HD 2013/11846–2014/3788 ve 6. HD 2014/7926–2015/4145 kararlarının gerekçe ve hükümleri incelendi: internet ilanının doğrulanması, emsallerin ayrı karşılaştırılması ve boş rayiçten eski kiracı indirimi meselelerini ayrıştır. Gerekçesiz aritmetik ortalama yetersizliği, bütün hesap yöntemlerinin yasak olduğu anlamına gelmez. Eski ÜFE, vergi çarpanı, bilirkişi meslek bileşimi ve usul atıflarını güncele otomatik taşıma.
+
 TBK 306'daki ayıp giderimi ve kira bedelinden indirme olanağını görmeden “yazılı izin olmadan hiçbir masraf mahsup edilemez” deme. TBK 315'in yazılı bildirim ve süre koşullarını incelemeden hemen tahliye sonucu üretme. TBK 346 kapsamındaki kiralarda ceza koşulu veya sonraki kiraları muaccel kılan kayıt önerme. [TBK 306, 315 ve 346](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5).
 
 Arsa, yapı ve karma kullanımda sözleşme amacı ile baskın niteliği araştır. Taşınır kirasına ilişkin TBK 330'daki üç günlük süreyi üzerinde taşınabilir yapı bulunan her arsaya uygulama. Yargıtay 6. HD, E. 2012/3307, K. 2012/7044, 10.05.2012 baskın nitelik araştırması eksikliğine ilişkindir ve eski 6570 sayılı Kanun dönemindedir; bugünkü süreler için doğrudan dayanak değildir. [Karar](https://app.dejure.ai/dokuman/202209-1108-5607-20123307-20127044-9f934f96-1529-4ffe-9b1d-2a7e4b76779c).

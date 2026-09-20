@@ -35,6 +35,8 @@ BAM kararlarını kullanırken [seçki ve kullanım sınırlarını](references/
 
 ## Dayanak araştır
 
+Depozito, teslim hasarı, ayıp gideri, kefalet veya kira devri tartışılıyorsa [teslim, masraf ve kefalet rehberini](references/teslim-masraf-kefalet.md) kullan. TBK 335 bildirimini 342'deki üç aya bağlama; 306'daki hakkı icra mahkemesinin ispat kurallarıyla karıştırma. İşyerinde devir yasağının yokluğunu yazılı rıza sayma.
+
 1. `pool.py stats` ile erişilebilir havuzun fiilî boyutunu ve tarih aralığını gör. Sıkı havuz yoksa önceki sürüme sessizce geçme; eksikliği belirt ve varsa başka sürümü kullanıcıya açıkça tanımla.
 2. İhtilafı ayrı araştırma sorularına böl. Örnek aramalar: `"emsal" "hak ve nesafet"`, `"eski kiracı"`, `"beş yıl"`, `"344"`, `"345"`, `"ihtar"`, `"artış şartı"`, `"bilirkişi"`, `"ıslah"`. Her terimi aynı aramaya yığma. Sözcük varyantları ve karşı yöndeki kararları da ara. Arama boşsa hukuki kuralın bulunmadığı sonucuna varma.
 3. Esasa ilişkin kural için gerekçeli kararları, usul meselesi için usul gerekçelerini önceliklendir. Kısa onama/gönderme kararından ayrıntılı ilke üretme. Etiket ve puanlar yalnız aday seçmeye yarar.
