@@ -1,12 +1,12 @@
 # Karar kartları ve dosya sınaması
 
-Bu sürümde **45 özgün kurgu senaryo**, her biri için üç ölçüt ve **6 yapılandırılmış karar kartı** vardır. Senaryolar gerçek müvekkil dosyaları değildir. Ölçütler mevcut kaynaklı rehberlerden türetilmiş yazar taslağıdır; bağımsız hukukçu değerlendirmesi yapılmış bir altın standart değildir. Paket testinin geçmesi asistanın hukuki cevaplarının başarılı olduğunu göstermez.
+Bu sürümde **45 özgün kurgu senaryo**, her biri için üç ölçüt ve **10 yapılandırılmış karar kartı** vardır. Senaryolar gerçek müvekkil dosyaları değildir. Ölçütler mevcut kaynaklı rehberlerden türetilmiş yazar taslağıdır; bağımsız hukukçu değerlendirmesi yapılmış bir altın standart değildir. Paket testinin geçmesi asistanın hukuki cevaplarının başarılı olduğunu göstermez.
 
 ## Kararı somut dosyaya bağla
 
-**Cevaplı örnekler:** [Altı karardan soru–yanıt rehberi](kararlardan-soru-yanit.md). Kaynaklı editoryal yanıtlar 45 senaryonun yanıt anahtarı veya canlı model sonucu değildir. `python scripts/decision_qa.py export` yalnız altı soruyu verir; `show Q01` yanıtı ve kaynağı da gösterir. Kör sınamada cevaplı rehberi veya kaynak kartlarını önceden açmak sonucu etkileyebilir; bu setin açık kaynak olduğunu raporla.
+**Cevaplı örnekler:** [On karardan soru–yanıt rehberi](kararlardan-soru-yanit.md). Kaynaklı editoryal yanıtlar 45 senaryonun yanıt anahtarı veya canlı model sonucu değildir. `python scripts/decision_qa.py export` yalnız on soruyu verir; `show Q01` yanıtı ve kaynağı da gösterir. Kör sınamada cevaplı rehberi veya kaynak kartlarını önceden açmak sonucu etkileyebilir; bu setin açık kaynak olduğunu raporla.
 
-[Karar kartları](karar-kartlari.json) olay, belirleyici delil, mesele, gerekçe, hüküm, karşıoy, uygulanamayacağı durum ve kaynak izini ayrı alanlarda tutar. Kaynak kimliği/künye/hash [araştırma kaydıyla](egitim-kaynak-kaydi.json) eşleşir. Hash özgünlük veya hukuki doğruluk sertifikası değildir. Kartlar altı yeni tam metin değildir; daha önce incelenmiş kararların yapılandırılmış özetleridir. Asıl metni okumadan dilekçeye birebir alıntı taşıma.
+[Karar kartları](karar-kartlari.json) olay, belirleyici delil, mesele, gerekçe, hüküm, karşıoy, uygulanamayacağı durum ve kaynak izini ayrı alanlarda tutar. Kaynak kimliği/künye/hash [araştırma kaydıyla](egitim-kaynak-kaydi.json) eşleşir. Hash özgünlük veya hukuki doğruluk sertifikası değildir. Kartlar on yeni tam metin değildir; daha önce incelenmiş kararların yapılandırılmış özetleridir. Asıl metni okumadan dilekçeye birebir alıntı taşıma.
 
 ```sh
 python scripts/quality.py cards

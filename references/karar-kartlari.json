@@ -189,6 +189,127 @@
       "checked_on": "2026-09-20",
       "review_status": "reasoning_and_disposition_reviewed",
       "full_text_in_card": false
+    },
+    {
+      "id": "C07",
+      "source_id": "9cc231b5-3aff-4e42-a261-14cb16cfbd29",
+      "title": "Depozitoda tahliye tarihi ve hasar incelemesi",
+      "facts": "İşyeri kiracısı depozitoyu ister; tahliye tarihi, ödenmeyen kiralar ve fotoğraflardaki hasarın niteliği tartışmalıdır.",
+      "evidence": "Kira sözleşmesi ve depozito ödeme belgesi; Banka hareketleri; Anahtar teslimi ve tahliye tarihi delilleri; Tahliye fotoğrafları ve keşif/bilirkişi incelemesi",
+      "issue": "Çelişkili tarihler ve incelenmeyen hasar delilleriyle depozito bakiyesi belirlenebilir mi?",
+      "reasoning": "İlk derece hesabında esas alınan son ödeme tarihi ile tahliye tarihi arasındaki süre, düşülen iki aylık kirayla örtüşmüyordu. Yargıtay, kiracıdan açık tahliye beyanı alınmasını, taraf delillerinin toplanmasını ve uzman bilirkişilerle keşif yapılarak hasarın incelenmesini istedi.",
+      "outcome": "bozma",
+      "result": "Depozitonun kısmen iadesine ilişkin hüküm eksik inceleme nedeniyle bozuldu; kesin iade tutarı belirlenmedi.",
+      "dissent": [],
+      "limits": "2009 başlangıçlı sözleşmeye ilişkin tarihsel karardır. Metindeki ispat yükü ifadeleri güncel her depozito uyuşmazlığına aynen taşınmamalıdır. Olağan eskime, hasar bildirimi ve banka güvencesi koşulları ayrıca değerlendirilir; fotoğraf tek başına tüm kesintileri haklı kılmaz.",
+      "scenario_ids": [
+        "B25",
+        "B23"
+      ],
+      "source": {
+        "id": "9cc231b5-3aff-4e42-a261-14cb16cfbd29",
+        "court": "6. Hukuk Dairesi",
+        "date": "12.06.2014",
+        "case_no": "2013/16056",
+        "decision_no": "2014/7824",
+        "url": "https://app.dejure.ai/dokuman/9cc231b5-3aff-4e42-a261-14cb16cfbd29",
+        "text_chars": 5467,
+        "text_sha256_utf8": "f45a6779221b00d4b5a3b4b12bea174621375c758a239313d93d82c4633cf2c2",
+        "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+      },
+      "checked_on": "2026-09-20",
+      "review_status": "reasoning_and_disposition_reviewed",
+      "full_text_in_card": false
+    },
+    {
+      "id": "C08",
+      "source_id": "438765a4-ba4d-4d70-8b47-77e491a9e4ac",
+      "title": "Isınma zararında doğru davalı ve taraf değişikliği",
+      "facts": "Kiracılar ısınma sorunu nedeniyle sözleşmeyi temsilci olarak imzalayan şirkete tazminat davası açtı ve davalı adını düzeltmek istedi.",
+      "evidence": "Sözleşmenin taraf ve imza bölümleri; Temsil yetkisi belgeleri; Dava ve cevaba cevap dilekçeleri; Taraf sıfatına ilişkin savunma",
+      "issue": "Sözleşmeyi vekil sıfatıyla imzalayan şirkete doğrudan tazminat yüklenebilir mi?",
+      "reasoning": "Sözleşme başka bir şirket adına imzalanmıştı. Davacıların düzeltme talebi karşısında HMK 124 kapsamında maddi hata, dürüstlük kuralı ve kabul edilebilir yanılgı koşulları incelenmeden temsilci hakkında esastan hüküm kurulamazdı.",
+      "outcome": "bozma",
+      "result": "Tazminat hükmü usulden bozuldu; diğer temyiz itirazları incelenmedi.",
+      "dissent": [],
+      "limits": "Isınma ayıbının, zararın veya tazminat miktarının Yargıtay tarafından esastan doğrulanması değildir. Taraf değişikliği her isim hatasında otomatik kabul edilmez. B26 bağlantısı ayıp uyuşmazlığında ön sorun içindir; onarım bedelinin mahsubuna ilişkin hüküm değildir.",
+      "scenario_ids": [
+        "B26"
+      ],
+      "source": {
+        "id": "438765a4-ba4d-4d70-8b47-77e491a9e4ac",
+        "court": "3. Hukuk Dairesi",
+        "date": "30.10.2024",
+        "case_no": "2023/5216",
+        "decision_no": "2024/3377",
+        "url": "https://app.dejure.ai/dokuman/438765a4-ba4d-4d70-8b47-77e491a9e4ac",
+        "text_chars": 6122,
+        "text_sha256_utf8": "7ca33569520d56e5270f559d3940dcebf91bdf079846e7e8866ad3a59a424156",
+        "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+      },
+      "checked_on": "2026-09-20",
+      "review_status": "reasoning_and_disposition_reviewed",
+      "full_text_in_card": false
+    },
+    {
+      "id": "C09",
+      "source_id": "e41b27d4-05c5-4f2d-a7b5-e5201818ff07",
+      "title": "Demirbaşlı işyerinde ürün kirası ayrımı",
+      "facts": "Demirbaşlarıyla kiralanan işyerinin ruhsatı kiracıya aittir; kiraya veren süre sonu tahliye ve günlük bedel ister.",
+      "evidence": "Sözleşme ve demirbaş listesi; Belediyenin ruhsat cevabı; Fesih bildirimi; Tahliye taahhüdü ve uzama döneminin belgeleri",
+      "issue": "İşletme sözleşmesi başlığı ve demirbaşlar ürün kirası için yeterli midir?",
+      "reasoning": "Daire, demirbaşların tek başına hasılat kirası göstermediğini belirtti. Somut sözleşme ve belediye cevabı uyarınca TBK 339 ve devamı uygulandı. Süre bitimine dayalı tek taraflı fesih ve buna bağlı cezai şart kabul edilmedi. Geçmiş döneme ait tahliye taahhüdü de somut uzama bağlamında tahliye sağlamadı.",
+      "outcome": "onama",
+      "result": "Tahliye ve cezai şart istemlerinin reddine ilişkin BAM kararı onandı.",
+      "dissent": [],
+      "limits": "Her ticari işletmenin veya gelir getiren yerin aynı rejime tabi olduğu sonucu çıkarılamaz. Devir kapsamı ve ruhsat dahil somut özellikler incelenir. Taahhüdün süreleri ve sonraki anlaşmalar ayrıca araştırılmalıdır.",
+      "scenario_ids": [
+        "B36"
+      ],
+      "source": {
+        "id": "e41b27d4-05c5-4f2d-a7b5-e5201818ff07",
+        "court": "3. Hukuk Dairesi",
+        "date": "22.09.2025",
+        "case_no": "2025/366",
+        "decision_no": "2025/4228",
+        "url": "https://app.dejure.ai/dokuman/e41b27d4-05c5-4f2d-a7b5-e5201818ff07",
+        "text_chars": 8927,
+        "text_sha256_utf8": "9d82f07f85b47bc65d72b81decdb49786c6d2e2a3ae260db3e4b17ac478fd6a0",
+        "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+      },
+      "checked_on": "2026-09-20",
+      "review_status": "reasoning_and_disposition_reviewed",
+      "full_text_in_card": false
+    },
+    {
+      "id": "C10",
+      "source_id": "611ac5d6-48ae-421e-82e6-39ceeb3287e1",
+      "title": "Erken tahliyede kaçınılmaz taşıma gideri",
+      "facts": "Tekne imal edilen hangarda boyama işleri yazılı izne bağlıdır. Erken tahliye sonrası kiracı taşıma gideri ve depozitoyu iki şirketten ister.",
+      "evidence": "Kullanım sınırlarını içeren sözleşme; Yazılı izin ve tespit dosyaları; Nakil gideri belgeleri; Depozito şartları ve hasar delilleri; Devrin gerçekleşmediğini gösteren idare yazısı",
+      "issue": "Zaten yapılacak taşıma gideri erken fesih nedeniyle karşı tarafa yüklenebilir mi?",
+      "reasoning": "Sözleşmenin bütünü ve amacı, yazılı izin olmadığında teknenin boya aşamasında başka yere taşınmasını gerektiriyordu. Erken fesih olmasa da doğacak nakil gideri kiracı üzerinde bırakıldı. Ayrıca hasar savunması araştırılmadan depozito iadesine hükmedilmesi ve onaylanmamış devir üzerinden diğer şirkete sözleşmesel sorumluluk yüklenmesi hatalı bulundu.",
+      "outcome": "bozma",
+      "result": "Taşıma gideri, depozitoda eksik inceleme ve diğer şirketin taraf sıfatına ilişkin nedenlerle hüküm bozuldu.",
+      "dissent": [],
+      "limits": "Her erken tahliyede nakil gideri reddedilir sonucu çıkarılamaz. Bu karar, faydalı masrafın veya onarım giderinin genel iade kuralı da değildir. B25 bağlantısı yalnız depozito mahsubu yönündendir. Başka şirkete farklı bir hukuki sebebe dayalı sorumluluk ayrıca incelenebilir.",
+      "scenario_ids": [
+        "B25"
+      ],
+      "source": {
+        "id": "611ac5d6-48ae-421e-82e6-39ceeb3287e1",
+        "court": "6. Hukuk Dairesi",
+        "date": "02.12.2014",
+        "case_no": "2014/9248",
+        "decision_no": "2014/13342",
+        "url": "https://app.dejure.ai/dokuman/611ac5d6-48ae-421e-82e6-39ceeb3287e1",
+        "text_chars": 11114,
+        "text_sha256_utf8": "2fbe358351f84e7c264778525212f0b05e5efe39d39eb62fffe46988e4d9c68c",
+        "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+      },
+      "checked_on": "2026-09-20",
+      "review_status": "reasoning_and_disposition_reviewed",
+      "full_text_in_card": false
     }
   ]
 }

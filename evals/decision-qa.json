@@ -126,6 +126,91 @@
       "disposition": "İki haklı ihtarın gerçekleştiği kabul edilerek tahliye talebini reddeden hüküm bozulmuştur; bu, ilk derece yerine verilmiş doğrudan tahliye hükmü olarak sunulmaz.",
       "limits": "Tarihî kararın muacceliyet şartı anlatımı güncel bütün sözleşmelere taşınmaz. Aynı anda istenebilir borcu bölerek iki ihtar üretmekle farklı borçların ihtarı ayrılır.",
       "counterfactual": "Ödeme ilgili ihtar tebliğinden önce yapılmışsa veya aynı muaccel borç yapay biçimde bölünmüşse haklı ihtar değerlendirmesi değişebilir."
+    },
+    {
+      "id": "Q07",
+      "card_id": "C07",
+      "question": "İşyerini boşalttım ve depozitomu istiyorum. Ev sahibi ödenmemiş kira ve hasar bulunduğunu söyleyip fotoğraf sundu. Mahkeme, çıkış tarihine ilişkin çelişkiyi çözmeden yalnız iki aylık kirayı düşerek kalanın iadesine karar verdi. Bu hesap yeterli mi?",
+      "short_answer": "Bu karara göre yeterli değildir. Tahliye tarihi ve ödenmemiş kiralar belirlenmeli; fotoğraflar da değerlendirilerek hor kullanım hasarı araştırılmalıdır.",
+      "reasoning": "İlk derece hesabında esas alınan son ödeme tarihi ile tahliye tarihi arasındaki süre, düşülen iki aylık kirayla örtüşmüyordu. Yargıtay, kiracıdan açık tahliye beyanı alınmasını, taraf delillerinin toplanmasını ve uzman bilirkişilerle keşif yapılarak hasarın incelenmesini istedi.",
+      "legal_basis": [
+        "Karardaki depozito, ödenmemiş kira ve hor kullanım incelemesi",
+        "HUMK m. 428 (kararın tarihsel temyiz usulü)"
+      ],
+      "decisive_documents": [
+        "Kira sözleşmesi ve depozito ödeme belgesi",
+        "Banka hareketleri",
+        "Anahtar teslimi ve tahliye tarihi delilleri",
+        "Tahliye fotoğrafları ve keşif/bilirkişi incelemesi"
+      ],
+      "outcome": "bozma",
+      "disposition": "Depozitonun kısmen iadesine ilişkin hüküm eksik inceleme nedeniyle bozuldu; kesin iade tutarı belirlenmedi.",
+      "limits": "2009 başlangıçlı sözleşmeye ilişkin tarihsel karardır. Metindeki ispat yükü ifadeleri güncel her depozito uyuşmazlığına aynen taşınmamalıdır. Olağan eskime, hasar bildirimi ve banka güvencesi koşulları ayrıca değerlendirilir; fotoğraf tek başına tüm kesintileri haklı kılmaz.",
+      "counterfactual": "Tahliye tarihi ve kira ödemeleri belgelerle netleşir, usulüne uygun hasar incelemesi de tamamlanırsa mahsup ve iade hesabı bu verilere göre yapılabilir."
+    },
+    {
+      "id": "Q08",
+      "card_id": "C08",
+      "question": "Kiralanan işyeri yeterince ısınmadığı için zarar ettim. Kira sözleşmesini imzalayan şirkete dava açtım; şirket mal sahibi adına vekil olarak imzaladığını söylüyor. Cevaba cevapta davalı adını yanlış yazdığımı belirtip düzelttim. Mahkeme doğrudan imzacı şirketi tazminata mahkûm edebilir mi?",
+      "short_answer": "Önce sözleşmenin tarafı ve taraf değişikliği talebi değerlendirilmelidir. Bu kararda yalnız vekil sıfatıyla imzalayan şirketin kiraya veren kabul edilmesi usule aykırı bulundu.",
+      "reasoning": "Sözleşme başka bir şirket adına imzalanmıştı. Davacıların düzeltme talebi karşısında HMK 124 kapsamında maddi hata, dürüstlük kuralı ve kabul edilebilir yanılgı koşulları incelenmeden temsilci hakkında esastan hüküm kurulamazdı.",
+      "legal_basis": [
+        "HMK m. 124"
+      ],
+      "decisive_documents": [
+        "Sözleşmenin taraf ve imza bölümleri",
+        "Temsil yetkisi belgeleri",
+        "Dava ve cevaba cevap dilekçeleri",
+        "Taraf sıfatına ilişkin savunma"
+      ],
+      "outcome": "bozma",
+      "disposition": "Tazminat hükmü usulden bozuldu; diğer temyiz itirazları incelenmedi.",
+      "limits": "Isınma ayıbının, zararın veya tazminat miktarının Yargıtay tarafından esastan doğrulanması değildir. Taraf değişikliği her isim hatasında otomatik kabul edilmez. B26 bağlantısı ayıp uyuşmazlığında ön sorun içindir; onarım bedelinin mahsubuna ilişkin hüküm değildir.",
+      "counterfactual": "İmzacı kendi adına kiraya veren olsaydı taraf sıfatı değerlendirmesi değişebilirdi; yine de ayıp, zarar ve nedensellik ayrıca incelenirdi."
+    },
+    {
+      "id": "Q09",
+      "card_id": "C09",
+      "question": "Demirbaşlarıyla bir işyeri kiraladım; çalışma ruhsatını kendi adıma aldım. Sözleşmenin başlığı işletme sözleşmesi. Kiraya veren ürün kirası olduğunu söyleyerek uzayan yılın sonunda çıkmamı ve çıkana kadar günlük bedel ödememi istiyor. Sözleşmenin adı ve demirbaşlar bunu tek başına sağlar mı?",
+      "short_answer": "Bu kararda sağlamadı. Ruhsatın kiracı adına olması ve ruhsatla birlikte kiralamanın kararlaştırılmaması dikkate alınarak ilişki çatılı işyeri kirası kabul edildi.",
+      "reasoning": "Daire, demirbaşların tek başına hasılat kirası göstermediğini belirtti. Somut sözleşme ve belediye cevabı uyarınca TBK 339 ve devamı uygulandı. Süre bitimine dayalı tek taraflı fesih ve buna bağlı cezai şart kabul edilmedi. Geçmiş döneme ait tahliye taahhüdü de somut uzama bağlamında tahliye sağlamadı.",
+      "legal_basis": [
+        "TBK m. 339 ve devamı",
+        "TBK m. 347",
+        "TBK m. 357"
+      ],
+      "decisive_documents": [
+        "Sözleşme ve demirbaş listesi",
+        "Belediyenin ruhsat cevabı",
+        "Fesih bildirimi",
+        "Tahliye taahhüdü ve uzama döneminin belgeleri"
+      ],
+      "outcome": "onama",
+      "disposition": "Tahliye ve cezai şart istemlerinin reddine ilişkin BAM kararı onandı.",
+      "limits": "Her ticari işletmenin veya gelir getiren yerin aynı rejime tabi olduğu sonucu çıkarılamaz. Devir kapsamı ve ruhsat dahil somut özellikler incelenir. Taahhüdün süreleri ve sonraki anlaşmalar ayrıca araştırılmalıdır.",
+      "counterfactual": "İşletme ruhsatı da dahil faal işletmenin bütün olarak devri söz konusu olsaydı ürün kirası değerlendirmesi yeniden yapılırdı; yalnız başlık değişikliği yeterli olmazdı."
+    },
+    {
+      "id": "Q10",
+      "card_id": "C10",
+      "question": "Tekne üretimi için hangar kiraladım. Sözleşmeye göre boya ve zımpara işleri için yazılı izin gerekiyordu; böyle bir izin alamadım. Erken tahliye nedeniyle tekneyi başka yere taşıdım. Zaten boya aşamasında taşımam gerekecek olsa da taşıma giderinin tamamını, depozitoyla birlikte kiraya verenden ve hangarı devraldığını söyleyen şirketten isteyebilir miyim?",
+      "short_answer": "Bu kararda taşıma giderinin kiraya verene yüklenmesi kabul edilmedi. Depozito için hasar mahsubu araştırılmalıydı; devri gerçekleşmeyen şirket de sözleşmeye halef sayılmadı.",
+      "reasoning": "Sözleşmenin bütünü ve amacı, yazılı izin olmadığında teknenin boya aşamasında başka yere taşınmasını gerektiriyordu. Erken fesih olmasa da doğacak nakil gideri kiracı üzerinde bırakıldı. Ayrıca hasar savunması araştırılmadan depozito iadesine hükmedilmesi ve onaylanmamış devir üzerinden diğer şirkete sözleşmesel sorumluluk yüklenmesi hatalı bulundu.",
+      "legal_basis": [
+        "Sözleşmenin amaç ve bütününe göre yorumlanması",
+        "TBK m. 310 (halefiyet)"
+      ],
+      "decisive_documents": [
+        "Kullanım sınırlarını içeren sözleşme",
+        "Yazılı izin ve tespit dosyaları",
+        "Nakil gideri belgeleri",
+        "Depozito şartları ve hasar delilleri",
+        "Devrin gerçekleşmediğini gösteren idare yazısı"
+      ],
+      "outcome": "bozma",
+      "disposition": "Taşıma gideri, depozitoda eksik inceleme ve diğer şirketin taraf sıfatına ilişkin nedenlerle hüküm bozuldu.",
+      "limits": "Her erken tahliyede nakil gideri reddedilir sonucu çıkarılamaz. Bu karar, faydalı masrafın veya onarım giderinin genel iade kuralı da değildir. B25 bağlantısı yalnız depozito mahsubu yönündendir. Başka şirkete farklı bir hukuki sebebe dayalı sorumluluk ayrıca incelenebilir.",
+      "counterfactual": "Kiralananda üretimin tamamlanmasına yazılı izin verilmiş ve erken tahliye yüzünden ayrıca taşıma gideri doğmuş olsaydı nedensellik ve zarar hesabı farklı değerlendirilebilirdi."
     }
   ]
 }

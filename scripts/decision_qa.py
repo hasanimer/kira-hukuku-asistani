@@ -32,7 +32,7 @@ def questions(data):
 
 def render(data, cards):
     lines = ['# Kararlardan sorular ve kaynaklı örnek yanıtlar', '',
-             'Altı kararın anonimleştirilmiş, sadeleştirilmiş olaylarından hazırlanan cevaplı çalışma. '
+             f'{len(data["examples"])} kararın anonimleştirilmiş, sadeleştirilmiş olaylarından hazırlanan cevaplı çalışma. '
              'Sorular kararın sonucunu söylemez; yanıtlar aşağıda açılır. Bunlar editoryal örnek yanıtlardır, '
              'bağımsız bir modelin kör sınama çıktısı veya mahkeme metninden birebir alıntı değildir.', '',
              'Kontrol: ' + data['checked_on'] + '. Mevcut 45 kurgu senaryonun tamamının yanıt anahtarı değildir. '

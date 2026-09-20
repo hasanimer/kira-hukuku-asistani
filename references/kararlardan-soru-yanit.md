@@ -1,6 +1,6 @@
 # Kararlardan sorular ve kaynaklı örnek yanıtlar
 
-Altı kararın anonimleştirilmiş, sadeleştirilmiş olaylarından hazırlanan cevaplı çalışma. Sorular kararın sonucunu söylemez; yanıtlar aşağıda açılır. Bunlar editoryal örnek yanıtlardır, bağımsız bir modelin kör sınama çıktısı veya mahkeme metninden birebir alıntı değildir.
+10 kararın anonimleştirilmiş, sadeleştirilmiş olaylarından hazırlanan cevaplı çalışma. Sorular kararın sonucunu söylemez; yanıtlar aşağıda açılır. Bunlar editoryal örnek yanıtlardır, bağımsız bir modelin kör sınama çıktısı veya mahkeme metninden birebir alıntı değildir.
 
 Kontrol: 2026-09-20. Mevcut 45 kurgu senaryonun tamamının yanıt anahtarı değildir. Kaynak kararın dönemini ve usulünü korur; güncel dosyada sonraki mevzuat/içtihat ayrıca araştırılır.
 
@@ -153,5 +153,105 @@ Makine okunur sürüm: [soru–yanıt verisi](../evals/decision-qa.json). Yalnı
 **Hangi olgu değişirse değerlendirme değişebilir?** Ödeme ilgili ihtar tebliğinden önce yapılmışsa veya aynı muaccel borç yapay biçimde bölünmüşse haklı ihtar değerlendirmesi değişebilir.
 
 **Kaynak:** [Yargıtay 6. Hukuk Dairesi, E. 2014/8939, K. 2014/9995, 18.09.2014](https://app.dejure.ai/dokuman/0bf162e1-17ed-420f-a06b-a57cf7a06f1c). Kart: C06. Künye ve metin hash’i [kart kaydında](karar-kartlari.json).
+
+</details>
+
+## Q07
+
+**Soru:** İşyerini boşalttım ve depozitomu istiyorum. Ev sahibi ödenmemiş kira ve hasar bulunduğunu söyleyip fotoğraf sundu. Mahkeme, çıkış tarihine ilişkin çelişkiyi çözmeden yalnız iki aylık kirayı düşerek kalanın iadesine karar verdi. Bu hesap yeterli mi?
+
+<details>
+<summary>Kaynaklı örnek yanıtı aç</summary>
+
+**Kısa yanıt:** Bu karara göre yeterli değildir. Tahliye tarihi ve ödenmemiş kiralar belirlenmeli; fotoğraflar da değerlendirilerek hor kullanım hasarı araştırılmalıdır.
+
+**Gerekçe:** İlk derece hesabında esas alınan son ödeme tarihi ile tahliye tarihi arasındaki süre, düşülen iki aylık kirayla örtüşmüyordu. Yargıtay, kiracıdan açık tahliye beyanı alınmasını, taraf delillerinin toplanmasını ve uzman bilirkişilerle keşif yapılarak hasarın incelenmesini istedi.
+
+**Hukuki dayanak:** Karardaki depozito, ödenmemiş kira ve hor kullanım incelemesi; HUMK m. 428 (kararın tarihsel temyiz usulü).
+
+**Belirleyici belgeler:** Kira sözleşmesi ve depozito ödeme belgesi; Banka hareketleri; Anahtar teslimi ve tahliye tarihi delilleri; Tahliye fotoğrafları ve keşif/bilirkişi incelemesi.
+
+**Kararın sonucu:** Depozitonun kısmen iadesine ilişkin hüküm eksik inceleme nedeniyle bozuldu; kesin iade tutarı belirlenmedi.
+
+**Uygulama sınırı:** 2009 başlangıçlı sözleşmeye ilişkin tarihsel karardır. Metindeki ispat yükü ifadeleri güncel her depozito uyuşmazlığına aynen taşınmamalıdır. Olağan eskime, hasar bildirimi ve banka güvencesi koşulları ayrıca değerlendirilir; fotoğraf tek başına tüm kesintileri haklı kılmaz.
+
+**Hangi olgu değişirse değerlendirme değişebilir?** Tahliye tarihi ve kira ödemeleri belgelerle netleşir, usulüne uygun hasar incelemesi de tamamlanırsa mahsup ve iade hesabı bu verilere göre yapılabilir.
+
+**Kaynak:** [Yargıtay 6. Hukuk Dairesi, E. 2013/16056, K. 2014/7824, 12.06.2014](https://app.dejure.ai/dokuman/9cc231b5-3aff-4e42-a261-14cb16cfbd29). Kart: C07. Künye ve metin hash’i [kart kaydında](karar-kartlari.json).
+
+</details>
+
+## Q08
+
+**Soru:** Kiralanan işyeri yeterince ısınmadığı için zarar ettim. Kira sözleşmesini imzalayan şirkete dava açtım; şirket mal sahibi adına vekil olarak imzaladığını söylüyor. Cevaba cevapta davalı adını yanlış yazdığımı belirtip düzelttim. Mahkeme doğrudan imzacı şirketi tazminata mahkûm edebilir mi?
+
+<details>
+<summary>Kaynaklı örnek yanıtı aç</summary>
+
+**Kısa yanıt:** Önce sözleşmenin tarafı ve taraf değişikliği talebi değerlendirilmelidir. Bu kararda yalnız vekil sıfatıyla imzalayan şirketin kiraya veren kabul edilmesi usule aykırı bulundu.
+
+**Gerekçe:** Sözleşme başka bir şirket adına imzalanmıştı. Davacıların düzeltme talebi karşısında HMK 124 kapsamında maddi hata, dürüstlük kuralı ve kabul edilebilir yanılgı koşulları incelenmeden temsilci hakkında esastan hüküm kurulamazdı.
+
+**Hukuki dayanak:** HMK m. 124.
+
+**Belirleyici belgeler:** Sözleşmenin taraf ve imza bölümleri; Temsil yetkisi belgeleri; Dava ve cevaba cevap dilekçeleri; Taraf sıfatına ilişkin savunma.
+
+**Kararın sonucu:** Tazminat hükmü usulden bozuldu; diğer temyiz itirazları incelenmedi.
+
+**Uygulama sınırı:** Isınma ayıbının, zararın veya tazminat miktarının Yargıtay tarafından esastan doğrulanması değildir. Taraf değişikliği her isim hatasında otomatik kabul edilmez. B26 bağlantısı ayıp uyuşmazlığında ön sorun içindir; onarım bedelinin mahsubuna ilişkin hüküm değildir.
+
+**Hangi olgu değişirse değerlendirme değişebilir?** İmzacı kendi adına kiraya veren olsaydı taraf sıfatı değerlendirmesi değişebilirdi; yine de ayıp, zarar ve nedensellik ayrıca incelenirdi.
+
+**Kaynak:** [Yargıtay 3. Hukuk Dairesi, E. 2023/5216, K. 2024/3377, 30.10.2024](https://app.dejure.ai/dokuman/438765a4-ba4d-4d70-8b47-77e491a9e4ac). Kart: C08. Künye ve metin hash’i [kart kaydında](karar-kartlari.json).
+
+</details>
+
+## Q09
+
+**Soru:** Demirbaşlarıyla bir işyeri kiraladım; çalışma ruhsatını kendi adıma aldım. Sözleşmenin başlığı işletme sözleşmesi. Kiraya veren ürün kirası olduğunu söyleyerek uzayan yılın sonunda çıkmamı ve çıkana kadar günlük bedel ödememi istiyor. Sözleşmenin adı ve demirbaşlar bunu tek başına sağlar mı?
+
+<details>
+<summary>Kaynaklı örnek yanıtı aç</summary>
+
+**Kısa yanıt:** Bu kararda sağlamadı. Ruhsatın kiracı adına olması ve ruhsatla birlikte kiralamanın kararlaştırılmaması dikkate alınarak ilişki çatılı işyeri kirası kabul edildi.
+
+**Gerekçe:** Daire, demirbaşların tek başına hasılat kirası göstermediğini belirtti. Somut sözleşme ve belediye cevabı uyarınca TBK 339 ve devamı uygulandı. Süre bitimine dayalı tek taraflı fesih ve buna bağlı cezai şart kabul edilmedi. Geçmiş döneme ait tahliye taahhüdü de somut uzama bağlamında tahliye sağlamadı.
+
+**Hukuki dayanak:** TBK m. 339 ve devamı; TBK m. 347; TBK m. 357.
+
+**Belirleyici belgeler:** Sözleşme ve demirbaş listesi; Belediyenin ruhsat cevabı; Fesih bildirimi; Tahliye taahhüdü ve uzama döneminin belgeleri.
+
+**Kararın sonucu:** Tahliye ve cezai şart istemlerinin reddine ilişkin BAM kararı onandı.
+
+**Uygulama sınırı:** Her ticari işletmenin veya gelir getiren yerin aynı rejime tabi olduğu sonucu çıkarılamaz. Devir kapsamı ve ruhsat dahil somut özellikler incelenir. Taahhüdün süreleri ve sonraki anlaşmalar ayrıca araştırılmalıdır.
+
+**Hangi olgu değişirse değerlendirme değişebilir?** İşletme ruhsatı da dahil faal işletmenin bütün olarak devri söz konusu olsaydı ürün kirası değerlendirmesi yeniden yapılırdı; yalnız başlık değişikliği yeterli olmazdı.
+
+**Kaynak:** [Yargıtay 3. Hukuk Dairesi, E. 2025/366, K. 2025/4228, 22.09.2025](https://app.dejure.ai/dokuman/e41b27d4-05c5-4f2d-a7b5-e5201818ff07). Kart: C09. Künye ve metin hash’i [kart kaydında](karar-kartlari.json).
+
+</details>
+
+## Q10
+
+**Soru:** Tekne üretimi için hangar kiraladım. Sözleşmeye göre boya ve zımpara işleri için yazılı izin gerekiyordu; böyle bir izin alamadım. Erken tahliye nedeniyle tekneyi başka yere taşıdım. Zaten boya aşamasında taşımam gerekecek olsa da taşıma giderinin tamamını, depozitoyla birlikte kiraya verenden ve hangarı devraldığını söyleyen şirketten isteyebilir miyim?
+
+<details>
+<summary>Kaynaklı örnek yanıtı aç</summary>
+
+**Kısa yanıt:** Bu kararda taşıma giderinin kiraya verene yüklenmesi kabul edilmedi. Depozito için hasar mahsubu araştırılmalıydı; devri gerçekleşmeyen şirket de sözleşmeye halef sayılmadı.
+
+**Gerekçe:** Sözleşmenin bütünü ve amacı, yazılı izin olmadığında teknenin boya aşamasında başka yere taşınmasını gerektiriyordu. Erken fesih olmasa da doğacak nakil gideri kiracı üzerinde bırakıldı. Ayrıca hasar savunması araştırılmadan depozito iadesine hükmedilmesi ve onaylanmamış devir üzerinden diğer şirkete sözleşmesel sorumluluk yüklenmesi hatalı bulundu.
+
+**Hukuki dayanak:** Sözleşmenin amaç ve bütününe göre yorumlanması; TBK m. 310 (halefiyet).
+
+**Belirleyici belgeler:** Kullanım sınırlarını içeren sözleşme; Yazılı izin ve tespit dosyaları; Nakil gideri belgeleri; Depozito şartları ve hasar delilleri; Devrin gerçekleşmediğini gösteren idare yazısı.
+
+**Kararın sonucu:** Taşıma gideri, depozitoda eksik inceleme ve diğer şirketin taraf sıfatına ilişkin nedenlerle hüküm bozuldu.
+
+**Uygulama sınırı:** Her erken tahliyede nakil gideri reddedilir sonucu çıkarılamaz. Bu karar, faydalı masrafın veya onarım giderinin genel iade kuralı da değildir. B25 bağlantısı yalnız depozito mahsubu yönündendir. Başka şirkete farklı bir hukuki sebebe dayalı sorumluluk ayrıca incelenebilir.
+
+**Hangi olgu değişirse değerlendirme değişebilir?** Kiralananda üretimin tamamlanmasına yazılı izin verilmiş ve erken tahliye yüzünden ayrıca taşıma gideri doğmuş olsaydı nedensellik ve zarar hesabı farklı değerlendirilebilirdi.
+
+**Kaynak:** [Yargıtay 6. Hukuk Dairesi, E. 2014/9248, K. 2014/13342, 02.12.2014](https://app.dejure.ai/dokuman/611ac5d6-48ae-421e-82e6-39ceeb3287e1). Kart: C10. Künye ve metin hash’i [kart kaydında](karar-kartlari.json).
 
 </details>

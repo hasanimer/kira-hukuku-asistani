@@ -10,7 +10,7 @@ class AnswerTests(unittest.TestCase):
     def test_blind_questions_have_no_answer_or_source_fields(self):
         data, _ = qa.load_qa()
         out = qa.questions(data)
-        self.assertEqual(len(out['questions']), 6)
+        self.assertEqual(len(out['questions']), len(data['examples']))
         self.assertTrue(all(set(r) == {'id', 'question'} for r in out['questions']))
 
     def test_readable_answers_match_data_and_include_every_source(self):
