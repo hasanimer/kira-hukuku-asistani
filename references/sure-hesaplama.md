@@ -46,6 +46,8 @@ Dayanak: TBK 92 ve HMK 92. Hangi hükmün uygulanacağını işlem türü belirl
 
 ## Tatil, arabuluculuk ve tebligat düzeltmeleri
 
+**Erken arabuluculuk:** Yargıtay 3. HD 2025/1495 E., 2025/3048 K., TBK 350 kapsamındaki ihtiyaç nedeniyle tahliyede dava açma hakkı doğduktan sonra başvuruyu arar. 2025/3292 E., 2025/5039 K. ise TBK 351/1 yönünden farklı BAM uygulaması bulunmadığından karar verilmesine yer olmadığı sonucundadır; yeni malik hakkında aynı kapsamda esastan çözüm varmış gibi kullanma. [Gerekçe ve kapsam kontrolü](tahliye-ve-uyarlama-kontrol.md). Başvurunun uygunluğu doğrulanmadan süre durmasını otomatik uygulama.
+
 **Hasar bildirimi:** TBK 335'in hemen yazılı bildirim koşuluna sabit üç ay ekleme. TBK 342'deki üç ay, dava/takibin bankaya bildirilmesine ilişkindir; hasar bildiriminin genel son günü değildir. Görünür/gizli ayıp, geri verme, öğrenme ve ulaşma tarihlerini [teslim rehberine](teslim-masraf-kefalet.md) göre ayrı incele.
 
 Süre seçmeden önce [kira rejimini](kira-rejimi-ve-taraflar.md) belirle. TBK 329 taşınır yapıları da kapsar; TBK 330'daki üç günlük taşınır kira bildirimi her büfe/konteynere uygulanmaz. Ürün kirasında temerrüt bakımından TBK 362'nin en az 60 günlük ödeme süresini ayrıca incele; bunu 30 günlük konut/çatılı işyeri süresiyle karıştırma. Bu ayrımlar için otomatik yeni hesap komutu eklenmemiştir. Sözleşmede daha özel bildirim hükmü olup olmadığını kontrol et; [İstanbul BAM 36. HD 2024/1082–2025/1809](emsal-listesi-dogrulama.md) kararındaki iki ay sözleşmeseldir, genel TBK 350 süresi değildir.

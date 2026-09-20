@@ -203,6 +203,8 @@ kira-tespit-asistani/
 | [Kira tespiti ve hak ve nesafet](references/uygulama-rehberi.md) | [Fazla ödeme iadesi ve ispat](references/iade-ispat.md) |
 | [Kira türü, usul ve taraflar](references/kira-rejimi-ve-taraflar.md) | [30 emsalin doğrulama durumu](references/emsal-listesi-dogrulama.md) |
 | [Teslim, masraf, kefalet ve devir](references/teslim-masraf-kefalet.md) | [Karar kaynak kayıtları](references/egitim-kaynak-kaydi.json) |
+| [Tahliye ve uyarlama kaynak kontrolü](references/tahliye-ve-uyarlama-kontrol.md) | Arabuluculuk zamanı, taahhüt, aile konutu, iki ihtar, yeniden kiralama ve tedbir |
+| [Kira mevzuatı haritası](references/mevzuat-haritasi.md) | Maddi hukuk, usul, icra, kamu kiraları, aidat, döviz, dönüşüm ve vergi |
 | [Rehber kaynak kontrolü](references/rehber-dogrulama.md) | [BAM kararları ve kullanım sınırları](references/bam-kararlari.md) |
 | [Katkı rehberi](CONTRIBUTING.md) | [Veri kaynakları ve bütünlük](data/README.md) |
 

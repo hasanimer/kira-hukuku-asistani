@@ -13,6 +13,8 @@ Talebi bir veya birden çok modülle eşleştir. TypeSafe sinyalleri yardımcıd
 
 ## Modüle özgü araştırma soruları
 
+Tahliye ve uyarlamada [eğitim notlarının kaynak kontrolünü](tahliye-ve-uyarlama-kontrol.md) kullan: altı kararın gerekçe/hüküm özeti, karşıoy ayrımı ve uygulama sınırları. Notların tamamının doğrulandığını varsayma.
+
 **Tahliye:** İhtiyaç iddiası ile tahliye taahhüdünü birbirinin yerine kullanma. Taahhüdün teslimden sonra verilip verilmediği, tarih ve imza itirazı, aile konutu iddiası, taraf sıfatı ve süre başlangıcını ayrı incele. On yıllık uzama hesabını ilk sözleşme süresini atlayarak kurma. İki haklı ihtarla temerrüt nedeniyle tahliyenin şartlarını karıştırma.
 
 **Alacak:** Borcun varlığı, ödeme ve mahsup iddiaları için ayrı delil çizelgesi kur. Tespit kararı ile eda hükmünü ayır. İtirazın iptali ve kaldırılması yollarını aynı süre/delil rejimi gibi ele alma.

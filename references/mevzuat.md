@@ -1,5 +1,7 @@
 # Türk Borçlar Kanunu
 
+Diğer kanunların hangi meselede araştırılacağı ve sık karıştırılan dayanaklar için [kira mevzuat haritasını](mevzuat-haritasi.md) kullan. Harita tam metin kanun arşivi değildir.
+
 - `data/mevzuat/6098-source.json`: tam metnin yedi kaynak bölümü; kaynak adresi, alınma zamanı ve bölüm bilgileri korunur.
 - `data/mevzuat/6098-turk-borclar-kanunu.md`: bölümlerin aralarına iki satır sonu eklenerek birleştirilen aranabilir tam metin.
 - `scripts/tbk.py`: madde numarasıyla erişim. Bölüm sırası, toplam bayt sayısı, 1–649 madde başlıkları ve kaynak hash'i denetlenir.

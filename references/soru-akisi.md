@@ -35,6 +35,8 @@ Rejim veya taraf sıfatı belirsizse [ön inceleme rehberine](kira-rejimi-ve-tar
 
 ## Tahliye
 
+İhtiyaçta önce 350/351 yolunu, dava hakkının doğumunu ve arabuluculuk tarihlerini belirle. Taahhütte fiilî teslim, belgenin düzenlenmesi, imza/tarih itirazı ve dayanak delili ayır. Aile konutunda eş bildiriminin tarihi ve muhatabını; TBK 355'te ilam, takip ve fiilî tahliye belgelerini sor. Belgelerde mevcut bilgiyi tekrar isteme. [Kaynaklar ve yorum sınırları](tahliye-ve-uyarlama-kontrol.md).
+
 - İleri sürülen neden ne: ihtiyaç, taahhüt, ödeme gecikmesi, iki ihtar veya uzama süresi?
 - Taahhüt varsa ne zaman imzalandı, hangi boşaltma tarihini içeriyor? Aslı mevcut mu; imza veya tarih çekişmeli mi?
 - Taşınmaz fiilen ne zaman teslim edildi? Bu tarih hangi belgede yer alıyor?

@@ -35,6 +35,8 @@ BAM kararlarını kullanırken [seçki ve kullanım sınırlarını](references/
 
 ## Dayanak araştır
 
+İhtiyaç nedeniyle tahliyede erken arabuluculuk, taahhütte boş tarih/ispat, aile konutu, iki haklı ihtar, yeniden kiralama tazminatı veya uyarlamada tedbir için [tahliye ve uyarlama kaynak kontrolünü](references/tahliye-ve-uyarlama-kontrol.md) oku. TBK 350 hakkındaki kararı 351/1'e otomatik taşıma; karşıoyu çoğunluk sonucu sayma. Eğitim dökümlerindeki kişisel görüşleri ve geçmiş dönem kurallarını doğrulanmış güncel içtihat gibi kullanma.
+
 Depozito, teslim hasarı, ayıp gideri, kefalet veya kira devri tartışılıyorsa [teslim, masraf ve kefalet rehberini](references/teslim-masraf-kefalet.md) kullan. TBK 335 bildirimini 342'deki üç aya bağlama; 306'daki hakkı icra mahkemesinin ispat kurallarıyla karıştırma. İşyerinde devir yasağının yokluğunu yazılı rıza sayma.
 
 1. `pool.py stats` ile erişilebilir havuzun fiilî boyutunu ve tarih aralığını gör. Sıkı havuz yoksa önceki sürüme sessizce geçme; eksikliği belirt ve varsa başka sürümü kullanıcıya açıkça tanımla.
@@ -44,6 +46,8 @@ Depozito, teslim hasarı, ayıp gideri, kefalet veya kira devri tartışılıyor
 5. Birebir alıntıyı `quote` ile doğrula. Bulunması, hukuki yorumu doğrulamaz; bağlamı ayrıca değerlendir. Kaynak künyesini, yerel kayıt kimliğini ve metin hash'ini araştırma izinde tut. Künye/metin çelişkisini açıklamadan karar kullanma; eksik künyeyi veya URL'yi uydurma.
 
 ## Zaman ve güncellik
+
+TBK dışındaki icra, usul, aile konutu, aidat, kamu kiralaması, döviz, dönüşüm veya vergi meselesinde [mevzuat haritasını](references/mevzuat-haritasi.md) kullan. Özel rejimi ve işlem tarihini seçmeden genel kira kuralını uygulama; haritadaki kaynak erişim sınırlarını koru.
 
 Paket [6098 sayılı Türk Borçlar Kanunu'nun tam metnini](data/mevzuat/6098-turk-borclar-kanunu.md) yedi bölümün tamamıyla içerir. `python scripts/tbk.py 344` veya `345` ile ilgili maddeyi getir; numarasız çağrı kaynak ve alınma bilgisini verir. Ayrıntılar: [references/mevzuat.md](references/mevzuat.md). Bu sabit kopyadır; somut dosyada uygulanacak dönem ve sonraki değişiklikleri ayrıca doğrula. Dönem ve süre hesaplamalarında `python scripts/hesap.py tespit --baslangic GG.AA.YYYY --hedef-donem GG.AA.YYYY (--artis-sarti veya --artis-sarti-yok) [--ihtar-tarihi GG.AA.YYYY]`, 10 yıllık uzama takviminde `python scripts/hesap.py tahliye-10yil --baslangic GG.AA.YYYY` veya dönem dökümünde `python scripts/hesap.py donemler --baslangic GG.AA.YYYY` araçlarından yararlan.
 
