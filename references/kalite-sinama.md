@@ -4,6 +4,8 @@ Bu sürümde **45 özgün kurgu senaryo**, her biri için üç ölçüt ve **6 y
 
 ## Kararı somut dosyaya bağla
 
+**Cevaplı örnekler:** [Altı karardan soru–yanıt rehberi](kararlardan-soru-yanit.md). Kaynaklı editoryal yanıtlar 45 senaryonun yanıt anahtarı veya canlı model sonucu değildir. `python scripts/decision_qa.py export` yalnız altı soruyu verir; `show Q01` yanıtı ve kaynağı da gösterir. Kör sınamada cevaplı rehberi veya kaynak kartlarını önceden açmak sonucu etkileyebilir; bu setin açık kaynak olduğunu raporla.
+
 [Karar kartları](karar-kartlari.json) olay, belirleyici delil, mesele, gerekçe, hüküm, karşıoy, uygulanamayacağı durum ve kaynak izini ayrı alanlarda tutar. Kaynak kimliği/künye/hash [araştırma kaydıyla](egitim-kaynak-kaydi.json) eşleşir. Hash özgünlük veya hukuki doğruluk sertifikası değildir. Kartlar altı yeni tam metin değildir; daha önce incelenmiş kararların yapılandırılmış özetleridir. Asıl metni okumadan dilekçeye birebir alıntı taşıma.
 
 ```sh

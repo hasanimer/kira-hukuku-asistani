@@ -79,6 +79,9 @@ def main():
         require(all(r['court_type'] == 'yargitay' for r in filtered['results']), 'Yargitay filter leaked')
     scenarios = run('scenarios.py', 'list')
     quality = run('quality.py', 'validate')
+    answers = run('decision_qa.py', 'validate')
+    require(answers['examples'] == 6 and answers['model_performance'] == 'not_measured',
+            'Decision answer set incomplete or mislabeled')
     require(quality['structural_validation'] == 'pass' and quality['cases'] >= 40
             and quality['cards'] >= 6 and quality['legal_performance'] == 'not_measured',
             'Quality suite structure or performance qualification lost')
