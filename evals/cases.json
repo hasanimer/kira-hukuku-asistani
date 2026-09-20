@@ -1,0 +1,1088 @@
+{
+  "schema_version": 1,
+  "version": "2026-09-20.2",
+  "fictional": true,
+  "status": "author_drafted_requires_legal_review",
+  "cases": [
+    {
+      "id": "B01",
+      "module": "tespit",
+      "fictional": true,
+      "prompt": "Konut kirası 01.09.2022 başladı. Malik 01.09.2026 için emsal seviyesinde tespit istiyor. İlk değerlendirmeyi yap.",
+      "reference": "references/uygulama-rehberi.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "İlk beş yıl ile TBK 344/3 dönemini ayır; emsal seviyesini otomatik uygulama.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Sözleşme, hedef dönem ve önceki tespit/değişiklik belgelerini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Dört yıl geçtiği için hak ve nesafet tespiti kesin mümkündür deme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "module": "tespit",
+      "fictional": true,
+      "prompt": "Konut sözleşmesinde artış hükmü var. Malik yeni dönemden iki ay sonra tespit davası istiyor; ihtar yok. İncele.",
+      "reference": "references/uygulama-rehberi.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "TBK 345/3 kapsamında hükmün içeriği ve dönem sonunu değerlendir.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Artış maddesinin birebir metni ve dava/arabuluculuk tarihlerini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "İhtar yokluğundan davanın mutlaka reddedileceğini söyleme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "module": "tespit",
+      "fictional": true,
+      "prompt": "Artış hükmü olmayan sözleşmede yeni dönem 01.09.2026. Yazılı artış bildirimi 10.08.2026 ulaştı. Etki tarihini incele.",
+      "reference": "references/uygulama-rehberi.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "345/2 otuz günlük eşiğini dönem başından hesapla; bildirimin geç olmasını dava yasağı sayma.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Önceden açılmış dava veya başka zamanında bildirim olup olmadığını sor.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Otuz günü bir ay sayma veya geç bildirimle dönem başına etkiyi kesin kabul etme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B04",
+      "module": "tespit",
+      "fictional": true,
+      "prompt": "Bilirkişi boş rayici 40.000 TL, davacı talebini 35.000 TL belirtiyor. Eski kiracı indirimi isteniyor.",
+      "reference": "references/uygulama-rehberi.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "Boş rayiç üzerinden hakkaniyet değerlendirmesi ile taleple bağlılığı ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Raporun emsallerini ve kiracılığın koşullarını iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "İndirimi zorunlu sabit yüzde olarak veya doğrudan talep üzerinden hesaplama.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B05",
+      "module": "tespit",
+      "fictional": true,
+      "prompt": "Kiracı altıncı yılda yeni bedel yazan ek protokol imzaladı. Malik iki yıl sonra yeniden emsal tespiti istiyor.",
+      "reference": "references/uygulama-rehberi.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "Protokolün hukuki niteliğini, önceki bedel belirlemesini ve 344/345'i birlikte incele.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Protokolün tamamı, tarih ve önceki tespit kararını iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Her ek protokol beş yılı kesin sıfırlar deme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B06",
+      "module": "ihtiyac",
+      "fictional": true,
+      "prompt": "TBK 350 ihtiyacına dayanılacak. Belirli kira dönemi 31.12.2025 bitiyor; arabuluculuk 10–20.12.2025 arasında tamamlandı. İncele.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "2025/3048 kararındaki erken başvuru sorununu tespit et; dava hakkının doğumunu ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Sözleşme süresi, ihtar, son tutanak ve dava tarihini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Erken arabuluculuğu koşulsuz yeterli sayma.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B07",
+      "module": "ihtiyac",
+      "fictional": true,
+      "prompt": "Yeni malik TBK 351/1'e dayanıyor. Altı ay dolmadan arabuluculuğa gitti. 2025/5039 kararını emsal gösteriyor.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "Kararın 351/1 hakkında uyuşmazlık yokluğundan karar verilmesine yer olmadığı sonucunu koru.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Edinme, bildirim ulaşması ve başvuru tarihlerini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Kararı erken başvuru hakkında esastan kesin kabul veya ret kararı sayma.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B08",
+      "module": "ihtiyac",
+      "fictional": true,
+      "prompt": "Malik ihtiyaç ihtarı çektiğini söylüyor ve bu yüzden dava süresine otomatik bir yıl eklenmesini istiyor.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "353'ün süre ve yazılı dava bildirimi koşullarını denetle.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "İhtar metni, tebliğ belgesi ve sözleşme dönemini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Her ihtarın otomatik bir yıl uzattığını kabul etme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B09",
+      "module": "ihtiyac",
+      "fictional": true,
+      "prompt": "Konutun yeni maliki edinmeden beş ay sonra dava açmak istiyor; sözleşme süresi bitmiş olabilir.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "351/1 altı ay yolu ile 351/2 sözleşme sonu yolunu ayrı incele.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Edinme ve sözleşme sonu belgeleri ile ihtarı iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Her durumda altı ay beklenmesini veya hemen dava açılmasını kesin önerme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B10",
+      "module": "ihtiyac",
+      "fictional": true,
+      "prompt": "İhtiyaç davasında kiracı taşınmazın satış ilanını buldu. Malik ihtiyacın devam ettiğini söylüyor.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "İhtiyacın somutluğu ve sürekliliğini delillerle değerlendirme gereğini açıkla.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "İlan tarihi, ihtiyacın nedeni ve alternatif konut bilgilerini sor.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Tek ilan nedeniyle davanın kesin kaybedileceğini söyleme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B11",
+      "module": "taahhut",
+      "fictional": true,
+      "prompt": "Sözleşme 1 Mart, taahhüt 2 Mart tarihli; anahtarlar 5 Mart'ta teslim edilmiş. Belgeyi değerlendir.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "352/1 bakımından teslimden sonra verilme koşulunu ayrı kontrol et.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Gerçek imza tarihi ve teslim tutanağını iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Sözleşmeden bir gün sonra olduğu için geçerliliği kesin kabul etme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B12",
+      "module": "taahhut",
+      "fictional": true,
+      "prompt": "Kiracı boş tarihli taahhüdü ilk sözleşmede verdiğini söylüyor; yazılı karşı delil yok, yemin deliline dayanmış. 2017/475'i uygula.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "İspat yükü yanında yemin delili ve bozma gerekçesini açıkla.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Taahhüt aslı, cevap dilekçesi ve delil listesini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Kararı kesin tahliye hükmü veya savunmanın kesin sonu sayma.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B13",
+      "module": "taahhut",
+      "fictional": true,
+      "prompt": "Kiracı taahhütteki imzanın kendisine ait olmadığını söylüyor; malik boş tarihli belge emsali gösteriyor.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "İmza inkârı ile kabul edilen imzanın sonradan doldurulmasını ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Takip yolu, itiraz metni ve belge aslını iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Boş tarih ispatını imza inkârına otomatik uygulama.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B14",
+      "module": "taahhut",
+      "fictional": true,
+      "prompt": "Taahhütte boşaltma 30.06.2026, düzenleme 01.02.2026 yazıyor. Sürenin Şubat'ta başladığı söyleniyor.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "352/1 başvuru başlangıcını taahhüt edilen boşaltma tarihine bağla.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Başvuru, tebliğ ve seçilen icra/dava yolunu sor.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Başvuru süresini düzenleme tarihinden başlatma.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B15",
+      "module": "taahhut",
+      "fictional": true,
+      "prompt": "Aile konutunda sözleşmede olmayan eş malike bildirim yaptı. İlk kiracı borçtan çıktığını savunuyor.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "194'te sözleşmeye katılım ve müteselsil sorumluluk ayrımını açıkla.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Bildirim içeriği/ulaşması ve aile konutu niteliğini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Bildirimle önceki kiracının otomatik borçtan kurtulduğunu söyleme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B16",
+      "module": "alacak",
+      "fictional": true,
+      "prompt": "Aynı kira yılında iki aylık borç için ayrı haklı ihtarlar ulaştı; ikisi de tebliğden sonra ödendi. Tahliye itirazını incele.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "352/2'de ödeme sonrası haklı ihtar ile 315 temerrüt koşullarını ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Vade, ihtar tebliği, ödeme ve kira yılı belgelerini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Ödendiği için iki haklı ihtarın otomatik yok olduğunu söyleme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B17",
+      "module": "alacak",
+      "fictional": true,
+      "prompt": "Malik aynı anda muaccel olmuş borcu iki parçaya bölerek iki ihtar oluşturmak istiyor.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "Yapay bölmenin iki haklı ihtar yaratmayacağı sorununu belirle.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Borçların vade ve dönem listesini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Yalnız iki belge var diye iki haklı ihtarı kabul etme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B18",
+      "module": "alacak",
+      "fictional": true,
+      "prompt": "Kiracı ödeme ve ihtarın aynı gün gerçekleştiğini söylüyor; saat bilinmiyor.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "Tebliğ ve ödeme sırasının belirleyici olduğunu göster; kesin sonuç verme.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Saat bilgisi, banka işlem kaydı ve tebliğ belgesini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Gün aynı diye mutlaka önce/sonra kabul etme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B19",
+      "module": "alacak",
+      "fictional": true,
+      "prompt": "Ürün kirasında ödeme emri için konutlardaki 30 günlük süre kullanılmak isteniyor.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "Rejimi ve TBK 362 ödeme süresini araştır; konut süresini aktarma.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "İşletmenin unsurları, sözleşme ve ödeme emrini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Her kira takibinde 30 günü yeterli kabul etme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B20",
+      "module": "alacak",
+      "fictional": true,
+      "prompt": "Kira alacağı takibine itiraz edildi; sulh hukukta itirazın iptali açılacak. Takip olduğu için arabuluculuğun gereksiz olduğu söyleniyor.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "HUAK 18/B istisnasını itirazın iptaline topluca yayma; seçilen yolu incele.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Takip talebi, itiraz ve dava talebini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "İcra bağlantılı bütün davaları istisna sayma.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B21",
+      "module": "depozito",
+      "fictional": true,
+      "prompt": "Anahtarlar teslim edildi; ev sahibi görülebilen hasarı iki ay sonra yazılı bildirdi. Üç ay hakkı olduğunu söylüyor.",
+      "reference": "references/teslim-masraf-kefalet.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "335 hasar bildirimi ile 342 bankaya bildirim süresini ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Teslim, inceleme, öğrenme ve ulaşma kayıtlarını iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Her hasar için üç aylık bildirim hakkı verildiğini söyleme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B22",
+      "module": "depozito",
+      "fictional": true,
+      "prompt": "Banka depozitosunu kiracı geri istiyor; malik dava açtığını ama bankaya yazmadığını belirtiyor.",
+      "reference": "references/teslim-masraf-kefalet.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "342'de dava/takip ile bankaya bildirim koşullarını ayrı değerlendir.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Sona erme tarihi ve banka bildirim/kayıtlarını iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Dava açmayı tek başına bankaya bildirimle eşitleme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B23",
+      "module": "depozito",
+      "fictional": true,
+      "prompt": "Beş yıl kullanılan konutta olağan boya eskimesi için tüm depozito kesilmiş. Sözleşmede yeni teslim yazıyor.",
+      "reference": "references/teslim-masraf-kefalet.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "334 olağan kullanım ile sözleşmeye aykırı hasarı ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Giriş/çıkış fotoğrafları, tutanak ve kesinti hesabını iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Yeni teslim nedeniyle her yenileme masrafını kiracıya yükleme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B24",
+      "module": "depozito",
+      "fictional": true,
+      "prompt": "Kiracı yalnız anahtar teslim belgesini sundu. Malik bunun hasarsız teslim anlamına gelmediğini söylüyor.",
+      "reference": "references/teslim-masraf-kefalet.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "Belgenin sadece teslim mi ibra/hasarsızlık mı içerdiğini değerlendir.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Belgenin tamamını ve hasar bildirimini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Anahtar alındı ifadesinden otomatik tam ibra çıkarma.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B25",
+      "module": "depozito",
+      "fictional": true,
+      "prompt": "Ev sahibi depozitoyu tuttu; hangi borçlara mahsup ettiğini açıklamıyor.",
+      "reference": "references/teslim-masraf-kefalet.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "Ödenen güvence, kanıtlanmış kesintiler ve net bakiye için ayrı hesap iste.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Depozito ödeme belgesi ve dönem bazlı borç/hasar dökümünü iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Salt hasar iddiasıyla bütün depozitoya el koymayı onaylama.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B26",
+      "module": "masraf",
+      "fictional": true,
+      "prompt": "Kiracı bozulan tesisatı onartıp kiradan düştü; sadece fatura sundu. İncele.",
+      "reference": "references/teslim-masraf-kefalet.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "306 kapsamında bildirim, uygun süre, ayıp ve zorunlu gideri ayrı değerlendir.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Ayıp bildirimi, verilen süre ve onarım belgelerini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Her faturayı otomatik mahsup hakkı sayma.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B27",
+      "module": "masraf",
+      "fictional": true,
+      "prompt": "Malik onayıyla dekorasyon yapıldı; kiracı çıkarken tüm değer artışını istiyor. Yazılı ödeme anlaşması görünmüyor.",
+      "reference": "references/teslim-masraf-kefalet.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "321'de rıza ile değer artışını isteme hakkının farklı olduğunu belirt.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Yazılı anlaşma ve değişiklik kapsamını iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Rıza verilmesini bütün masrafların geri ödenmesi sözü sayma.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B28",
+      "module": "masraf",
+      "fictional": true,
+      "prompt": "İşyeri sözleşmesinde devir yasağı yok. Kiracı işletmeyi devredip kira ilişkisinden çıktığını söylüyor.",
+      "reference": "references/teslim-masraf-kefalet.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "323 yazılı rıza ile haklı neden olmadan kaçınamama ayrımını açıkla.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Devir sözleşmesi ve kiraya verenin yazılı rızasını iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Yasak yokluğunu yazılı rıza sayma.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B29",
+      "module": "masraf",
+      "fictional": true,
+      "prompt": "Sözleşmede gerçek kişi garantörün adı var; kefalet şekline bakılmadan tahsil isteniyor.",
+      "reference": "references/teslim-masraf-kefalet.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "583/603 kapsamında başlıktan bağımsız kişisel güvence incelemesi yap.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "İmza, el yazılı alanlar, azami tutar, tarih ve ilgili eş rızası bilgilerini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Garantör başlığının şekil denetimini kaldırdığını söyleme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B30",
+      "module": "masraf",
+      "fictional": true,
+      "prompt": "Kefalet üç yıllık sözleşmede verilmiş; sekizinci yıl borcu kefilden isteniyor.",
+      "reference": "references/teslim-masraf-kefalet.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "598 on yıllık üst rejim ile kefaletin dönem ve kapsamını ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Kefalet metni, uzatma ve borç dönemini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "On yıl dolmadığı için her kira borcunun kapsamda olduğunu söyleme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B31",
+      "module": "uyarlama",
+      "fictional": true,
+      "prompt": "Pandemide faaliyeti kısıtlanan kiracı kira uyarlaması ve geçici tedbir istiyor; 2021/6001 gösteriliyor.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "Kararın koşullu tedbir olanağını, esastan kabulden ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Sözleşme, kısıtlama, ciro ve ödeme/çekince kayıtlarını iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Herkese otomatik yüzde 50 indirim önerme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B32",
+      "module": "uyarlama",
+      "fictional": true,
+      "prompt": "Kiracı gelirinin azalmasını gerekçe gösterip mahkeme kararı olmadan kira ödemesini yarıya indirmek istiyor.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "138 koşulları ve tedbir talebi ile tek taraflı eksik ödemenin sonuçlarını ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Değişen koşulun tarihi, öngörülebilirliği ve ödeme durumunu iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Dava açmanın kendiliğinden ödeme yükümlülüğünü azalttığını söyleme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B33",
+      "module": "uyarlama",
+      "fictional": true,
+      "prompt": "İhtiyaç kararı üzerine çıkan kiracı yeniden kiralamadan tazminat istiyor. İcra yoluyla tahliye belgesi yok.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "355 için 2025/3540 çoğunluk görüşünün riskini ve olgu incelemesini açıkla.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "İlam, takip, tebliğ, teslim ve yeniden kiralama belgelerini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Sadece ihtar veya ilam gösterildi diye otomatik bir yıllık tazminat sonucu verme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B34",
+      "module": "uyarlama",
+      "fictional": true,
+      "prompt": "Kiracı 2025/3540 karşıoyunu çoğunluk kararı gibi dilekçesine yazmak istiyor.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "Çoğunluğun onaması ile karşıoydaki takip yeterlidir görüşünü ayrı etiketle.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Kararın tam metnini ve somut tahliye biçimini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Karşıoyu çoğunluğun kabul gerekçesi olarak sunma.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B35",
+      "module": "uyarlama",
+      "fictional": true,
+      "prompt": "Kira tespiti istenen dosyada pandemi uyarlaması tedbir emsali sunuldu.",
+      "reference": "references/tahliye-ve-uyarlama-kontrol.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "344/345 tespit ile 138 uyarlamayı talep ve koşul bakımından ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Talep sonucu, hedef dönem ve değişen koşulları iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Uyarlama tedbir emsalini tespitin tüm sonuçlarına otomatik taşıma.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B36",
+      "module": "rejim",
+      "fictional": true,
+      "prompt": "Sözleşmenin başlığı depo; kiralanan büyük açık saha ve küçük kapalı bölümden oluşuyor. Hangi rejim?",
+      "reference": "references/mevzuat-haritasi.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "Baskın kullanım, amaç ve yapı unsurlarını birlikte incele.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Sözleşme, alan planı ve kullanım belgelerini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Başlıktaki depo sözcüğüyle çatılı işyerini kesin kabul etme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B37",
+      "module": "rejim",
+      "fictional": true,
+      "prompt": "Taraflar sözlü olarak iki yıl süreli kirada anlaştıklarını söylüyor. Sözlü olduğu için belirsiz süre uygulanması isteniyor.",
+      "reference": "references/mevzuat-haritasi.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "Biçim, kararlaştırılan süre ve ispatı ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Süreyi gösteren yazışma, ödeme ve taraf beyanlarını iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Her sözlü sözleşmeyi belirsiz süreli sayma.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B38",
+      "module": "rejim",
+      "fictional": true,
+      "prompt": "Belediyeye ait taşınmazın kira süresi bitti. Her kamu kirası 15 günde tahliye edilir deniyor.",
+      "reference": "references/mevzuat-haritasi.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "2886/75 kapsamını, özel kanun bağlantısını ve idari yolu araştır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Mülkiyet, ihale/sözleşme ve tahliye işlemini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Her kamu kiralamasına otomatik aynı tahliye rejimini uygulama.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B39",
+      "module": "rejim",
+      "fictional": true,
+      "prompt": "Dövizle konut kirasında beş yıllık değişmeme kuralına dayanak olarak 1567 gösterilmiş.",
+      "reference": "references/mevzuat-haritasi.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "344/4 bedel rejimini 32 sayılı Karar/Tebliğ sözleşme kısıtlarından ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Taraf yerleşikliği, taşınmaz ve sözleşme tarihini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Beş yıllık kira kuralını doğrudan 1567'ye atfetme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B40",
+      "module": "rejim",
+      "fictional": true,
+      "prompt": "Paydaşların sadece kişi sayısı çoğunluğu kira sözleşmesi imzaladı. Diğerleri itiraz ediyor.",
+      "reference": "references/mevzuat-haritasi.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "Paylı/elbirliği ayrımı ile pay ve paydaş çoğunluğunu araştır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Tapu payları, yetki ve rıza belgelerini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Yalnız imzalayan kişi sayısıyla geçerliliği kesin kabul etme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B41",
+      "module": "temerrut",
+      "fictional": true,
+      "prompt": "Konut kiracısına 8 Nisan günü ulaşan yazılı ödeme bildiriminde on gün verilmiş. Malik 19 Nisanda tahliye istiyor. Bildirimi incele.",
+      "reference": "references/mevzuat-haritasi.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "315 bakımından konut için asgari otuz günlük süreyi ve ulaşmayı izleyen sayımı ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Bildirim metni, tebliğ ve borç/ödeme kayıtlarını iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Konut için on günü yeterli süre kabul etme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B42",
+      "module": "temerrut",
+      "fictional": true,
+      "prompt": "İki farklı ayın kirası geç ödenmiş; ev sahibi iki kez telefonla ödeme istemiş. İki haklı ihtar davasını değerlendir.",
+      "reference": "references/mevzuat-haritasi.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "352/2 için yazılı ihtar koşulunu, salt tekrarlanan gecikmeden ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Yazılı ihtar veya ödeme emri bulunup bulunmadığını sor.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "İki telefon konuşmasını tek başına iki yazılı haklı ihtar sayma.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B43",
+      "module": "alacak",
+      "fictional": true,
+      "prompt": "Kiralar zamanında ödenmiş; iki aylık ortak gider borcu var. Malik iki haklı ihtar yoluyla tahliye istiyor.",
+      "reference": "references/mevzuat-haritasi.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "315 yan gider temerrüdü ile 352/2 kira bedeline bağlı iki ihtar yolunu ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Yan giderin dayanağı, vadesi, bildirim ve ödeme kayıtlarını iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Her aidat gecikmesini otomatik 352/2 kira ihtarı sayma.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B44",
+      "module": "uzama",
+      "fictional": true,
+      "prompt": "Konut üç yıllığına kiralanmış. Başlangıçtan on bir yıl sonra malik on yıllık uzamanın tamamlandığını söylüyor. Hesap yöntemini açıkla.",
+      "reference": "references/mevzuat-haritasi.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "347/1 hesabında ilk üç yıllık süre ile on yıllık uzama ve izleyen uzama yılını ayrı göster.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "İlk sözleşme, sonraki sözleşmeler, bildirim ve geçiş tarihlerini iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Bütün belirli süreli sözleşmeleri başlangıç artı on bir yıl kabul etme.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "B45",
+      "module": "uzama",
+      "fictional": true,
+      "prompt": "Konutun yeni maliki mevcut kirayı düşük buluyor ve belirli sözleşmenin bitiminde kiracının çıkmasını istiyor; başka sebep bildirmemiş.",
+      "reference": "references/mevzuat-haritasi.md",
+      "criteria": [
+        {
+          "id": "analysis",
+          "description": "347 kapsamında salt dönem sonu ile 344/345 bedel belirleme yollarını ayır.",
+          "critical": true
+        },
+        {
+          "id": "questions",
+          "description": "Sözleşme başlangıcı, süre, yeni sözleşmeler ve talep edilen dönemi iste.",
+          "critical": false
+        },
+        {
+          "id": "avoid",
+          "description": "Düşük kira ve satış olgusunu tek başına tahliye nedeni sayma.",
+          "critical": true
+        }
+      ]
+    }
+  ]
+}

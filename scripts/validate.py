@@ -78,6 +78,10 @@ def main():
                 {r['document_id'] for r in selected}), 'Yargitay filter missed additions')
         require(all(r['court_type'] == 'yargitay' for r in filtered['results']), 'Yargitay filter leaked')
     scenarios = run('scenarios.py', 'list')
+    quality = run('quality.py', 'validate')
+    require(quality['structural_validation'] == 'pass' and quality['cases'] >= 40
+            and quality['cards'] >= 6 and quality['legal_performance'] == 'not_measured',
+            'Quality suite structure or performance qualification lost')
     require(scenarios['fictional'] and scenarios['total'] > 0,
             'Scenario catalog unavailable or fiction label lost')
     deadline = run('deadlines.py', 'tbk345', '2026-09-01')

@@ -35,6 +35,8 @@ BAM kararlarını kullanırken [seçki ve kullanım sınırlarını](references/
 
 ## Dayanak araştır
 
+İlgili emsal için `python scripts/quality.py cards "konu veya künye"` ile [yapılandırılmış karar kartlarını](references/karar-kartlari.json) ara; olay, delil, gerekçe, hüküm ve uygulanamayacağı durumu ayrı değerlendir. Skill geliştirme veya değerlendirme talebinde [45 dosyalık sınama akışını](references/kalite-sinama.md) kullan; yapı kontrolünü hukuki başarı ölçümü diye sunma.
+
 İhtiyaç nedeniyle tahliyede erken arabuluculuk, taahhütte boş tarih/ispat, aile konutu, iki haklı ihtar, yeniden kiralama tazminatı veya uyarlamada tedbir için [tahliye ve uyarlama kaynak kontrolünü](references/tahliye-ve-uyarlama-kontrol.md) oku. TBK 350 hakkındaki kararı 351/1'e otomatik taşıma; karşıoyu çoğunluk sonucu sayma. Eğitim dökümlerindeki kişisel görüşleri ve geçmiş dönem kurallarını doğrulanmış güncel içtihat gibi kullanma.
 
 Depozito, teslim hasarı, ayıp gideri, kefalet veya kira devri tartışılıyorsa [teslim, masraf ve kefalet rehberini](references/teslim-masraf-kefalet.md) kullan. TBK 335 bildirimini 342'deki üç aya bağlama; 306'daki hakkı icra mahkemesinin ispat kurallarıyla karıştırma. İşyerinde devir yasağının yokluğunu yazılı rıza sayma.

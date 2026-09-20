@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "id": "C01",
+      "source_id": "68d56bc1-56de-4c48-897f-26496fe36633",
+      "title": "İhtiyaçta erken arabuluculuk",
+      "facts": "İhtiyaç nedeniyle tahliye öncesi, dönem bitmeden başlatılan arabuluculuk hakkında farklı BAM kararları.",
+      "evidence": "Sözleşme dönemi ile başvuru ve son tutanak tarihleri.",
+      "issue": "TBK 350'de dava şartı başvurusunun zamanı.",
+      "reasoning": "Dava açma hakkının doğumundan sonra, dava süresi içinde başvuru aranır.",
+      "outcome": "uyusmazligin_giderilmesi",
+      "result": "BAM görüş ayrılığı bu yönde giderildi.",
+      "dissent": [],
+      "limits": "TBK 351/1 veya kira tespiti hakkında doğrudan hüküm değildir.",
+      "scenario_ids": [
+        "B06"
+      ],
+      "source": {
+        "id": "68d56bc1-56de-4c48-897f-26496fe36633",
+        "court": "3. Hukuk Dairesi",
+        "date": "26.05.2025",
+        "case_no": "2025/1495",
+        "decision_no": "2025/3048",
+        "url": "https://app.dejure.ai/dokuman/68d56bc1-56de-4c48-897f-26496fe36633",
+        "text_chars": 25110,
+        "text_sha256_utf8": "43fcd9aa67736d2a3911477a7f4122c1378f2a65df138e8782e646554064bdea",
+        "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+      },
+      "checked_on": "2026-09-20",
+      "review_status": "reasoning_and_disposition_reviewed",
+      "full_text_in_card": false
+    },
+    {
+      "id": "C02",
+      "source_id": "e81acb96-cf9e-4b0a-ab73-6c564667475f",
+      "title": "Yeni malik yönünden kararın kapsamı",
+      "facts": "350 ve 351/1 davalarında arabuluculuk zamanına ilişkin BAM kararları sunuldu.",
+      "evidence": "Sunulan BAM kararlarının aynı meselede farklılık içerip içermediği.",
+      "issue": "Yeni malik bakımından uyuşmazlık giderilmesinin koşulları.",
+      "reasoning": "350 daha önce çözüldü; 351/1 için farklı uygulama gösterilmedi.",
+      "outcome": "karar_verilmesine_yer_olmadigi",
+      "result": "Her iki başlıkta farklı nedenlerle yeniden karar verilmesine yer yok.",
+      "dissent": [],
+      "limits": "351/1 için erken arabuluculuğun esastan geçerlilik onayı değildir; önceki karara 3048/3408 atıf çelişkisi var.",
+      "scenario_ids": [
+        "B07"
+      ],
+      "source": {
+        "id": "e81acb96-cf9e-4b0a-ab73-6c564667475f",
+        "court": "3. Hukuk Dairesi",
+        "date": "21.10.2025",
+        "case_no": "2025/3292",
+        "decision_no": "2025/5039",
+        "url": "https://app.dejure.ai/dokuman/e81acb96-cf9e-4b0a-ab73-6c564667475f",
+        "text_chars": 30049,
+        "text_sha256_utf8": "0cddf1739312d68b72f6641ed8c1a5961416ceb3557cfd7833927c239b87417c",
+        "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula",
+        "citation_warning": "Body cites preceding 2025/1495 decision as both 3048 and 3408; independent source checked as 2025/3048."
+      },
+      "checked_on": "2026-09-20",
+      "review_status": "reasoning_and_disposition_reviewed",
+      "full_text_in_card": false
+    },
+    {
+      "id": "C03",
+      "source_id": "0fd6b7a6-fa92-4451-8a55-fe12767174b0",
+      "title": "Yeniden kiralama ve icra marifeti",
+      "facts": "İhtiyaç ilamı sonrası çıkan kiracı, üçüncü kişiye kiralama nedeniyle tazminat istedi.",
+      "evidence": "Tahliye ilamı, icra işlemleri ve fiilî boşaltmanın niteliği.",
+      "issue": "TBK 355 tazminatında tahliyenin biçimi.",
+      "reasoning": "Çoğunluk icra marifeti olmadan çıkışı yeterli görmedi.",
+      "outcome": "onama",
+      "result": "Tazminat talebinin reddi onandı.",
+      "dissent": [
+        "Karşıoy, ilamlı takip ve icra emri sonrası çıkışı yeterli sayar; fiilî cebir aramaz."
+      ],
+      "limits": "Karşıoy çoğunluk sonucu değildir; tahliye yöntemini dosya belgeleriyle ayır.",
+      "scenario_ids": [
+        "B33",
+        "B34"
+      ],
+      "source": {
+        "id": "0fd6b7a6-fa92-4451-8a55-fe12767174b0",
+        "court": "3. Hukuk Dairesi",
+        "date": "24.06.2025",
+        "case_no": "2024/3099",
+        "decision_no": "2025/3540",
+        "url": "https://app.dejure.ai/dokuman/0fd6b7a6-fa92-4451-8a55-fe12767174b0",
+        "text_chars": 8845,
+        "text_sha256_utf8": "2f8087550e4904387125e38f32811772c837f607f2179630a0ccfc9d6779d43a",
+        "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+      },
+      "checked_on": "2026-09-20",
+      "review_status": "reasoning_and_disposition_reviewed",
+      "full_text_in_card": false
+    },
+    {
+      "id": "C04",
+      "source_id": "6c694102-0042-4b25-bc18-ad4dace428b2",
+      "title": "Pandemi uyarlamasında tedbir",
+      "facts": "Pandemiden etkilenen işletmelerin uyarlama davalarında tedbir taleplerine farklı BAM yanıtları.",
+      "evidence": "Kısıtlamanın sektöre etkisi, faaliyet ve kira ödeme durumu.",
+      "issue": "Uyarlamada geçici hukuki korumanın mümkün olup olmadığı.",
+      "reasoning": "HMK 389 vd. koşulları varsa tedbir mümkündür; kategorik ret doğru değildir.",
+      "outcome": "uyusmazligin_giderilmesi",
+      "result": "Koşullu tedbir olanağı yönünde uyuşmazlık giderildi.",
+      "dissent": [],
+      "limits": "Her kiraya otomatik indirim veya esastan kabul kararı değildir; pandemi bağlamı önemlidir.",
+      "scenario_ids": [
+        "B31",
+        "B32",
+        "B35"
+      ],
+      "source": {
+        "id": "6c694102-0042-4b25-bc18-ad4dace428b2",
+        "court": "3. Hukuk Dairesi",
+        "date": "04.06.2021",
+        "case_no": "2021/3452",
+        "decision_no": "2021/6001",
+        "url": "https://app.dejure.ai/dokuman/6c694102-0042-4b25-bc18-ad4dace428b2",
+        "text_chars": 20887,
+        "text_sha256_utf8": "b68dd40acf666d3dbee6eb08009d3a322fca96f01d491fef0421a5ab152544f1",
+        "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+      },
+      "checked_on": "2026-09-20",
+      "review_status": "reasoning_and_disposition_reviewed",
+      "full_text_in_card": false
+    },
+    {
+      "id": "C05",
+      "source_id": "15186657-1693-4838-837f-5523b589e176",
+      "title": "Boş tarih ve yemin delili",
+      "facts": "Kiracı taahhüdün ilk sözleşmede boş imzalandığını, tarihlerin sonradan doldurulduğunu savundu.",
+      "evidence": "Taahhüt, yazılı karşı delil bulunmaması ve yemin deliline dayanılması.",
+      "issue": "Tarih savunmasında ispat yükü ve yemin hakkı.",
+      "reasoning": "İspat yükü kiracıdayken yanlış tarafa yemin hakkı hatırlatılması isabetsizdi.",
+      "outcome": "bozma",
+      "result": "Kiracıya yemin teklif etme hakkı hatırlatılarak karar verilmesi için bozma.",
+      "dissent": [],
+      "limits": "Kesin tahliye hükmü değildir; imza inkârıyla aynı mesele sayılmaz.",
+      "scenario_ids": [
+        "B12",
+        "B13"
+      ],
+      "source": {
+        "id": "15186657-1693-4838-837f-5523b589e176",
+        "court": "3. Hukuk Dairesi",
+        "date": "24.01.2017",
+        "case_no": "2017/1536",
+        "decision_no": "2017/475",
+        "url": "https://app.dejure.ai/dokuman/15186657-1693-4838-837f-5523b589e176",
+        "text_chars": 4354,
+        "text_sha256_utf8": "e9ab72205506bc77e5be378de919a532c684b499bacddbe0edd52ed31ce08d1f",
+        "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+      },
+      "checked_on": "2026-09-20",
+      "review_status": "reasoning_and_disposition_reviewed",
+      "full_text_in_card": false
+    },
+    {
+      "id": "C06",
+      "source_id": "0bf162e1-17ed-420f-a06b-a57cf7a06f1c",
+      "title": "İhtardan sonra ödeme",
+      "facts": "Aynı kira yılında farklı borçlar ödeme emri ve ihtar tebliğinden sonra ödendi.",
+      "evidence": "Borç dönemleri, tebliğ ve ödeme tarihleri; ileri sürülmeyen tebligat usulsüzlüğü.",
+      "issue": "İki haklı ihtara sonraki ödemenin etkisi.",
+      "reasoning": "Tebliğ sonrası ödeme ihtarın haklılığını kaldırmaz; mahkemenin resen usulsüzlük kabulü isabetsizdi.",
+      "outcome": "bozma",
+      "result": "Ret hükmü bozuldu.",
+      "dissent": [],
+      "limits": "315 temerrüt süresiyle aynı sonuç değildir; tarihî muacceliyet anlatımını güncele otomatik taşıma.",
+      "scenario_ids": [
+        "B16",
+        "B17",
+        "B18"
+      ],
+      "source": {
+        "id": "0bf162e1-17ed-420f-a06b-a57cf7a06f1c",
+        "court": "6. Hukuk Dairesi",
+        "date": "18.09.2014",
+        "case_no": "2014/8939",
+        "decision_no": "2014/9995",
+        "url": "https://app.dejure.ai/dokuman/0bf162e1-17ed-420f-a06b-a57cf7a06f1c",
+        "text_chars": 3216,
+        "text_sha256_utf8": "1427739e357b403ffa674041993bf9c97c90de4ab294df2f4d28c048489cce0b",
+        "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+      },
+      "checked_on": "2026-09-20",
+      "review_status": "reasoning_and_disposition_reviewed",
+      "full_text_in_card": false
+    }
+  ]
+}

@@ -196,6 +196,8 @@ kira-tespit-asistani/
 
 ## Rehberler
 
+[45 özgün dosyayla sınama ve 6 yapılandırılmış karar kartı](references/kalite-sinama.md): hukuki ayrım, gerekli sorular ve kritik yanlış sonuçlar için inceleme ölçütleri. Yanıtlar insan değerlendirmesiyle puanlanır; henüz canlı model başarı oranı ölçülmedi.
+
 | Başlamak için | Ayrıntıya inmek için |
 | :--- | :--- |
 | [Skill yönergeleri](SKILL.md) | [Karar havuzu ve arama komutları](references/havuz.md) |
