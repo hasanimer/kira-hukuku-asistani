@@ -54,7 +54,7 @@ def main():
     search = sub.add_parser('search')
     search.add_argument('terms', nargs='+')
     search.add_argument('--limit', type=int, default=8)
-    search.add_argument('--court-type', choices=['bam'])
+    search.add_argument('--court-type', choices=['bam', 'yargitay'])
     search.add_argument('--kind', choices=['esas_gerekcesi', 'usul_gerekcesi',
                                          'kisa_karar', 'sinirda'])
     get = sub.add_parser('get')
@@ -70,6 +70,10 @@ def main():
     if bam.exists():
         rows.extend(read_rows(bam))
         sources.append(bam)
+    yargitay = args.root / 'yargitay-selected.jsonl'
+    if yargitay.exists():
+        rows.extend(read_rows(yargitay))
+        sources.append(yargitay)
     ids = [str(row['document_id']) for row in rows]
     if len(ids) != len(set(ids)):
         raise ValueError('Duplicate document_id across pools')

@@ -7,7 +7,7 @@ description: Türk kira hukukunda tespit, uyarlama, tahliye, kira alacağı, dep
 
 İsteği [kira hukuku modüllerine](references/moduller.md) yönlendir; yalnız ilgili modülleri oku. Karma talepte birden çok modül kullan. TypeSafe ile çalışılacaksa [entegrasyon ve kaynak akışını](references/typesafe.md) uygula. Yerel havuz kira tespiti ağırlıklıdır; diğer modüllerde bağlı kaynaklardan araştırma yap. Mevcut çağrı adı `kira-tespit-asistani` olarak korunur.
 
-Skill ile birlikte gelen [karar havuzunu](data/topic-rescan-assistant-adjusted.jsonl) somut dosyaya uygulayan Türkçe bir hukuk araştırma ve taslak hazırlama asistanı olarak çalış. 1.593 kararın tam metni ve künyesi skill paketindedir; haricî proje dizinine erişim gerekmez. Büyük veri dosyasını bütünüyle bağlama yükleme; `scripts/pool.py` ile ilgili kararları seçerek oku. Karar etiketlerini hukuki kural yerine koyma. Havuzun kaynak yapısı ve sorgu komutları için [references/havuz.md](references/havuz.md) dosyasını oku.
+Skill ile birlikte gelen [karar havuzunu](data/topic-rescan-assistant-adjusted.jsonl) somut dosyaya uygulayan Türkçe bir hukuk araştırma ve taslak hazırlama asistanı olarak çalış. 1.596 kararın tam metni ve künyesi skill paketindedir; haricî proje dizinine erişim gerekmez. Büyük veri dosyasını bütünüyle bağlama yükleme; `scripts/pool.py` ile ilgili kararları seçerek oku. Karar etiketlerini hukuki kural yerine koyma. Havuzun kaynak yapısı ve sorgu komutları için [references/havuz.md](references/havuz.md) dosyasını oku.
 
 ## Çalışma mantığı
 
@@ -29,7 +29,7 @@ Süre veya son gün sorulursa [süre hesabı ve formüllerini](references/sure-h
 
 Hak ve nesafet, beş yıllık dönem, TBK 345, eski kiracı indirimi veya geçici artış sınırı tartışılıyorsa [uygulama rehberini](references/uygulama-rehberi.md) oku. Fazla ödeme iadesi gündeme gelirse [iade ve ispat rehberini](references/iade-ispat.md) kullan; İİK istirdadı ile genel iade talebini ayır. Paylaşılan rehberlerdeki eksik atıfların durumu [kaynak kontrolündedir](references/rehber-dogrulama.md). Bu rehberleri kesin sonuç tablosu gibi uygulama.
 
-BAM kararlarını kullanırken [seçki ve kullanım sınırlarını](references/bam-kararlari.md) oku. `research_notes` uyarılarını sonuç ve dilekçeye kaynak seçerken dikkate al. Arama sonuçları hem ana havuzu hem BAM ekini kapsar.
+BAM kararlarını kullanırken [seçki ve kullanım sınırlarını](references/bam-kararlari.md) oku. `research_notes` uyarılarını sonuç ve dilekçeye kaynak seçerken dikkate al. Arama sonuçları ana havuzu, BAM ve Yargıtay eklerini kapsar. Yargıtay eklerini kullanırken [seçki notlarını](references/yargitay-kararlari.md) oku; bozma, onama ve karar düzeltme aşamalarını ayır.
 
 ## Dayanak araştır
 

@@ -1,6 +1,6 @@
 # Yerel havuz ve kaynak izi
 
-Varsayılan kök: bu skill klasöründeki `data/`. Yardımcı yolu kendi konumundan çözer; skill klasörünün tamamı başka dizine taşınabilir. Ana havuzdaki 1.576 karar ile `bam-selected.jsonl` dosyasındaki 17 BAM kararının toplam 1.593 tam metni pakete dahildir. BAM seçkisi için [kullanım notlarını](bam-kararlari.md) oku. Başka havuzu açıkça seçmek için komuta `--root "..."` ekle.
+Varsayılan kök: bu skill klasöründeki `data/`. Yardımcı yolu kendi konumundan çözer; skill klasörünün tamamı başka dizine taşınabilir. Ana havuzdaki 1.576 karar ile `bam-selected.jsonl` dosyasındaki 17 BAM kararı ve `yargitay-selected.jsonl` dosyasındaki 3 Yargıtay kararının toplam 1.596 tam metni pakete dahildir. BAM seçkisi için [kullanım notlarını](bam-kararlari.md) oku. Başka havuzu açıkça seçmek için komuta `--root "..."` ekle.
 
 Bu paket 20.09.2026 tarihinde güncellenmiş sabit kopyadır; kaynak proje değişince otomatik güncellenmez. `data/manifest.json` kaynak ve paket dosyalarının hash değerlerini, kayıt sayısını ve etiket birleştirme yöntemini içerir. Hukuki içerik korunarak aktarılmıştır. Açık kişi adı çıkarılan kayıtlarda `redactions` anonimleştirmeyi, `source_text_sha256` kaynak metnini, `text_sha256` yerel metni izler.
 
@@ -33,3 +33,5 @@ Yardımcı her okumada kayıt metni SHA-256 değerini kontrol eder; uyuşmazlık
 Araştırma izinde: havuz dosyası, document_id, court, esas_no, karar_no, karar_tarihi, text_sha256, alıntı ve konumu, dosyaya uygulanabilirlik gerekçesi. Kayıtta doğrulanmış kaynak URL'si yoksa URL türetme; yerel dosya ve künye ile atıf yap.
 
 Yalnız BAM kararları için `python scripts/pool.py search ihtar --court-type bam` kullan. BAM kaynak adresleri `source_url`, kullanım sınırları `research_notes` alanında döner. Dejure bağlantıları giriş gerektirebilir; yerel tam metin erişimi çevrimdışı çalışır.
+
+Yargıtay ekleri için [seçki ve kullanım sınırlarını](yargitay-kararlari.md) oku. `--court-type yargitay` yalnız tür etiketi olan kayıtları süzer; etiketsiz ana havuz kayıtları bu filtreyle görünmeyebilir.

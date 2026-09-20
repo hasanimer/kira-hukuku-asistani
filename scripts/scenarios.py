@@ -31,7 +31,10 @@ def load_catalog(root):
 
 def resolve(rows, root):
     sources = {}
-    for name in ('topic-rescan-assistant-adjusted.jsonl', 'bam-selected.jsonl'):
+    names = ['topic-rescan-assistant-adjusted.jsonl', 'bam-selected.jsonl']
+    if (root / 'data/yargitay-selected.jsonl').exists():
+        names.append('yargitay-selected.jsonl')
+    for name in names:
         for decision in read_rows(root / 'data' / name):
             key = str(decision['document_id'])
             if key in sources:

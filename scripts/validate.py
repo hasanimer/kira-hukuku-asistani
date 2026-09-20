@@ -62,6 +62,21 @@ def main():
         require(filtered['total_matches'] == manifest['collections']['bam-selected.jsonl'],
                 'BAM filter missed records')
         require(all(r['court_type'] == 'bam' for r in filtered['results']), 'BAM filter leaked')
+    yargitay_file = ROOT / 'data/yargitay-selected.jsonl'
+    if yargitay_file.exists():
+        selected = [json.loads(line) for line in yargitay_file.read_text(encoding='utf-8').splitlines()]
+        for decision in selected:
+            fetched = run('pool.py', 'get', decision['document_id'])
+            require(fetched['text'] == decision['text'] and
+                    fetched['source_url'] == decision['source_url'] and
+                    fetched['research_notes'] == decision['research_notes'],
+                    'Yargitay text or provenance lost')
+            require(run('pool.py', 'quote', decision['document_id'], decision['text'][-100:])['exact_match'],
+                    'Yargitay final text quote failed')
+        filtered = run('pool.py', 'search', 'kira', '--court-type', 'yargitay', '--limit', '100')
+        require({r['document_id'] for r in filtered['results']}.issuperset(
+                {r['document_id'] for r in selected}), 'Yargitay filter missed additions')
+        require(all(r['court_type'] == 'yargitay' for r in filtered['results']), 'Yargitay filter leaked')
     scenarios = run('scenarios.py', 'list')
     require(scenarios['fictional'] and scenarios['total'] > 0,
             'Scenario catalog unavailable or fiction label lost')

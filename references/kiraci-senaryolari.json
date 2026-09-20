@@ -222,9 +222,11 @@
       ],
       "decision_ids": [
         "afcfb4b8-3380-4758-94b2-e45d32c6d5e5",
-        "8e67cad0-eca1-4c28-b96c-a608b1c762a3"
+        "8e67cad0-eca1-4c28-b96c-a608b1c762a3",
+        "3ed4fe74-ff6b-4f4e-891c-e355ee63f916",
+        "cb724b08-d518-489f-bd0f-cce07b98ea89"
       ],
-      "coverage": "Görev ve ödeme emrinden önce itirazın usul etkisine ilişkin emsaller var. İade hakkının esası ve tutarı için ek araştırma gerekli.",
+      "coverage": "Görev ve takip usulüne ilişkin BAM emsallerine ek olarak hasar/aidat mahsubunu inceleyen Yargıtay kararları var. Eski sözleşme rejimi ve karar düzeltme aşaması nedeniyle notları oku; iade tutarı otomatik belirlenmez.",
       "counterfacts": [
         "Belgeli kira borcu veya hasar mahsubu",
         "Masrafın onaysız veya farklı sözleşmeye bağlı olması"
