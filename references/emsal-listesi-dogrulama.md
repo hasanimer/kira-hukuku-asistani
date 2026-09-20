@@ -1,0 +1,64 @@
+# Paylaşılan 30 emsalin doğrulama kaydı
+
+Kontrol: 20.09.2026. Kullanıcının verdiği liste araştırma girdisidir. **28 künye bulundu; 10 kararın gerekçesi ve hükmü incelendi; 18 kayıt yalnız künye düzeyinde kontrol edildi; 2 kayıt araçla doğrulanamadı.** Künye eşleşmesi, gönderilen özetin doğruluğunu kanıtlamaz.
+
+“Gerekçe ve hüküm incelendi” kaydı da güncel hukuka otomatik uygulanabilirlik anlamına gelmez. İlk derece anlatımı, taraf iddiası, karşıoy ve üst mahkemenin kendi sonucu ayrı tutulmuştur. Buradaki kartlar dış araştırma kaydıdır; yerel tam metin havuzunun sayısını artırmaz.
+
+## Kayıtlar
+
+| No | Karar / kaynak | Kontrol düzeyi | Sonuç veya kullanım sınırı |
+| --- | --- | --- | --- |
+| 1 | [İBK E. 1964/2, K. 1964/4, 18.11.1964](https://app.dejure.ai/dokuman/9cdb6467-a519-4fe1-ae8c-c80f7624bcc6) | Gerekçe ve hüküm incelendi | Tarihî rayiç/hak ve nesafet yaklaşımı. Bugünkü beş yıllık rejimin veya sabit indirim oranının doğrudan kaynağı değildir. |
+| 2 | [İBK E. 1965/5, K. 1965/5, 07.07.1965](https://app.dejure.ai/dokuman/63ce82b9-298f-4ca0-8b68-ff39d243cf34) | Gerekçe ve hüküm incelendi | Karar aylık kira üzerinden asliye/sulh **görev ayrımına** ilişkindir; aylık farktan harç hesaplanması şeklindeki özet bu metinle doğrulanmadı. |
+| 3 | [İBK E. 1966/19, K. 1966/10, 21.11.1966](https://app.dejure.ai/dokuman/452b25a4-c2ac-4aac-aebc-bae93277c3d8) | Gerekçe ve hüküm incelendi | Doğru tarih **21.11.1966**. Dava açılma zamanı ile bedelin etki başlangıcı ayrılıyor; tarihî bildirim süreleri güncel TBK 345 yerine kullanılmaz. |
+| 4 | [İBK E. 1979/1, K. 1979/3, 12.11.1979](https://app.dejure.ai/dokuman/1c192edd-e77c-415c-98e5-10a49606a615) | Gerekçe ve hüküm incelendi | Konu, tespitle belirlenen kira farkının ifa zamanı için **kesinleşme** gereğidir. “Kamu düzeni nedeniyle reddedilemez dava” özeti metnin konusu değildir. |
+| 5 | [İBK E. 1994/2, K. 1995/2, 24.11.1995](https://app.dejure.ai/dokuman/7a95b1b0-3f6c-4fb5-bbbe-90b90fd324a6) | Gerekçe ve hüküm incelendi | Çoğunluk sonucu: tespitle belirginleşen kira farkına, ayrıca ihtar gerekmeksizin **tespit kararının kesinleşmesinden** itibaren faiz. Karar tarihi ile kesinleşme tarihi seçenek değildir. |
+| 6 | [İzmir BAM 23. HD E. 2024/3426, K. 2025/1209, 27.06.2025](https://app.dejure.ai/dokuman/0638bb12-8419-496d-a057-9a60c745f3db) | Gerekçe ve hüküm incelendi | İstinaf esastan reddedilmiş; rıza/irade sakatlığı ve TMK 2 değerlendirmesi var. İhtirazi kayıt yokluğu tüm iadelerde ret şartı olarak konulmamış; geçici sınırın geçersizlik hükmüyle birlikte tartışılmalı. |
+| 7 | [İstanbul BAM 36. HD E. 2024/1082, K. 2025/1809, 04.06.2025](https://app.dejure.ai/dokuman/b994bfc7-f803-4226-9b17-3274d050b1f2) | Gerekçe ve hüküm incelendi | İki aylık yazılı bildirim **sözleşmenin 7. maddesine** dayanıyor. İlk derece kararı kaldırılıp dava süreden reddedilmiş; genel ihtiyaç tahliyesi için iki aylık kanuni ihtar şartı değildir. |
+| 8 | [İstanbul BAM 35. HD E. 2018/1328, K. 2020/1634, 27.10.2020](https://app.dejure.ai/dokuman/c5681ec6-8f67-44b4-9bc9-771f36bbd36e) | Gerekçe ve hüküm incelendi | Kira miktarı çekişmeli ve miktarı ispata yarar belge sunulmamış. İtirazın kaldırılması/tahliye reddedilmiş; her sözlü kira takibinin yasak olduğu sonucu çıkmaz. |
+| 9 | [Ankara BAM 15. HD E. 2023/257, K. 2024/1293, 10.07.2024](https://app.dejure.ai/dokuman/1f784906-1707-4103-9958-aa660d1fff46) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 10 | Sakarya BAM 8. HD E. 2023/1405, K. 2023/1285 | Araçla doğrulanamadı | Daire filtresi kaldırılarak da arandı; sonuç yok. Kararın yokluğu anlamına gelmez; özgün metin veya düzeltilmiş künye gerekli. |
+| 11 | Sakarya BAM 8. HD E. 2021/297, K. 2021/873 | Araçla doğrulanamadı | Daire filtresi kaldırılarak da arandı; sonuç yok. Kararın yokluğu anlamına gelmez; özgün metin veya düzeltilmiş künye gerekli. |
+| 12 | [HGK E. 2020/687, K. 2022/1259, 05.10.2022](https://app.dejure.ai/dokuman/9369b629-8b2e-4aad-b321-055e900f44c9) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 13 | [HGK E. 2017/1883, K. 2021/1670, 14.12.2021](https://app.dejure.ai/dokuman/8b992f11-08c6-4db4-92a4-5b17c3f40971) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 14 | [3. HD E. 2017/7612, K. 2019/1309, 19.02.2019](https://app.dejure.ai/dokuman/953fcc86-26ae-4949-8944-a47ec41ecb64) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 15 | [6. HD E. 2013/11846, K. 2014/3788, 26.03.2014](https://app.dejure.ai/dokuman/a85e9245-6ec8-46ee-9006-d9c439b58330) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 16 | [6. HD E. 2014/7926, K. 2015/4145, 22.04.2015](https://app.dejure.ai/dokuman/16fba563-a747-4e52-bebb-d2a6f4d75333) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 17 | [12. HD E. 2025/726, K. 2025/2085, 10.03.2025](https://app.dejure.ai/dokuman/cda0ada7-c649-465a-88a5-14c9df47e72d) | Gerekçe ve hüküm incelendi | Ürün kirasında 60 günlük süre tartışılıyor; Yargıtay **ruhsat/işletme unsurları araştırılmadan ürün kirası kabul edilmesini** hatalı bulup bozuyor. Somut sözleşmenin ürün kirası olduğu kesinleşmiş gibi aktarılmaz. |
+| 18 | [12. HD E. 2024/6742, K. 2024/10614, 17.12.2024](https://app.dejure.ai/dokuman/8c007ff4-aa3d-4836-9317-0435997b6c92) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 19 | [6. HD E. 2013/4883, K. 2014/1401, 11.02.2014](https://app.dejure.ai/dokuman/422c6586-3ef7-457b-870f-6797595f6e12) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 20 | [3. HD E. 2019/2266, K. 2019/7713, 09.10.2019](https://app.dejure.ai/dokuman/aaedb9c6-de06-45a5-b928-7ecc8e5a2e7c) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 21 | [6. HD E. 2012/665, K. 2012/4239, 19.03.2012](https://app.dejure.ai/dokuman/7598ff7f-b3d1-43e3-9ca5-d224230eeacb) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 22 | [6. HD E. 2013/14351, K. 2014/6408, 20.05.2014](https://app.dejure.ai/dokuman/8a591223-d024-4299-8267-43ed18ac4649) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 23 | [6. HD E. 2013/16056, K. 2014/7824, 12.06.2014](https://app.dejure.ai/dokuman/9cc231b5-3aff-4e42-a261-14cb16cfbd29) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 24 | [6. HD E. 2014/9248, K. 2014/13342, 02.12.2014](https://app.dejure.ai/dokuman/611ac5d6-48ae-421e-82e6-39ceeb3287e1) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 25 | [7. HD E. 2025/3387, K. 2025/4099, 06.10.2025](https://app.dejure.ai/dokuman/7882dd97-1d14-4a3c-89df-fd1e9d8f0943) | Gerekçe ve hüküm incelendi | Mesajlar, tanık anlatımı, emlakçıyla iletişim ve ödemeler birlikte değerlendirilerek kira ilişkisi kabul edilen ret hükmü onanmış. IBAN paylaşımı tek başına yeterli şeklinde kural değildir. |
+| 26 | [7. HD E. 2024/1557, K. 2025/94, 08.01.2025](https://app.dejure.ai/dokuman/7bd5663e-0e5c-4953-81d9-0de794d0ea4d) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 27 | [7. HD E. 2021/8765, K. 2023/977, 20.02.2023](https://app.dejure.ai/dokuman/8248a6a8-a6ba-491f-8773-5eeb2eb461a2) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 28 | [3. HD E. 2011/4533, K. 2011/8338, 12.05.2011](https://app.dejure.ai/dokuman/7d325e1e-e4ed-4bd4-848e-bb3273d75e2d) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 29 | [3. HD E. 2019/4869, K. 2019/10369, 19.12.2019](https://app.dejure.ai/dokuman/feff9b60-3c52-4c74-8053-d6a93b0fd305) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+| 30 | [8. Ceza Dairesi E. 2021/4228, K. 2023/162, 23.01.2023](https://app.dejure.ai/dokuman/b2a27073-94ca-4349-83a5-f05e35d0a34e) | Yalnız künye | Gönderilen konu özeti onaylanmadı; tam metin incelenmeden hukuki dayanak olarak kullanma. |
+
+## Düzeltilen uygulama noktaları
+
+**Tespit, muacceliyet ve faiz:** 1979 tarihli İBK kira farkının ifa zamanı; 1995 tarihli İBK bu farkın faizi üzerinedir. Salt tespit hükmünü bir eda ilamı gibi icraya koyma. Kararın kesinleşmesi, hangi döneme etkili olduğu ve talep edilen alacağın türünü ayrı kaydet. 1995 kararındaki faiz sonucu, tahliyede ödeme süresi ve ihtarın bütün koşullarını ortadan kaldıran genel kural değildir.
+
+**Harç:** 1965 tarihli 5/5 İBK'nin hükmü tarihî görev ayrımını düzenler. Bu kararı “aylık fark üzerinden karar harcı” kuralının doğrulanmış kaynağı diye gösterme. Güncel görev HMK 4; harç için ilgili Harçlar Kanunu/tarife ve güncel içtihat ayrıca incelenmelidir.
+
+**Hak ve nesafet:** 1964 tarihli 2/4 İBK, 6570 sayılı Kanun hükümlerinin iptalinden doğan boşluk bağlamındadır. Bugünkü beş yıllık dönem için TBK 344/3 ve [uygulama rehberi](uygulama-rehberi.md) kullanılmalıdır. 1966 kararının dönem/tebliğ yaklaşımı tarihîdir; bugünkü TBK 345 hesabıyla karıştırılmaz.
+
+**İhtiyaç tahliyesi:** İstanbul BAM 36. HD kararında iki aylık şart sözleşmeden geliyor. Metinde dava tarihi bir yerde 24.08.2022, başka yerde 24.08.2023 yazıyor; bu çelişkiden örnek son gün hesabı üretme. Sözleşmenin ilgili hükmünü görmeden somut dosyaya aktarım yapma.
+
+**Sözlü kira ve takip:** İstanbul BAM 35. HD kararında miktara itiraz ve özel usulde ispata elverişli belge eksikliği belirleyicidir. Metindeki “31/13/2017” tarihi hatalı görünüyor; kesin tarih gibi kullanma. Genel mahkemedeki ispat rejimi ile icra mahkemesinin belge kurallarını ayır.
+
+**Ürün kirası:** Yargıtay 12. HD kararı, BAM'ın 60 günlük süre gerekçesiyle verdiği ret hükmünü, sözleşmenin niteliği yeterince araştırılmadığı için bozmuştur. Ruhsat ve işletme unsurları araştırılmadan ürün kirası veya çatılı işyeri kira rejimi seçilmez.
+
+**Rıza ve temsil:** Yargıtay 7. HD kararında IBAN olgusu delillerden biridir. Kira ilişkisi kabulü, mesajlar ve diğer delillerin bütününe dayanır. Hesaba tek taraflı para gönderilmesi, sessizlik veya IBAN paylaşımından otomatik onama çıkarma.
+
+**Fazla ödeme iadesi:** İzmir BAM kararı belirli bir yaklaşımı gösterir; [iade/ispat rehberindeki](iade-ispat.md) kanun metniyle gerilim, iddia/gerekçe farklılığı ve karşı görüş uyarılarını koru. “Dekontta ihtirazi kayıt yoksa dava reddedilir” biçimindeki özet kabul edilmemiştir.
+
+## Kaynak izi
+
+Karar bağlantıları De Jure kayıtlarıdır ve giriş gerektirebilir. Bulunamayan iki künyeye bağlantı uydurulmamıştır. Yalnız künyesi bulunan 18 kaydın gönderilen özetleri, hatalı bir kuralı tekrar etmemek için burada yayımlanmamıştır. Bunlar sonraki araştırmanın adaylarıdır; doğrulanmış emsal kartları değildir.
+
+İncelenen kararların künye, kaynak kimliği ve metin hash'leri [kaynak kaydındadır](egitim-kaynak-kaydi.json). Mevzuat erişiminin sınırı ve eğitim notunun önermelerine uygulanan düzeltmeler [ön inceleme rehberinde](kira-rejimi-ve-taraflar.md) açıklanmıştır.

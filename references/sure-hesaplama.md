@@ -46,6 +46,8 @@ Dayanak: TBK 92 ve HMK 92. Hangi hükmün uygulanacağını işlem türü belirl
 
 ## Tatil, arabuluculuk ve tebligat düzeltmeleri
 
+Süre seçmeden önce [kira rejimini](kira-rejimi-ve-taraflar.md) belirle. TBK 329 taşınır yapıları da kapsar; TBK 330'daki üç günlük taşınır kira bildirimi her büfe/konteynere uygulanmaz. Ürün kirasında temerrüt bakımından TBK 362'nin en az 60 günlük ödeme süresini ayrıca incele; bunu 30 günlük konut/çatılı işyeri süresiyle karıştırma. Bu ayrımlar için otomatik yeni hesap komutu eklenmemiştir. Sözleşmede daha özel bildirim hükmü olup olmadığını kontrol et; [İstanbul BAM 36. HD 2024/1082–2025/1809](emsal-listesi-dogrulama.md) kararındaki iki ay sözleşmeseldir, genel TBK 350 süresi değildir.
+
 **Resmî tatil:** HMK 93 bakımından ara tatil günleri sayılır; son gün resmî tatile rastlarsa tatili izleyen ilk iş günü değerlendirilir. TBK 93'ün kendi kapsamını ve aksine anlaşmayı ayrıca incele. Tam/yarım gün tatili, hafta sonunu ve işlem saatini ilgili yılın resmî takvimiyle doğrula. Araç resmî tatil takvimi içermez; sonuçları ileri kaydırmaz. Geriye sayılan “en az 30 gün/üç ay önce” bildirim eşiğine süreyi kısaltan bir ileri kaydırma uygulama.
 
 **Adli tatil:** HMK 104, adli tatile tabi işlerde **HMK'nın tayin ettiği süreler** için ayrıca incelenir. Kira uyuşmazlığı olması bütün TBK sürelerini adli tatil sonrasına taşımaz. İşin istisna olup olmadığı, süreyi koyan kanun ve resmî tatille birleşme kontrol edilir. Genel `+7 gün` işlemi bütün süreler için geçerli değildir.

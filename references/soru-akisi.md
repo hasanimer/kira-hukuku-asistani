@@ -19,6 +19,10 @@ Bu liste kullanıcıya topluca gönderilecek bir form değildir. Önce konuşma 
 4. Sözleşmenin başlangıcı ve süresi nedir? Sonradan yeni sözleşme veya protokol yapıldı mı?
 5. İhtar, icra takibi, arabuluculuk veya dava var mı? Hangi belge ne zaman tebliğ edildi?
 
+## Rejim ve taraflar
+
+Rejim veya taraf sıfatı belirsizse [ön inceleme rehberine](kira-rejimi-ve-taraflar.md) göre yalnız ilgili soruları seç: Açık/kapalı alan ve fiilî kullanım nedir? Ruhsat, demirbaş ve işletme hakkı kime aittir; hangi unsurlar teslim edilmiştir? Sözleşmeyi kim, hangi yetkiyle imzaladı? Mülkiyet paylı mı elbirliği mi; pay oranları ve rıza belgeleri nedir? Kamu kiralaması varsa kurum, ihale ve sözleşme dayanağı nedir? Cevapları sözleşme, tapu, ruhsat ve yetki belgesinden çıkar; kullanıcıdan tekrar isteme.
+
 ## Kira bedeli ve ödeme
 
 - Mevcut kira ile istenen bedel ne kadar; aylık mı, yıllık mı, net mi, brüt mü?

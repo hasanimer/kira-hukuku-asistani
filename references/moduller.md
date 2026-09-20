@@ -21,6 +21,8 @@ Talebi bir veya birden çok modülle eşleştir. TypeSafe sinyalleri yardımcıd
 
 **Uyarlama ve sözleşme:** Talebin tespit, uyarlama veya sözleşme yorumundan hangisi olduğunu gerekçelendir. Konut, çatılı işyeri, açık alan ve taşınır ayrımını etiket üzerinden yapma.
 
+**Rejim, usul ve taraflar:** Ürün kirası/çatılı işyeri ayrımı, sözlü sözleşme, temsil, paydaşlık, görev/yetki veya tahkim tartışmasında [ön inceleme rehberini](kira-rejimi-ve-taraflar.md) kullan. Paylaşılan emsal özetini doğrudan kural sayma; [künye ve gerekçe kontrolünü](emsal-listesi-dogrulama.md) ayır.
+
 ## Yeni kaynaklardan araştırma örnekleri
 
 İstanbul BAM 36. HD, E. 2024/5083, K. 2026/377, 04.02.2026 tam metni incelendi: taahhüde dayalı itirazın iptali/tahliyede kiracının istinafı reddedilmiştir. Aile konutu ve boş imza değerlendirmelerini her dosyaya otomatik uygulama; hükümdeki somut tarihleri, ispat tartışmasını ve terditli ihtiyaç talebinin incelenmemiş olduğunu koru. Metinde pay oranı anlatımı belirsizdir; bundan pay çoğunluğu kuralı türetme. [Karar](https://app.dejure.ai/dokuman/191fe3e9-f690-420c-ad33-23cfeb89e8ad).

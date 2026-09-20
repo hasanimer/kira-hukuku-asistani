@@ -16,8 +16,10 @@ Kaynak bağlantıları ilgili önermelerin yanında [uygulama](uygulama-rehberi.
 | --- | --- |
 | İstanbul BAM 49. HD “2024/331” | E./K. ayrımı ve tam künye eksik; karar numarasıyla yapılan aramada doğrulanamadı. |
 | Yargıtay 6. HD E. 1984/5788 | Tam künye eksik; araçla doğrulanamadı. |
-| Sakarya BAM E. 2021/297 | Daire ve karar numarası eksik; elde edilen sonuçlar belirli atfı doğrulamadı. |
-| 18.11.1964 tarihli 2/4 İBK | Bu güncellemede doğrudan tam metin kontrolü yapılmadı; aktaran karar ile asıl kaynağı ayır. |
+| Sakarya BAM 8. HD E. 2021/297, K. 2021/873 | Sonradan tam künye sağlandı; daire filtresiyle ve filtresiz aramada araçla doğrulanamadı. |
+| 18.11.1964 tarihli 2/4 İBK | Sonraki kontrolde asıl karar metni incelendi; tarihî kapsam ve modern TBK 344 ayrımı [emsal kontrolüne](emsal-listesi-dogrulama.md) eklendi. |
 | Islah, kesinleşme/faiz, harç ve ücret hakkında mutlak kurallar | Bu güncellemede bütün ihtimaller doğrulanmadı; somut araştırma başlığı olarak bırakıldı. |
 
 Aramada bulunamama, kararın hiç bulunmadığı veya önermenin mutlaka yanlış olduğu anlamına gelmez. Tam künye/metin sağlanmadan bu atıfları dilekçede doğrulanmış emsal gibi kullanma.
+
+Sonradan iletilen eğitim notu [rejim ve taraflar rehberinde](kira-rejimi-ve-taraflar.md), 30 karar listesi [ayrı kontrol kaydında](emsal-listesi-dogrulama.md) değerlendirildi. 1965 görev/harç karışıklığı ve 1979/1995 kira farkı–kesinleşme–faiz ayrımı burada düzeltildi; bu sınırlı kontrol ıslah, ücret ve bütün takip ihtimallerini kapsamaz. Resmî konsolide mevzuata erişim sınırı yeni rehberde açıklanmıştır.

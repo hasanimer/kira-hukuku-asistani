@@ -1,0 +1,206 @@
+{
+  "checked_on": "2026-09-20",
+  "scope": "18 external research cards; not additions to the 1603-record local pool",
+  "hash_definition": "SHA-256 of UTF-8 tool text without normalization; not proof of authenticity or legal validity",
+  "records": [
+    {
+      "id": "cda0ada7-c649-465a-88a5-14c9df47e72d",
+      "court": "12. Hukuk Dairesi",
+      "date": "10.03.2025",
+      "case_no": "2025/726",
+      "decision_no": "2025/2085",
+      "url": "https://app.dejure.ai/dokuman/cda0ada7-c649-465a-88a5-14c9df47e72d",
+      "text_chars": 5903,
+      "text_sha256_utf8": "7cc2fb8b84ee574ad4e024f87f16f7d1b3845a70b3d33931c31efc5a9aead016",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "ae15437e-af37-47dc-a04a-9fd564acb0fb",
+      "court": "13. Hukuk Dairesi",
+      "date": "19.02.2009",
+      "case_no": "2008/11836",
+      "decision_no": "2009/2079",
+      "url": "https://app.dejure.ai/dokuman/ae15437e-af37-47dc-a04a-9fd564acb0fb",
+      "text_chars": 2985,
+      "text_sha256_utf8": "c3774b3bbfdc2f447e15f4049e9a9e8f4fcfcd760e7d834c48bccdc36657f5ca",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "e44005d9-1167-48ca-b0c8-38153ceb7120",
+      "court": "3. Hukuk Dairesi",
+      "date": "27.03.2018",
+      "case_no": "2018/1659",
+      "decision_no": "2018/3008",
+      "url": "https://app.dejure.ai/dokuman/e44005d9-1167-48ca-b0c8-38153ceb7120",
+      "text_chars": 5845,
+      "text_sha256_utf8": "5df92a2d13b1d9f169792d0909958efcf946983fca8d3d8dbaa77991252b4841",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula",
+      "date_warning": "Metadata 27.03.2018; body closing date 27.03.2017. Unresolved."
+    },
+    {
+      "id": "ee1f4aab-6f10-4ec3-baf5-c24e65da3c4b",
+      "court": "3. Hukuk Dairesi",
+      "date": "27.03.2019",
+      "case_no": "2019/1642",
+      "decision_no": "2019/2625",
+      "url": "https://app.dejure.ai/dokuman/ee1f4aab-6f10-4ec3-baf5-c24e65da3c4b",
+      "text_chars": 5947,
+      "text_sha256_utf8": "fe859041770e332362bfc4b71117b155bca82d7377123ae86e07ae8c93224ba1",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "e41b27d4-05c5-4f2d-a7b5-e5201818ff07",
+      "court": "3. Hukuk Dairesi",
+      "date": "22.09.2025",
+      "case_no": "2025/366",
+      "decision_no": "2025/4228",
+      "url": "https://app.dejure.ai/dokuman/e41b27d4-05c5-4f2d-a7b5-e5201818ff07",
+      "text_chars": 8927,
+      "text_sha256_utf8": "9d82f07f85b47bc65d72b81decdb49786c6d2e2a3ae260db3e4b17ac478fd6a0",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "0c136e01-8523-48e3-8399-436929f7382f",
+      "court": "3. Hukuk Dairesi",
+      "date": "10.06.2025",
+      "case_no": "2025/893",
+      "decision_no": "2025/3205",
+      "url": "https://app.dejure.ai/dokuman/0c136e01-8523-48e3-8399-436929f7382f",
+      "text_chars": 15544,
+      "text_sha256_utf8": "103a9d49e63a60363e0a366d7530b4b94be183773e5a6b6b2b7022537980651f",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "87b60136-cba6-4401-aa2e-69c72276f021",
+      "court": "6. Hukuk Dairesi",
+      "date": "16.11.2015",
+      "case_no": "2015/9204",
+      "decision_no": "2015/9902",
+      "url": "https://app.dejure.ai/dokuman/87b60136-cba6-4401-aa2e-69c72276f021",
+      "text_chars": 3532,
+      "text_sha256_utf8": "df1cd4a9ee5b71a0eb426c0abb876ab09aa731c90551a71c1796523ba7d879ed",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "7882dd97-1d14-4a3c-89df-fd1e9d8f0943",
+      "court": "7. Hukuk Dairesi",
+      "date": "06.10.2025",
+      "case_no": "2025/3387",
+      "decision_no": "2025/4099",
+      "url": "https://app.dejure.ai/dokuman/7882dd97-1d14-4a3c-89df-fd1e9d8f0943",
+      "text_chars": 8503,
+      "text_sha256_utf8": "40a2c6f28e8057839582c49175bd6f95f6e2da78345fc2885536f1d26c3a69f5",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "b9d4f9ac-3744-436e-ad93-2bc4cb701b7d",
+      "court": "8. Hukuk Dairesi",
+      "date": "07.10.2020",
+      "case_no": "2018/5105",
+      "decision_no": "2020/5874",
+      "url": "https://app.dejure.ai/dokuman/b9d4f9ac-3744-436e-ad93-2bc4cb701b7d",
+      "text_chars": 2486,
+      "text_sha256_utf8": "dbbe898f60ac4c79d3770b138f63183fa9391a87bb1f36973c301624a11702f2",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "344c42bd-9793-45a7-8471-e72f676a1cd6",
+      "court": "Antalya Bölge Adliye Mahkemesi 1. Hukuk Dairesi",
+      "date": "07.11.2024",
+      "case_no": "2023/1204",
+      "decision_no": "2024/2101",
+      "url": "https://app.dejure.ai/dokuman/344c42bd-9793-45a7-8471-e72f676a1cd6",
+      "text_chars": 14602,
+      "text_sha256_utf8": "8f1c1782f18df63ddb53a60f722dc2b7e4497e68371ddafe0415f7e2820996c2",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "c5681ec6-8f67-44b4-9bc9-771f36bbd36e",
+      "court": "İstanbul Bölge Adliye Mahkemesi 35. Hukuk Dairesi",
+      "date": "27.10.2020",
+      "case_no": "2018/1328",
+      "decision_no": "2020/1634",
+      "url": "https://app.dejure.ai/dokuman/c5681ec6-8f67-44b4-9bc9-771f36bbd36e",
+      "text_chars": 5683,
+      "text_sha256_utf8": "56f7cd8a81d55bb5446a7014a3f437bb1185aa2671ae096a8436d9b2e7ad71cc",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "b994bfc7-f803-4226-9b17-3274d050b1f2",
+      "court": "İstanbul Bölge Adliye Mahkemesi 36. Hukuk Dairesi",
+      "date": "04.06.2025",
+      "case_no": "2024/1082",
+      "decision_no": "2025/1809",
+      "url": "https://app.dejure.ai/dokuman/b994bfc7-f803-4226-9b17-3274d050b1f2",
+      "text_chars": 8364,
+      "text_sha256_utf8": "532e7810de4be6959d62a90f20f5a4e97ed13d929da0116c231c5f0fb98a8670",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "0638bb12-8419-496d-a057-9a60c745f3db",
+      "court": "İzmir Bölge Adliye Mahkemesi 23. Hukuk Dairesi",
+      "date": "27.06.2025",
+      "case_no": "2024/3426",
+      "decision_no": "2025/1209",
+      "url": "https://app.dejure.ai/dokuman/0638bb12-8419-496d-a057-9a60c745f3db",
+      "text_chars": 10807,
+      "text_sha256_utf8": "7d7f9173d25924e1cd0b31dd5a9a81d3691a12b85e17e44bdcee544248bb3d5b",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "9cdb6467-a519-4fe1-ae8c-c80f7624bcc6",
+      "court": "İçtihatları Birleştirme BGK",
+      "date": "18.11.1964",
+      "case_no": "1964/2",
+      "decision_no": "1964/4",
+      "url": "https://app.dejure.ai/dokuman/9cdb6467-a519-4fe1-ae8c-c80f7624bcc6",
+      "text_chars": 24566,
+      "text_sha256_utf8": "187d664f227886393030168f3f5802b9897a3d67b856038b1781175c868fd07e",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "63ce82b9-298f-4ca0-8b68-ff39d243cf34",
+      "court": "İçtihatları Birleştirme BGK",
+      "date": "07.07.1965",
+      "case_no": "1965/5",
+      "decision_no": "1965/5",
+      "url": "https://app.dejure.ai/dokuman/63ce82b9-298f-4ca0-8b68-ff39d243cf34",
+      "text_chars": 6891,
+      "text_sha256_utf8": "af2188338f847afb823f7262ecbe06475e5fc32c29592e38699d1060831accb6",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "452b25a4-c2ac-4aac-aebc-bae93277c3d8",
+      "court": "İçtihatları Birleştirme BGK",
+      "date": "21.11.1966",
+      "case_no": "1966/19",
+      "decision_no": "1966/10",
+      "url": "https://app.dejure.ai/dokuman/452b25a4-c2ac-4aac-aebc-bae93277c3d8",
+      "text_chars": 26005,
+      "text_sha256_utf8": "f43c9fb39c9c9907b0a5d9ff72d9b3ccf1a7d3b75c41c8303932526d151d3b97",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "1c192edd-e77c-415c-98e5-10a49606a615",
+      "court": "İçtihatları Birleştirme BGK",
+      "date": "12.11.1979",
+      "case_no": "1979/1",
+      "decision_no": "1979/3",
+      "url": "https://app.dejure.ai/dokuman/1c192edd-e77c-415c-98e5-10a49606a615",
+      "text_chars": 22159,
+      "text_sha256_utf8": "2954722e81908d328f4cb19b54993e96e545b032ecd15459970c94e60cf4ccb5",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    },
+    {
+      "id": "7a95b1b0-3f6c-4fb5-bbbe-90b90fd324a6",
+      "court": "İçtihatları Birleştirme BGK",
+      "date": "24.11.1995",
+      "case_no": "1994/2",
+      "decision_no": "1995/2",
+      "url": "https://app.dejure.ai/dokuman/7a95b1b0-3f6c-4fb5-bbbe-90b90fd324a6",
+      "text_chars": 27905,
+      "text_sha256_utf8": "c17b093c36d74359a2a992c5d149654b74d0a0f6f8b38c4274de321dcb1dbbaa",
+      "review_scope": "gerekce_ve_hukum_incelendi_somut_dosyada_yeniden_dogrula"
+    }
+  ]
+}

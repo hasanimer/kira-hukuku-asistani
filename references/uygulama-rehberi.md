@@ -47,6 +47,7 @@ Aşağıdaki konular ayrıca güncel kaynak doğrulaması gerektirir; bu rehber 
 - Islah, belirsiz alacak/kısmi dava, talep değişikliği: tespit ile alacak talebini ayır; somut usul aşamasını araştır. Sırf riski önlemek için yüksek bedel talebini tavsiye etme.
 - Harç, vekâlet ücreti ve kanun yolu sınırı: her birinin tarihini, matrahını ve tarifesini ayrı doğrula; aylık/yıllık farkı birbirinin yerine kullanma.
 - İcra ve faiz: tespit hükmü, kira farkı alacağı ve yargılama giderlerini ayrı incele. Kesinleşme, muacceliyet, temerrüt ve takip yolunu tek bir otomatik kurala bağlama.
+- 1964, 1965, 1966, 1979 ve 1995 tarihli İBK'ler için [doğrudan gerekçe/hüküm kontrolünü](emsal-listesi-dogrulama.md) kullan. 1965 kararının tarihî görev kuralını harç kuralı; 1995 kararının kesinleşmeden başlayan kira farkı faizini karar gününden başlayan faiz gibi aktarma.
 - Net/brüt: sözleşme, mükellefiyet, stopaj ve KDV'yi incele. Stopaj oranı doğrulanmışsa ve net bedel yalnız stopaj sonrası tutarsa brüt = net / (1 − oran); her işyeri için otomatik 1,25 çarpanı kullanma.
 
 ## Karma dosyalarda yanlış genellemeler
