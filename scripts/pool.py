@@ -4,8 +4,22 @@ import collections
 import hashlib
 import json
 from pathlib import Path
+import re
 import sys
 import unicodedata
+
+# Ana havuzdaki document_id UYAP Mevzuat ve İçtihat (Bedesten) belge kimliğidir; resmî
+# adres bu desenle türetilir. Kayıtta yazılı source_url varsa ona dokunulmaz.
+BEDESTEN_URL = 'https://mevzuat.adalet.gov.tr/ictihat/{}'
+# Arama sıralaması: önce içerik türü (esas gerekçesi en değerli), sonra sözcük geçişi.
+KIND_ORDER = {'esas_gerekcesi': 0, 'usul_gerekcesi': 1, 'sinirda': 2, 'kisa_karar': 3}
+COURT_SHORT = (
+    (re.compile(r'Bölge Adliye Mahkemesi'), 'BAM'),
+    (re.compile(r'Hukuk Genel Kurulu'), 'HGK'),
+    (re.compile(r'Ceza Genel Kurulu'), 'CGK'),
+    (re.compile(r'(\d+)\. Hukuk Dairesi'), r'\1. HD'),
+    (re.compile(r'(\d+)\. Ceza Dairesi'), r'\1. CD'),
+)
 
 
 def normalize(text):
@@ -28,11 +42,46 @@ def read_rows(path):
             actual = hashlib.sha256(row['text'].encode('utf-8')).hexdigest()
             if actual != row['text_sha256']:
                 raise ValueError(f'Text hash mismatch: {key} ({path}:{line_no})')
-            yield row
+            yield enrich(row)
+
+
+def kind_of(row):
+    return (row.get('value_assessment') or {}).get('icerik_turu', {}).get('choice')
+
+
+def full_court(row):
+    """Ana havuzda 'court' yalnız daire adıdır; künyede mahkeme adı da bulunmalı."""
+    court = row.get('court') or ''
+    if 'Yargıtay' in court or 'Mahkemesi' in court:
+        return court
+    return f'Yargıtay {court}'
+
+
+def kunye(row):
+    """Dilekçe biçimi: mahkeme/daire, E., K., T. GG.AA.YYYY."""
+    court = full_court(row)
+    for pattern, short in COURT_SHORT:
+        court = pattern.sub(short, court)
+    date = row.get('karar_tarihi') or ''
+    if re.fullmatch(r'\d{4}-\d{2}-\d{2}', date):
+        date = '.'.join(reversed(date.split('-')))
+    return f"{court}, E. {row.get('esas_no')}, K. {row.get('karar_no')}, T. {date}"
+
+
+def enrich(row):
+    """Türetilebilir alanları tamamlar; yazılı değeri ezmez, metne dokunmaz."""
+    doc = str(row.get('document_id', ''))
+    if not row.get('source_url') and doc.isdigit():
+        row['source_url'] = BEDESTEN_URL.format(doc)
+        row['source_provider'] = row.get('source_provider') or 'Bedesten (kimlikten türetildi)'
+    if not row.get('court_type') and ('Yargıtay' in full_court(row)):
+        row['court_type'] = 'yargitay'
+    row['kunye'] = kunye(row)
+    return row
 
 
 def metadata(row):
-    keys = ('document_id', 'court', 'esas_no', 'karar_no', 'karar_tarihi',
+    keys = ('document_id', 'kunye', 'court', 'esas_no', 'karar_no', 'karar_tarihi',
             'text_sha256', 'human_validated', 'review_level', 'value_assessment',
             'court_type', 'source_url', 'source_provider', 'research_notes',
             'source_text_sha256', 'redactions')
@@ -96,8 +145,8 @@ def main():
               'date_max': dates[-1] if dates else None, 'kinds': dict(kinds),
               'human_validated_records': sum(r.get('human_validated') is True for r in rows)})
     elif args.command == 'search':
-        if not 1 <= args.limit <= 100:
-            parser.error('--limit must be between 1 and 100')
+        if not 1 <= args.limit <= 2000:
+            parser.error('--limit must be between 1 and 2000')
         terms = [normalize(t.strip()) for t in args.terms]
         if not all(terms):
             parser.error('Search terms cannot be empty')
@@ -105,7 +154,7 @@ def main():
         for row in rows:
             if args.court_type and row.get('court_type') != args.court_type:
                 continue
-            kind = (row.get('value_assessment') or {}).get('icerik_turu', {}).get('choice')
+            kind = kind_of(row)
             if args.kind and kind != args.kind:
                 continue
             normalized = normalize(row['text'])
@@ -116,11 +165,12 @@ def main():
                 relevant = sorted(enumerate(paragraphs), key=lambda p: (
                     -sum(t in normalize(p[1]) for t in terms), p[0]))
                 snippet = relevant[0][1][:1400] if relevant else ''
-                found.append((score, str(row['document_id']),
+                found.append((KIND_ORDER.get(kind, 4), score, str(row['document_id']),
                               {**metadata(row), 'lexical_score': score, 'snippet': snippet}))
-        found.sort(key=lambda item: (-item[0], item[1]))
+        # Esas gerekçesi önce, sonra sözcük geçişi; kısa onama kararları listenin sonuna düşer.
+        found.sort(key=lambda item: (item[0], -item[1], item[2]))
         emit({**envelope, 'total_matches': len(found),
-              'results': [r[2] for r in found[:args.limit]]})
+              'results': [r[3] for r in found[:args.limit]]})
     else:
         row = next((r for r in rows if str(r['document_id']) == args.document_id), None)
         if row is None:

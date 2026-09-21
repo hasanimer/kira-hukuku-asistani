@@ -45,9 +45,9 @@ Depozito, teslim hasarı, ayıp gideri, kefalet veya kira devri tartışılıyor
 
 1. `pool.py stats` ile erişilebilir havuzun fiilî boyutunu ve tarih aralığını gör. Sıkı havuz yoksa önceki sürüme sessizce geçme; eksikliği belirt ve varsa başka sürümü kullanıcıya açıkça tanımla.
 2. İhtilafı ayrı araştırma sorularına böl. Örnek aramalar: `"emsal" "hak ve nesafet"`, `"eski kiracı"`, `"beş yıl"`, `"344"`, `"345"`, `"ihtar"`, `"artış şartı"`, `"bilirkişi"`, `"ıslah"`. Her terimi aynı aramaya yığma. Sözcük varyantları ve karşı yöndeki kararları da ara. Arama boşsa hukuki kuralın bulunmadığı sonucuna varma.
-3. Esasa ilişkin kural için gerekçeli kararları, usul meselesi için usul gerekçelerini önceliklendir. Kısa onama/gönderme kararından ayrıntılı ilke üretme. Etiket ve puanlar yalnız aday seçmeye yarar.
+3. Esasa ilişkin kural için gerekçeli kararları, usul meselesi için usul gerekçelerini önceliklendir; arama sonuçları zaten bu sırayla gelir, `--kind` ile daralt. Havuzun 1.603 kaydından 446'sı esas gerekçesi, 570'i kısa karardır. Kısa onama/gönderme kararından ayrıntılı ilke üretme. Etiket ve puanlar yalnız aday seçmeye yarar.
 4. Atıf yapacağın her kararı `get` ile tam metin olarak oku. Taraf iddiası, ilk derece gerekçesi, bozma gerekçesi, karşıoy ve nihai sonucu ayır. Olgu, tarih, kira türü, dönem ve usul aşamasını dosyayla karşılaştır. Kararda aktarılan başka kararın metnini görmeden onu doğrudan okunmuş kaynak gibi sunma.
-5. Birebir alıntıyı `quote` ile doğrula. Bulunması, hukuki yorumu doğrulamaz; bağlamı ayrıca değerlendir. Kaynak künyesini, yerel kayıt kimliğini ve metin hash'ini araştırma izinde tut. Künye/metin çelişkisini açıklamadan karar kullanma; eksik künyeyi veya URL'yi uydurma.
+5. Birebir alıntıyı `quote` ile doğrula. Bulunması, hukuki yorumu doğrulamaz; bağlamı ayrıca değerlendir. Kaynak künyesini (`kunye`), resmî adresi (`source_url`), yerel kayıt kimliğini ve metin hash'ini araştırma izinde tut; okuyucuya künyeyle birlikte resmî adresi ver. Künye/metin çelişkisini açıklamadan karar kullanma; yardımcının vermediği künye veya adres uydurma.
 
 ## Zaman ve güncellik
 

@@ -73,7 +73,7 @@ def main():
                     'Yargitay text or provenance lost')
             require(run('pool.py', 'quote', decision['document_id'], decision['text'][-100:])['exact_match'],
                     'Yargitay final text quote failed')
-        filtered = run('pool.py', 'search', 'kira', '--court-type', 'yargitay', '--limit', '100')
+        filtered = run('pool.py', 'search', 'kira', '--court-type', 'yargitay', '--limit', '2000')
         require({r['document_id'] for r in filtered['results']}.issuperset(
                 {r['document_id'] for r in selected}), 'Yargitay filter missed additions')
         require(all(r['court_type'] == 'yargitay' for r in filtered['results']), 'Yargitay filter leaked')
