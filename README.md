@@ -154,12 +154,15 @@ Yerel karar havuzu kira tespiti ağırlıklıdır. Diğer kira hukuku konuları 
 | | |
 | :--- | :--- |
 | **Karar havuzu** | 1.603 karar · 14.10.2004–21.05.2026 |
+| **İçerik türü** | 446 esas gerekçesi · 549 usul gerekçesi · 11 sınırda · 570 kısa karar (model etiketi, insan onaysız) |
+| **Dağılım** | 1.024 karar 3. HD, 539 karar 6. HD; 1.212 karar 2010–2015, 71 karar 2020 ve sonrası |
+| **Kaynak izi** | Ana havuzda Bedesten belge kimliği ve ondan türetilen resmî adres; seçkilerde kayıttaki adres |
 | **Mevzuat** | 6098 sayılı Türk Borçlar Kanunu |
-| **Kaynak kontrolü** | Künye, metin hash'i ve birebir alıntı doğrulaması |
+| **Kaynak kontrolü** | Künye, resmî adres, metin hash'i ve birebir alıntı doğrulaması |
 | **Otomatik denetim** | Windows ve Linux üzerinde paket bütünlüğü kontrolleri |
 
 > [!NOTE]
-> Veri paketi sabit bir kopyadır; kendiliğinden güncellenmez. Karar etiketleri bağımsız hukukçu doğrulamasından geçmemiştir. Somut dosyada uygulanacak hükmün dönemi ve güncelliği ayrıca kontrol edilir. Güncel kaynak araştırması, asistanın internet ve araç erişimine bağlıdır.
+> Veri paketi sabit bir kopyadır; kendiliğinden güncellenmez. Karar etiketleri bağımsız hukukçu doğrulamasından geçmemiştir. Havuzun ağırlığı 2010–2015 dönemindedir; 2019 TÜFE sınırı ve 2023 geçici artış sınırı gibi güncel rejim için havuz incedir, güncel içtihat ayrıca araştırılır. Somut dosyada uygulanacak hükmün dönemi ve güncelliği ayrıca kontrol edilir. Güncel kaynak araştırması, asistanın internet ve araç erişimine bağlıdır.
 
 ## Komut satırı
 
@@ -211,6 +214,10 @@ kira-tespit-asistani/
 | [Kira mevzuatı haritası](references/mevzuat-haritasi.md) | Maddi hukuk, usul, icra, kamu kiraları, aidat, döviz, dönüşüm ve vergi |
 | [Rehber kaynak kontrolü](references/rehber-dogrulama.md) | [BAM kararları ve kullanım sınırları](references/bam-kararlari.md) |
 | [Katkı rehberi](CONTRIBUTING.md) | [Veri kaynakları ve bütünlük](data/README.md) |
+
+## Lisans
+
+Betikler, rehberler, etiketler ve yönergeler [MIT lisansı](LICENSE) ile dağıtılır. Mahkeme kararları ve kanun metni resmî metinlerdir; 5846 sayılı Kanun'un 31. maddesi gereği serbestçe çoğaltılabilir, lisans bu metinler üzerinde hak iddia etmez.
 
 ---
 

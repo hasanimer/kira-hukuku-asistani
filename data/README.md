@@ -15,7 +15,7 @@ Karar havuzu 1.603 kayıt içerir; kararların hukuki içeriği korunur. Açık 
 
 `verified` dosya adı insan doğrulaması anlamına gelmez. Etiketler aday karar seçimini destekler; kararı okumadan hukuki sonuca dönüşmez.
 
-Kanunun resmî adresi kaynak JSON dosyasındadır. Kararlarda `document_id`, künye, `raw_sha256` ve `text_sha256` izleri korunur. Metin hash'i yerel bütünlüğü gösterir; tek başına resmî doğrulama değildir. Çalıştırma ortamı ve anahtar yuvası gibi iç operasyon alanları pakete dahil edilmez.
+Kanunun resmî adresi kaynak JSON dosyasındadır. Kararlarda `document_id`, künye, `raw_sha256` ve `text_sha256` izleri korunur. Ana havuzdaki `document_id` UYAP Mevzuat ve İçtihat (Bedesten) belge kimliğidir; `scripts/pool.py` resmî adresi `https://mevzuat.adalet.gov.tr/ictihat/<document_id>` olarak türetir ve `source_provider` alanında işaretler. Veri dosyasına adres yazılmaz; dosya baytları ve hash'ler değişmez. Metin hash'i yerel bütünlüğü gösterir; tek başına resmî doğrulama değildir. Çalıştırma ortamı ve anahtar yuvası gibi iç operasyon alanları pakete dahil edilmez.
 
 `python scripts/validate.py` kayıt sayısını, dosya/metin hash'lerini, kanun bütünlüğünü ve yardımcıların temel davranışlarını doğrular. `.gitattributes` veri baytlarının işletim sistemine göre değiştirilmesini önler.
 
